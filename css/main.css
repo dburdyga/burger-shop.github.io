@@ -4,6 +4,10 @@
   position: relative;
   min-height: 0; }
 
+.persons {
+  display: flex;
+}
+
 .maincontent {
   height: 100%;
   min-height: 650px; }
