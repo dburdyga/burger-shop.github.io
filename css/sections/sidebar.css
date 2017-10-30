@@ -1,0 +1,110 @@
+.nav {
+ width: 106px;
+ float: left;
+}
+ 
+.sidebar {
+   margin-bottom: 42px;
+   padding-left: 37px;
+}
+
+ .nav__item {
+  margin-bottom: 25px;
+}
+
+.nav__icon {
+  width: 22px; 
+  height: 19px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 17px;
+}
+
+.nav__text {
+  font-size: 12px;
+  color: #f9960a;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+  letter-spacing: 1.2px;
+}
+
+.nav__link {
+  text-decoration: none;
+}
+
+.nav__link:hover .nav__text {
+  color: #0a0c0d;
+  -webkit-transition: all 1.5s ease;  
+}
+
+.nav__text_about {
+  color: black;
+  pointer-events: none; 
+  cursor: default;
+}
+
+.nav__icon_service {
+  background: url('../../img/service-icon_orange.png') center center no-repeat;
+}
+
+
+.nav__icon_service_about {
+  background: url('../../img/service-icon.png') center center no-repeat;
+}
+
+
+.nav__link:hover .nav__icon_service_about {
+   background-image: url('../../img/service-icon.png'); 
+   -webkit-transition: all 1.5s ease;  
+}
+
+.nav__link:hover .nav__icon_service {
+   background-image: url('../../img/service-icon.png');
+   -webkit-transition: all 1.5s ease;
+} 
+
+
+
+
+
+.nav__icon_direction {
+  background: url('../../img/main-icon_orange.png') center center no-repeat;
+}
+
+.nav__icon_direction_about {
+  background: url('../../img/main-icon.png') center center no-repeat;
+}
+
+.nav__link:hover .nav__icon_direction_about {
+   background-image: url('../../img/main-icon.png');
+   -webkit-transition: all 1.5s ease;
+}
+
+.nav__link:hover .nav__icon_direction {
+   background-image: url('../../img/main-icon.png');
+   -webkit-transition: all 1.5s ease;
+}
+
+
+
+
+.nav__icon_star {
+  background: url('../../img/feed-icon_orange.png') center center no-repeat;
+}
+
+.nav__icon_star_about {
+  background: url('../../img/feed-icon.png') center center no-repeat;
+}
+
+.nav__link:hover .nav__icon_star_about {
+   background-image: url('../../img/feed-icon.png');
+   -webkit-transition: all 1.5s ease;
+}
+
+.nav__link:hover .nav__icon_star {
+   background-image: url('../../img/feed-icon.png');
+   -webkit-transition: all 1.5s ease;
+}
+

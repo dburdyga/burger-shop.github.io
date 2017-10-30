@@ -1,0 +1,12 @@
+
+.nav__text {
+ font-size: 13px;
+ text-transform: uppercase;
+ text-decoration: none;
+ color: white;
+}
+
+.nav__item {
+  display: inline-block;
+
+}
