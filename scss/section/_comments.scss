@@ -3,8 +3,6 @@ display: flex;
 flex-wrap: wrap;
 }
 
-
-
 .person-link {
   min-width: 6.125rem;
   padding: 10px 17px;
@@ -24,9 +22,21 @@ flex-wrap: wrap;
 .person_title {
 font-family: 'Gagalin';
 text-transform: uppercase;
+color: white;
+}
+
+.person_text {
+font-family: 'Ubuntu';
+font-size: 14px;
+color: white;
+}
+
+
+.person__description {
+position: absolute;
+
 }
 
 .person_2 {
-	 
-    flex-basis: 25%;
+ position: relative;
 }

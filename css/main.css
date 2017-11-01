@@ -330,12 +330,19 @@ ul {
 
 .person_title {
   font-family: 'Gagalin';
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: white; }
+
+.person_text {
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  color: white; }
+
+.person__description {
+  position: absolute; }
 
 .person_2 {
-  -webkit-flex-basis: 25%;
-  -ms-flex-preferred-size: 25%;
-  flex-basis: 25%; }
+  position: relative; }
 
 .darkburger {
   background-image: url("../img/bg/darkburger-bg.png");
