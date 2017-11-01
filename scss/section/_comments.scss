@@ -3,6 +3,10 @@ display: flex;
 flex-wrap: wrap;
 }
 
+.comments__container {
+width: 1100px;
+}
+
 .person-link {
   min-width: 6.125rem;
   padding: 10px 17px;
@@ -34,6 +38,7 @@ color: white;
 
 .person__description {
 position: absolute;
+ flex-basis: 25%;
 
 }
 
