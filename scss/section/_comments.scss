@@ -1,0 +1,32 @@
+.persons {
+display: flex;
+flex-wrap: wrap;
+}
+
+
+
+.person-link {
+  min-width: 6.125rem;
+  padding: 10px 17px;
+  border-radius: 5px;
+  background-color: #2f3234;
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.42;
+  text-transform: uppercase;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s; 
+}
+
+.person_title {
+font-family: 'Gagalin';
+text-transform: uppercase;
+}
+
+.person_2 {
+	 
+    flex-basis: 25%;
+}

@@ -1,5 +1,3 @@
-
-
 .darkburger  {
   background-image: url('../img/bg/darkburger-bg.png');
   background-repeat: no-repeat;
@@ -8,4 +6,31 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.darkburger__price {
+	font-family: 'Gagalin';
+	font-size: 30px;
+	color: #e35028;
+}
+
+.darkburger__description {
+  color: #ffffff;
+}
+
+.section__title--darkburger {
+  color: #ffffff;
+  padding: 0;
+  margin-bottom: rem(60px);
+  font-family: 'Gagalin';
+}
+
+.darkburger__description {
+ font-family: 'Ubuntu';
+ font-size: 14px;
+}
+
+.darkburger__content {
+	display: flex;
+
 }

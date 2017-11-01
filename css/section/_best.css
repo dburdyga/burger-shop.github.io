@@ -1,0 +1,41 @@
+.best {
+  background-image: url("../img/bg/best-bg.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.section__title--best {
+  color: #2f3234;
+  padding: 0;
+  margin-bottom: rem(60px);
+  font-family: 'Gagalin'; }
+
+.best__pictures_title {
+  font-family: 'Lifehack';
+  font-size: 24px;
+  color: #2f3234; }
+
+.best__pictures_text {
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  color: #2f3234; }
+
+.best__pictures {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  margin: 20px; }
