@@ -20,7 +20,8 @@
   color: #2f3234;
   padding: 0;
   margin-bottom: rem(60px);
-  font-family: 'Gagalin'; }
+  font-family: 'Gagalin';
+  padding-top: 49px; }
 
 .best__pictures_title {
   font-family: 'Lifehack';
@@ -39,3 +40,6 @@
   display: flex;
   text-align: center;
   margin: 20px; }
+
+.best__container {
+  padding-bottom: 100px; }

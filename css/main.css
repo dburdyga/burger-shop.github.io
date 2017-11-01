@@ -284,7 +284,8 @@ ul {
   color: #2f3234;
   padding: 0;
   margin-bottom: 3.75rem;
-  font-family: 'Gagalin'; }
+  font-family: 'Gagalin';
+  padding-top: 49px; }
 
 .best__pictures_title {
   font-family: 'Lifehack';
@@ -303,6 +304,9 @@ ul {
   display: flex;
   text-align: center;
   margin: 20px; }
+
+.best__container {
+  padding-bottom: 100px; }
 
 .persons {
   display: -webkit-box;
@@ -398,5 +402,11 @@ ul {
   background-position: 50%;
   background-size: cover;
   position: relative; }
+
+.section__title--order {
+  color: #f9b43b;
+  padding: 0;
+  margin-bottom: 3.75rem;
+  font-family: 'Gagalin'; }
 
 /*# sourceMappingURL=main.css.map */
