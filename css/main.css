@@ -295,7 +295,8 @@ ul {
 .best__pictures_text {
   font-family: 'Ubuntu';
   font-size: 14px;
-  color: #2f3234; }
+  color: #2f3234;
+  line-height: 1.5; }
 
 .best__pictures {
   display: -webkit-box;
@@ -407,6 +408,22 @@ ul {
   color: #f9b43b;
   padding: 0;
   margin-bottom: 3.75rem;
-  font-family: 'Gagalin'; }
+  font-family: 'Gagalin';
+  padding-top: 91px; }
+
+.form__input-title {
+  color: white;
+  font-size: 14px; }
+
+.form__controls-radio-elem {
+  color: white;
+  font-size: 14px; }
+
+.form__elem {
+  padding-left: 77px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
 
 /*# sourceMappingURL=main.css.map */

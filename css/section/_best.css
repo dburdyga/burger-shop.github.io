@@ -31,7 +31,8 @@
 .best__pictures_text {
   font-family: 'Ubuntu';
   font-size: 14px;
-  color: #2f3234; }
+  color: #2f3234;
+  line-height: 1.5; }
 
 .best__pictures {
   display: -webkit-box;
