@@ -1,0 +1,31 @@
+.team {
+  background-image: url('../img/bg/team-bg.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  position: relative;
+}
+
+.section__title--team {
+  color: #f9b43b;
+  padding: 0;
+  margin-bottom: rem(60px);
+  font-family: 'Gagalin';
+  padding-top: 91px;
+}
+
+.team__list_description_title {
+  color: white;
+  padding: 0;
+  margin-bottom: rem(60px);
+  font-family: 'Gagalin';
+  padding-top: 14px;
+}
+
+.team__list_description_title:hover {
+  color:#f9b43b;
+}
+
+.team__list_description_text {
+  color: white;
+}

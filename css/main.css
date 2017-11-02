@@ -423,4 +423,53 @@ ul {
   display: -ms-flexbox;
   display: flex; }
 
+.team {
+  background-image: url("../img/bg/team-bg.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  position: relative; }
+
+.section__title--team {
+  color: #f9b43b;
+  padding: 0;
+  margin-bottom: 3.75rem;
+  font-family: 'Gagalin';
+  padding-top: 91px; }
+
+.team__list_description_title {
+  color: white;
+  padding: 0;
+  margin-bottom: 3.75rem;
+  font-family: 'Gagalin';
+  padding-top: 14px; }
+
+.team__list_description_title:hover {
+  color: #f9b43b; }
+
+.team__list_description_text {
+  color: white; }
+
+.menu {
+  background-image: url("../img/bg/menu-bg.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  position: relative; }
+
+.section__title--menu {
+  color: white;
+  padding: 0;
+  margin-bottom: 3.75rem;
+  font-family: 'Gagalin';
+  padding-top: 91px; }
+
+.types_menu {
+  color: white;
+  padding: 0;
+  margin-bottom: 3.75rem;
+  font-family: 'Gagalin';
+  padding-top: 91px;
+  font-size: 40px; }
+
 /*# sourceMappingURL=main.css.map */
