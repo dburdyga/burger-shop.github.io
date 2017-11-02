@@ -472,4 +472,34 @@ ul {
   padding-top: 91px;
   font-size: 40px; }
 
+.contacts__phone {
+  color: #e35028;
+  font-style: bold;
+  text-decoration: none; }
+
+.container__footer {
+  width: 100%;
+  background-image: url("../img/footer.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.footer_wrapper {
+  padding-right: 1100px; }
+
+.footer__text {
+  color: white; }
+
 /*# sourceMappingURL=main.css.map */
