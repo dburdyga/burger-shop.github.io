@@ -318,9 +318,6 @@ ul {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
-.comments__container {
-  width: 1100px; }
-
 .person-link {
   min-width: 6.125rem;
   padding: 10px 17px;
@@ -352,7 +349,7 @@ ul {
   -ms-flex-preferred-size: 25%;
   flex-basis: 25%; }
 
-.person_2 {
+.person_1, person_2, person_3, person_4, person_5, person_6, person_7, person_8 {
   position: relative; }
 
 .darkburger {
