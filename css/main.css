@@ -499,7 +499,8 @@ ul {
   padding: 0;
   margin-bottom: 3.75rem;
   font-family: 'Gagalin';
-  padding-top: 91px; }
+  padding-top: 91px;
+  padding-left: 500px; }
 
 .types_menu {
   color: white;
@@ -508,6 +509,12 @@ ul {
   font-family: 'Gagalin';
   padding-top: 91px;
   font-size: 40px; }
+
+.types_menu {
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  margin-left: 800px; }
 
 .contacts__phone {
   color: #e35028;
