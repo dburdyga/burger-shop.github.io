@@ -26,6 +26,35 @@
   color:#f9b43b;
 }
 
-.team__list_description_text {
+.dropdown_description {
   color: white;
 }
+
+
+.team__list_description_title:hover + .dropdown_description +.triangle {
+opacity: 1;
+
+}
+
+.dropdown_description {
+  z-index: 1;
+  position: absolute;
+  opacity: 0;
+  transition: 1s;
+  width: 550px;
+  padding-left: 200px;
+ }
+
+ .dropdown_title {
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Ubuntu';
+
+ }
+
+ .dropdown_text {
+  font-size:14px;
+  font-family: 'Ubuntu';
+ }
+
+
