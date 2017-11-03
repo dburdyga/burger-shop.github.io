@@ -4,12 +4,8 @@
   margin-left: 10px;
   fill: #00bfa5;
   width: 25px;
-  height: 25px;
-  &:hover {
-    fill: crimson;
-  }
-  &:first-child {
-    margin-left: 0;
-  }
-}
-
+  height: 25px; }
+  .best__icon-pic:hover {
+    fill: crimson; }
+  .best__icon-pic:first-child {
+    margin-left: 0; }
