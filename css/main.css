@@ -442,53 +442,70 @@ ul {
   display: flex; }
 
 .team {
-  background-image: url("../img/bg/team-bg.png");
-  background-repeat: no-repeat;
-  background-position: 50%;
+  background: url("../img/bg/team-bg.png") no-repeat;
   background-size: cover;
   position: relative; }
+
+.team__container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  background: rgba(52, 54, 56, 0.93);
+  padding-left: 70px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
 
 .section__title--team {
   color: #f9b43b;
   padding: 0;
   margin-bottom: 3.75rem;
-  font-family: 'Gagalin';
-  padding-top: 91px; }
+  font-family: 'Gagalin'; }
 
-.team__list_description_title {
+.team-acco__triger {
   color: white;
-  padding: 0;
-  margin-bottom: 3.75rem;
   font-family: 'Gagalin';
-  padding-top: 14px; }
+  padding-top: 14px;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .team-acco__triger:before {
+    content: "";
+    height: 0;
+    width: 0;
+    border: 9px solid transparent;
+    border-top-color: #f8b43a;
+    border-bottom-width: 0px; }
 
-.team__list_description_title:hover {
-  color: #f9b43b; }
+.team-acco__content {
+  display: none; }
 
-.dropdown_description {
+.team-acco__item_active .team-acco__triger {
+  color: #e25028; }
+
+.team-acco__text-content {
   color: white; }
 
-.team__list_description_title:hover + .dropdown_description + .triangle {
-  opacity: 1; }
-
-.dropdown_description {
-  z-index: 1;
-  position: absolute;
-  opacity: 0;
-  -webkit-transition: 1s;
-  -o-transition: 1s;
-  transition: 1s;
-  width: 550px;
-  padding-left: 200px; }
-
-.dropdown_title {
-  font-weight: bold;
-  font-size: 14px;
-  font-family: 'Ubuntu'; }
-
-.dropdown_text {
-  font-size: 14px;
-  font-family: 'Ubuntu'; }
+.team-acco__text-title {
+  color: white; }
 
 .menu {
   background-image: url("../img/bg/menu-bg.png");
