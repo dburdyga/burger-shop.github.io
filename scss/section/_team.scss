@@ -14,7 +14,7 @@ background: rgba(#343638, .93);
 padding-left: 70px;
 display: flex;
 flex-direction: column;
-justify-content: center;
+padding-top: 50px;
 }
 
 
@@ -53,10 +53,11 @@ justify-content: center;
   .team-acco__triger {
     color:#e25028;
   
-    &before: {
+    &:before {
       transform: rotate(-180deg);
     }
   }
+
   .team-acco__content {
     display:block;
   }

@@ -6,15 +6,28 @@
   position: relative;
 }
 
+
+.menu__container{
+position:absolute;
+top:0;
+bottom:0;
+right:0;
+width:21.7%;
+background: rgba(#343638, .75);
+display: flex;
+flex-direction: column;
+}
+
+
 .section__title--menu {
   color: white;
   padding: 0;
   margin-bottom: rem(60px);
   font-family: 'Gagalin';
   padding-top: 91px;
-  padding-left: 500px;
-
+  text-align:center;
 }
+
 
 .types_menu {
   color: white;
@@ -27,5 +40,5 @@
 
 .types_menu {
   transform: rotate(-90deg);
-  margin-left: 800px;
+  
 }
