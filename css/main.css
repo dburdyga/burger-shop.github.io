@@ -327,7 +327,8 @@ ul {
   .best__item:last-child {
     margin-right: 0; }
 
-.persons {
+.reviews__list {
+  height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -335,6 +336,40 @@ ul {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
+
+.reviews__item {
+  width: 25%;
+  height: 50%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  position: relative; }
+  .reviews__item:hover .reviews__hover {
+    opacity: 1; }
+
+.reviews__hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(52, 54, 56, 0.8);
+  opacity: 0;
+  -webkit-transition: opacity .3s;
+  -o-transition: opacity .3s;
+  transition: opacity .3s; }
+
+.reviews__title {
+  font-family: 'Gagalin';
+  text-transform: uppercase;
+  color: white; }
+
+.reviews__text {
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  color: white; }
 
 .person-link {
   min-width: 6.125rem;
@@ -351,24 +386,11 @@ ul {
   -o-transition: .5s;
   transition: .5s; }
 
-.person_title {
-  font-family: 'Gagalin';
-  text-transform: uppercase;
-  color: white; }
-
-.person_text {
-  font-family: 'Ubuntu';
-  font-size: 14px;
-  color: white; }
-
 .person__description {
   position: absolute;
   -webkit-flex-basis: 25%;
   -ms-flex-preferred-size: 25%;
   flex-basis: 25%; }
-
-.person_1, person_2, person_3, person_4, person_5, person_6, person_7, person_8 {
-  position: relative; }
 
 .darkburger {
   background-image: url("../img/bg/darkburger-bg.png");
