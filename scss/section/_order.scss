@@ -6,25 +6,39 @@
   position: relative;
 }
 
-.section__title--order {
+.form__block-title {
+  color:white;
+}
+
+.form__input {
+  border: none;
+  border-radius:5px;
+  padding:5px;
+  width: 100%;
+}
+
+.form__row {
+display: flex;
+margin-bottom: 20px;
+}
+
+.form__block {
+flex:1;
+margin-right: 20px;
+
+&:last-child {
+  margin-right: 0;
+}
+}
+
+.form__content {
+  width: 50%;
+}
+
+.section-title {
   color: #f9b43b;
   padding: 0;
   margin-bottom: rem(60px);
   font-family: 'Gagalin';
-  padding-top: 91px;
-}
-
-.form__input-title {
- color: white;
- font-size:14px;
-}
-
-.form__controls-radio-elem {
- color: white;
- font-size:14px;
-}
-
-.form__elem {
-	padding-left:77px;
-	display:flex;
+  font-size:72px;
 }
