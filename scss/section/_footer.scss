@@ -1,0 +1,41 @@
+.footer {
+  background: url('../img/footer.png') center bottom no-repeat;
+  background-size: cover;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: rem(10px) 0;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.footer__col {
+  width: 50%;
+  margin-bottom: rem(15px);
+  
+}
+
+.footer__address {
+  color: #ffffff;
+  font-size: rem(14px);
+}
+
+.footer__phone {
+  color: $red;
+  
+}
+
+.footer__col_right {
+  text-align: right;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+
+ 
+}
