@@ -12,10 +12,12 @@
 	font-family: 'Gagalin';
 	font-size: 30px;
 	color: #e35028;
+  display:block;
 }
 
 .darkburger__description {
   color: #ffffff;
+  display:block;
 }
 
 .section__title--darkburger {
@@ -23,14 +25,23 @@
   padding: 0;
   margin-bottom: rem(60px);
   font-family: 'Gagalin';
+  display:block;
+  line-height: 80px;
 }
 
 .darkburger__description {
  font-family: 'Ubuntu';
  font-size: 14px;
+ display:block;
 }
+
 
 .darkburger__content {
-	display: flex;
-
+ display:flex;
 }
+
+.block_darkburger {
+flex:1;
+width:50%;
+}
+

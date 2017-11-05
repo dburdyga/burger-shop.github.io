@@ -96,11 +96,15 @@
         <section class="section darkburger">
           <div class="container darkburger__container">
             <div class="darkburger__content">
-              <div class="darkburger__img"><img src="./img/content/darkburger.png" alt="черныйбургер"></div>
-              <h2 class="section__title section__title--darkburger">Dark beef burger</h2>
-              <div class="darkburger__description">Ваш старый добрый знакомый, с рубленым бифштексом из 100% говядины, тремя кусочками нежнейшего сыра эмменталь, двумя помидорами, луком, салатом и соусом гриль теперь с добавлением экзотического соуса чураско.</div>
-              <div class="darkburger__price">500 рублей</div>
-              <div class="header__btn"><a class="order-link" href="" data-goto="6">Заказать</a></div>
+              <div class="block_darkburger">
+                  <img src="./img/content/darkburger.png" alt="черныйбургер">
+              </div>
+              <div class="block_darkburger">
+                <h2 class="section__title section__title--darkburger">Dark beef burger</h2>
+                <div class="darkburger__description">Ваш старый добрый знакомый, с рубленым бифштексом из 100% говядины, тремя кусочками нежнейшего сыра эмменталь, двумя помидорами, луком, салатом и соусом гриль теперь с добавлением экзотического соуса чураско.</div>
+                <div class="darkburger__price">500 рублей</div>
+                <div class="header__btn"><a class="order-link" href="" data-goto="6">Заказать</a></div>
+              </div>
             </div>
           </div>
         </section>
@@ -369,6 +373,61 @@
         </section>
        </div>
     </div>
+        <ul class="fixed-menu">
+    <li class="fixed-menu__item">
+      <a class="fixed-menu__link" href="" data-scroll-to="0"></a>
+    </li>
+    <li class="fixed-menu__item">
+      <a class="fixed-menu__link" href="" data-scroll-to="1"></a>
+    </li>
+    <li class="fixed-menu__item">
+      <a class="fixed-menu__link" href="" data-scroll-to="2"></a>
+    </li>
+    <li class="fixed-menu__item">
+      <a class="fixed-menu__link" href="" data-scroll-to="3"></a>
+    </li>
+    <li class="fixed-menu__item">
+      <a class="fixed-menu__link" href="" data-scroll-to="4"></a>
+    </li>
+    <li class="fixed-menu__item">
+      <a class="fixed-menu__link" href="" data-scroll-to="5"></a>
+    </li>
+    <li class="fixed-menu__item">
+      <a class="fixed-menu__link" href="" data-scroll-to="6"></a>
+    </li>
+    <li class="fixed-menu__item">
+      <a class="fixed-menu__link" href="" data-scroll-to="7"></a>
+    </li>
+  </ul>
+  <div class="full-review popup" id="full-review">
+    <a class="full-review__close" href="#">
+      <svg class="full-review__close-btn">
+        <use xlink:href="./img/sprite/sprite.svg#close"></use>
+      </svg>
+    </a>
+    <div class="full-review__inner">
+      <div class="full-review__title">Констнтин Спилберг</div>
+      <div class="full-review__content">
+        Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими
+        мягкими, котлетка такой сочной, а сыр таким расплавленным. Мысли все о них и о них, о них и о них. Нельзя устоять,
+        невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким
+        расплавленным.
+
+      </div>
+    </div>
+  </div>
+  <div class="status-popup popup" id="success">
+    <div class="status-popup__inner">
+      <div class="status-popup__message">Сообщение отправлено</div>
+      <a class="status-popup__close btn" href="#">Закрыть</a>
+    </div>
+  </div>
+  <div class="status-popup popup" id="error">
+    <div class="status-popup__inner">
+      <div class="status-popup__message error-message">Произошла ошибка</div>
+      <a class="status-popup__close btn" href="#">Закрыть</a>
+    </div>
+  </div>
   </body>
 </html>
 
