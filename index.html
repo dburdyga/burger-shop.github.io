@@ -247,7 +247,7 @@
             </li> 
           </ul>
         </section>
-          <section class="section order section_centered">
+        <section class="section order section_centered">
             <div class="container">
               <div class="section-title">Закажите доставку</div>
               <div class="form">
@@ -287,15 +287,31 @@
                         <input type="text" class="form__input">
                       </label>
                     </div>
+                    <div class="form__row">
+                      <label class="form__block">
+                        <div class="form__block-title">Комментарии</div>
+                        <input type="text" class="form__input">
+                      </label>
+                    </div>
+                    <div class="form__row clearfix">
+                      <label class="form__input">
+                        <div class="form__controls-radio-elem">
+                             <p><input name="Да" type="radio" value="Нет">Потребуется сдача</p>
+                             <p><input name="Да" type="radio" value="Нет">Оплата по карте</p>
+                             <p><input name="Да" type="radio" value="Нет">Не перезванивать</p>
+                          </div>
+                      </label>
+                    </div> 
+                     <div class="header__btn"><a class="order-link" href="" data-goto="6">Заказать</a></div>
+                     <div class="header__btn"><a class="order-link_delete" href="" data-goto="6">Очистить</a></div>
+                    </div>
                   </div>
                 </form>
               </div>
             </div>
-          </section>
         </section>
-        <div class="container map"></div>
         <footer>
-           <div class="container__footer">
+          <div class="container__footer">
             <div class="footer_wrapper">
               <div class="map">
                 <img class="map__img" src="./img/map.png" alt="карта"></a>
@@ -306,7 +322,7 @@
                 <a href="tel:+78123771377" class="contacts__phone">+7 (812) 377-13-77</a>
               </adress>
             </div>
-           </div>
+          </div>
         </footer>
        </div>
     </div>

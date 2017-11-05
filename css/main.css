@@ -477,6 +477,19 @@ ul {
   font-family: 'Gagalin';
   font-size: 72px; }
 
+.form__controls-radio-elem {
+  color: white; }
+
+.form__controls-radio-elem {
+  border: none;
+  text-decoration: none; }
+
+.form__controls-radio-elem {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
 .team {
   background: url("../img/bg/team-bg.png") no-repeat;
   background-size: cover;
@@ -614,16 +627,12 @@ ul {
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center;
-  position: relative; }
+  align-items: center; }
 
 .footer_wrapper {
   padding-right: 1100px; }
 
 .footer__text {
   color: white; }
-
-.map__img {
-  position: absolute; }
 
 /*# sourceMappingURL=main.css.map */
