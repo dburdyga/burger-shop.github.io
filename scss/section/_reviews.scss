@@ -24,13 +24,14 @@
 
 .reviews__hover{
   position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  background: rgba(#343638, .8);
+  top:49px;
+  left:21px;
+  right:32px;
+  bottom:50px;
+  background: rgba(#6c6d6f, .8);
   opacity:0;
   transition: opacity .3s;
+  line-height: 27px;
 }
 
 .reviews__title {
@@ -44,7 +45,6 @@ font-family: 'Ubuntu';
 font-size: 14px;
 color: white;
 }
-
 
 
 .person-link {

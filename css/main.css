@@ -351,15 +351,16 @@ ul {
 
 .reviews__hover {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(52, 54, 56, 0.8);
+  top: 49px;
+  left: 21px;
+  right: 32px;
+  bottom: 50px;
+  background: rgba(108, 109, 111, 0.8);
   opacity: 0;
   -webkit-transition: opacity .3s;
   -o-transition: opacity .3s;
-  transition: opacity .3s; }
+  transition: opacity .3s;
+  line-height: 27px; }
 
 .reviews__title {
   font-family: 'Gagalin';
@@ -600,12 +601,16 @@ ul {
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  position: relative; }
 
 .footer_wrapper {
   padding-right: 1100px; }
 
 .footer__text {
   color: white; }
+
+.map__img {
+  position: absolute; }
 
 /*# sourceMappingURL=main.css.map */

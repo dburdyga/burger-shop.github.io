@@ -14,12 +14,17 @@ text-decoration:none;
   display: flex;
   justify-content: center;
   align-items: center;
+   position:relative;
 }
 
 .footer_wrapper {
- padding-right: 1100px;
+ padding-right: 1100px; 
 }
 
 .footer__text {
 	color:white;
+}
+
+.map__img {
+position:absolute;
 }
