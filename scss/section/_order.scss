@@ -10,7 +10,7 @@
   color:white;
 }
 
-.form__input {
+.form-input {
   border: none;
   border-radius:5px;
   padding:5px;
@@ -43,7 +43,7 @@ margin-right: 20px;
   font-size:72px;
 }
 
-.form__controls-radio-elem {
+.order__radio-title {
   color:white;
 }
 
@@ -55,4 +55,8 @@ margin-right: 20px;
 
 .form__controls-radio-elem {
   display:flex;
+}
+
+.order__form-label {
+color:white;
 }

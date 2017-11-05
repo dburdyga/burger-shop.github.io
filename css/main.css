@@ -445,7 +445,7 @@ ul {
 .form__block-title {
   color: white; }
 
-.form__input {
+.form-input {
   border: none;
   border-radius: 5px;
   padding: 5px;
@@ -477,7 +477,7 @@ ul {
   font-family: 'Gagalin';
   font-size: 72px; }
 
-.form__controls-radio-elem {
+.order__radio-title {
   color: white; }
 
 .form__controls-radio-elem {
@@ -489,6 +489,9 @@ ul {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
+
+.order__form-label {
+  color: white; }
 
 .team {
   background: url("../img/bg/team-bg.png") no-repeat;

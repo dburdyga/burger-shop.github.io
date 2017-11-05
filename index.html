@@ -256,74 +256,117 @@
                     <div class="form__row">
                       <label class="form__block">
                         <div class="form__block-title">Имя</div>
-                        <input type="text" class="form__input">
+                        <input class="form-input" name="floor" type="text" placeholder="">
                       </label>
                       <label class="form__block">
                         <div class="form__block-title">Телефон</div>
-                        <input type="text" class="form__input">
+                        <input class="form-input" name="floor" type="text" placeholder="">
                       </label>
                     </div>
                     <div class="form__row">
                       <label class="form__block">
                         <div class="form__block-title">Улица</div>
-                        <input type="text" class="form__input">
+                        <input class="form-input" name="floor" type="text" placeholder="">
                       </label>
                     </div>
                     <div class="form__row">
                       <label class="form__block">
                         <div class="form__block-title">Дом</div>
-                        <input type="text" class="form__input">
+                        <input class="form-input" name="floor" type="text" placeholder="">
                       </label>
                       <label class="form__block">
                         <div class="form__block-title">Корпус</div>
-                        <input type="text" class="form__input">
+                        <input class="form-input" name="floor" type="text" placeholder="">
                       </label>
                       <label class="form__block">
                         <div class="form__block-title">Квартира</div>
-                        <input type="text" class="form__input">
+                        <input class="form-input" name="floor" type="text" placeholder="">
                       </label>
                       <label class="form__block">
                         <div class="form__block-title">Этаж</div>
-                        <input type="text" class="form__input">
+                        <input class="form-input" name="floor" type="text" placeholder="">
                       </label>
                     </div>
-                    <div class="form__row">
-                      <label class="form__block">
-                        <div class="form__block-title">Комментарии</div>
-                        <input type="text" class="form__input">
-                      </label>
-                    </div>
-                    <div class="form__row clearfix">
-                      <label class="form__input">
-                        <div class="form__controls-radio-elem">
-                             <p><input name="Да" type="radio" value="Нет">Потребуется сдача</p>
-                             <p><input name="Да" type="radio" value="Нет">Оплата по карте</p>
-                             <p><input name="Да" type="radio" value="Нет">Не перезванивать</p>
-                          </div>
-                      </label>
-                    </div> 
-                     <div class="header__btn"><a class="order-link" href="" data-goto="6">Заказать</a></div>
-                     <div class="header__btn"><a class="order-link_delete" href="" data-goto="6">Очистить</a></div>
-                    </div>
+                    <div class="order__form-col">
+                <div class="order__form-row">
+                  <label class="order__form-block">
+                    <div class="order__form-label">Комментарий</div>
+                    <textarea class="order__form-input order__form-input_textarea" name="comment"></textarea>
+                  </label>
+                </div>
+                <div class="order__form-buttons">
+                  <div class="order__form-row">
+                    <label class="order__radio">
+                      <input class="order__radio-elem" name="payment" type="radio">
+                      <div class="order__radio-fake"></div>
+                      <div class="order__radio-title">Потребуется сдача</div>
+                    </label>
+                    <label class="order__radio">
+                      <input class="order__radio-elem" name="payment" type="radio">
+                      <div class="order__radio-fake"></div>
+                      <div class="order__radio-title">Оплата по карте</div>
+                    </label>
                   </div>
-                </form>
+                  <div class="order__form-row">
+                    <label class="order__radio order__radio_checkbox">
+                      <input class="order__radio-elem" name="callback" type="checkbox">
+                      <div class="order__radio-fake"></div>
+                      <div class="order__radio-title">Не перезванивать</div>
+                    </label>
+                  </div>
+                  <div class="order__form-row">
+                    <input class="order__form-button" name="" type="submit" value="Заказать">
+                    <input class="order__form-button order__form-button_reset" name="" type="reset" value="Очистить">
+                  </div>
+                </div>
               </div>
             </div>
+          </form>
+        </div>
+        </section>    
+        <section class="section map">
+          <div class="yandex-map" id="map"></div>
+          <footer class="footer">
+            <div class="container footer__container">
+            <div class="footer__col">
+              <div class="footer__address">Санкт-Петербург, ул.Бабушкина, д.12/1, 15</div>
+              <a class="footer__phone" href="tel:+78123771377">+7 (812) 377-13-77</a>
+            </div>
+            <div class="footer__col footer__col_right">
+              <ul class="socials">
+                <li class="socials__item">
+                  <a class="socials__link" href="#">
+                    <svg class="socials__link-icon" style="fill: #fff">
+                      <use xlink:href="./img/sprite/sprite.svg#vk"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <a class="socials__link" href="#">
+                    <svg class="socials__link-icon" style="fill: #fff">
+                      <use xlink:href="./img/sprite/sprite.svg#fb"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <a class="socials__link" href="#">
+                    <svg class="socials__link-icon" style="fill: #fff">
+                      <use xlink:href="./img/sprite/sprite.svg#inst"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <a class="socials__link" href="#">
+                    <svg class="socials__link-icon" style="fill: #fff">
+                      <use xlink:href="./img/sprite/sprite.svg#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            </div>
+          </footer>
         </section>
-        <footer>
-          <div class="container__footer">
-            <div class="footer_wrapper">
-              <div class="map">
-                <img class="map__img" src="./img/map.png" alt="карта"></a>
-              </div>
-              <adress class="contacts">
-                <div class="footer__text">Санкт-Петербург, ул.Бабушкина, д.12/1, 15 </div>
-                <img src="./img/phone.png" class="phone">
-                <a href="tel:+78123771377" class="contacts__phone">+7 (812) 377-13-77</a>
-              </adress>
-            </div>
-          </div>
-        </footer>
        </div>
     </div>
   </body>
