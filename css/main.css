@@ -488,7 +488,11 @@ ul {
     margin-right: 0; }
 
 .form__content {
-  width: 50%; }
+  width: 50%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }
 
 .section-title {
   color: #f9b43b;
@@ -820,6 +824,12 @@ ul {
   bottom: 0;
   left: 0;
   right: 0; }
+
+.map {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  min-height: 40.625rem; }
 
 .socials {
   position: relative;
