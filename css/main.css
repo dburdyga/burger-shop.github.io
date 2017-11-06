@@ -817,7 +817,9 @@ ul {
 
 .footer__phone {
   color: #e35028;
-  font-weght: bold; }
+  font-weight: bold;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none; }
 
 .footer__col_right {
   text-align: right;
