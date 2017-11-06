@@ -15,6 +15,7 @@ width:50%;
 
 .section__title--order {
   color: &red;
+  margin-bottom: 80px;
 }
 
 .order__content{
@@ -55,6 +56,7 @@ margin-right: 20px;
   font-family: 'Gagalin';
   font-size:72px;
   text-align: center;
+
 }
 
 .order__radio-title {
@@ -73,9 +75,11 @@ margin-right: 20px;
 
 .order__form-label {
 color:white;
-border: none;
-  border-radius:8px;
-  padding:5px;
+ 
+    margin-bottom: rem(17px);
+  font-style: 'Ubuntu';
+  color: #fff;
+  font-size: rem(14px);
 }
 
 
@@ -88,9 +92,10 @@ border: none;
   text-transform: uppercase;
   border-radius: rem(5px);
   color: #ffffff;
-  font-style: 'Ubuntu';
+  font-family: 'Ubuntu';
   padding: rem(10px) rem(15px);
   cursor: pointer;
+  margin-left: 10px;
 }
 
 .order__form-button_reset {
@@ -98,6 +103,7 @@ border: none;
   padding-right: 0;
   text-transform: none;
   background: transparent;
+   font-family: 'Ubuntu';
 }
 
 .order__radio-title {
@@ -164,10 +170,11 @@ border: none;
 .order__form-row {
   margin-bottom: rem(16px);
   display: flex;
+  margin-left: 19px;
 }
 
 .order__form-label {
-  margin-bottom: rem(17px);
+  margin-bottom: 10px;
   font-style: 'Ubuntu';
   color: #fff;
   font-size: rem(14px);
@@ -189,14 +196,11 @@ border: none;
   margin-left: 10px;
 }
 
-.order__form-row {
-  display: flex;
-  margin-left: -10px;
-}
-
+ 
 .order__form-input_textarea {
-  height: rem(110px);
-  resize: none;
+  height: 112px;
+resize: none;
+width: 463px;
 }
 
 .order__form-buttons {}
@@ -208,6 +212,7 @@ border: none;
   cursor: pointer;
   display: flex;
   align-items: center;
+  margin-left: 10px;
 }
 
 .order__radio-elem {

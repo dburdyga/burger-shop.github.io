@@ -470,7 +470,8 @@ ul {
   width: 50%; }
 
 .section__title--order {
-  color: .section__title--order red; }
+  color: .section__title--order red;
+  margin-bottom: 80px; }
 
 .order__content {
   display: -webkit-box;
@@ -530,9 +531,10 @@ ul {
 
 .order__form-label {
   color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 5px; }
+  margin-bottom: 1.0625rem;
+  font-style: 'Ubuntu';
+  color: #fff;
+  font-size: 0.875rem; }
 
 .order__form-button {
   margin-right: 1.25rem;
@@ -542,15 +544,17 @@ ul {
   text-transform: uppercase;
   border-radius: 0.3125rem;
   color: #ffffff;
-  font-style: 'Ubuntu';
+  font-family: 'Ubuntu';
   padding: 0.625rem 0.9375rem;
-  cursor: pointer; }
+  cursor: pointer;
+  margin-left: 10px; }
 
 .order__form-button_reset {
   padding-left: 0;
   padding-right: 0;
   text-transform: none;
-  background: transparent; }
+  background: transparent;
+  font-family: 'Ubuntu'; }
 
 .order__radio-title {
   font-size: 0.875rem;
@@ -601,10 +605,11 @@ ul {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  margin-left: 19px; }
 
 .order__form-label {
-  margin-bottom: 1.0625rem;
+  margin-bottom: 10px;
   font-style: 'Ubuntu';
   color: #fff;
   font-size: 0.875rem; }
@@ -626,16 +631,10 @@ ul {
   flex: 1;
   margin-left: 10px; }
 
-.order__form-row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: -10px; }
-
 .order__form-input_textarea {
-  height: 6.875rem;
-  resize: none; }
+  height: 112px;
+  resize: none;
+  width: 463px; }
 
 .order__radio {
   position: relative;
@@ -649,7 +648,8 @@ ul {
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  margin-left: 10px; }
 
 .order__radio-elem {
   position: absolute;
