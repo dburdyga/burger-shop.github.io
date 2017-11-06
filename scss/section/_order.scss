@@ -8,7 +8,19 @@
   display: flex;
 }
 
+.block1 {
+flex:1;
+width:50%;
+}
 
+.section__title--order {
+  color: &red;
+}
+
+.order__content{
+  display:flex;
+  justify-content: center;
+}
 
 .form__block-title {
   color:white;
@@ -35,10 +47,6 @@ margin-right: 20px;
 }
 }
 
-.form__content {
-  width: 50%;
-  flex:1;
-}
 
 .section-title {
   color: #f9b43b;

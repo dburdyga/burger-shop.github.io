@@ -462,6 +462,26 @@ ul {
   display: -ms-flexbox;
   display: flex; }
 
+.block1 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 50%; }
+
+.section__title--order {
+  color: .section__title--order red; }
+
+.order__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
 .form__block-title {
   color: white; }
 
@@ -486,13 +506,6 @@ ul {
   margin-right: 20px; }
   .form__block:last-child {
     margin-right: 0; }
-
-.form__content {
-  width: 50%;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1; }
 
 .section-title {
   color: #f9b43b;
