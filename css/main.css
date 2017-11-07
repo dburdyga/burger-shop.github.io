@@ -303,9 +303,7 @@ h6 {
 .section__title--best {
   color: #2f3234;
   padding: 0;
-  margin-bottom: 3.75rem;
-  font-family: 'Gagalin';
-  padding-top: 3.0625rem; }
+  font-family: 'Gagalin'; }
 
 .best__pictures_title {
   font-family: 'Lifehack';
@@ -406,7 +404,7 @@ h6 {
   font-family: 'Gagalin';
   text-transform: uppercase;
   color: white;
-  font-size: 0.875rem;
+  font-size: 1rem;
   margin-bottom: 1.5625rem; }
   @media screen and (max-width: 768px) {
     .reviews__title {
@@ -831,6 +829,14 @@ h6 {
   background-size: cover;
   position: relative; }
 
+.menu__container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 21.7%;
+  background: rgba(52, 54, 56, 0.7); }
+
 .menu__title {
   position: absolute;
   top: 10%;
@@ -839,7 +845,7 @@ h6 {
 
 .menu-acco {
   position: absolute;
-  right: 0;
+  margin: 10.625rem 2rem;
   top: 0;
   bottom: 0;
   display: -webkit-box;

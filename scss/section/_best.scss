@@ -11,9 +11,8 @@
 .section__title--best {
   color: #2f3234;
   padding: 0;
-  margin-bottom: rem(60px);
   font-family: 'Gagalin';
-  padding-top: rem(49px);
+
 }
 
 
@@ -35,7 +34,7 @@ display: flex;
 text-align: center;
 margin: rem(20px);
  @include phones {
-    flex-direction: column;}
+    flex-direction: column; }
 }
 
 
@@ -69,3 +68,4 @@ margin: rem(20px);
   margin-right: 0;
   }
 }
+
