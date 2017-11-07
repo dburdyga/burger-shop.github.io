@@ -1,4 +1,5 @@
 html {
+	font-size:rem(16px);
   @include tablets {
     font-size: rem(15px);
   }
@@ -8,7 +9,20 @@ html {
   }
 }
 
- 
+ html,
+body {
+  height: 100%;
+}
+
+
+.container {
+  margin: 0 auto;
+  position: relative;
+  width: 95%;
+  max-width: 940px;
+  display: flex;
+  flex-direction: column;
+}
 
 
 

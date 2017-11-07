@@ -15,46 +15,62 @@
   </head>
   <body> 
     <div class="wrapper"> 
-        <section class="section hero">
-          <div class="container hero__container">
-            <header class="header">
-              <div class="header__logo">
-                <img class="logo__img" src="./img/content/logo_mrburger.png" alt="лого"></a>
-              </div>
+      <section class="section hero">
+        <div class="container">
+          <header class="header">
+            <div class="header__logo">
+              <a class="logo" href="#"><img class="logo__icon" src="./img/icons/logo.svg"></a>
+            </div>
+            <div class="header__btns">
               <div class="header__menu">
                 <nav class="nav">
                   <ul class="nav__list">
-                    <li class="nav__item"><a class="nav__link" href="" data-goto="1">о нас</a>
+                    <li class="nav__item">
+                      <a class="nav__link" href="" data-scroll-to="1">о нас</a>
                     </li>
-                    <li class="nav__item"><a class="nav__link" href="" data-goto="2">бургеры</a>
+                    <li class="nav__item">
+                      <a class="nav__link" href="" data-scroll-to="2">бургеры</a>
                     </li>
-                    <li class="nav__item"><a class="nav__link" href="" data-goto="3">команда</a>
+                    <li class="nav__item">
+                      <a class="nav__link" href="" data-scroll-to="3">команда</a>
                     </li>
-                    <li class="nav__item"><a class="nav__link" href="" data-goto="4">меню</a>
+                    <li class="nav__item">
+                      <a class="nav__link" href="" data-scroll-to="4">меню</a>
                     </li>
-                    <li class="nav__item"><a class="nav__link" href="" data-goto="5">отзывы</a>
+                    <li class="nav__item">
+                      <a class="nav__link" href="" data-scroll-to="5">отзывы</a>
                     </li>
-                    <li class="nav__item"><a class="nav__link" href="" data-goto="7">контакты</a>
+                    <li class="nav__item">
+                      <a class="nav__link" href="" data-scroll-to="7">контакты</a>
                     </li>
                   </ul>
                 </nav>
               </div>
-              <div class="header__btn"><a class="order-link" href="" data-goto="6">Заказать</a></div>
-            </header>
-            <div class="hero__content">
-              <div class="hero__img"><img src="./img/content/main_burger.png" alt="drops"></div>
-              <div class="hero__description">
-                <h2 class="section__title">Мы делаем</h2>
-                <div class="hero__description-text">натуральные бургеры</div>
+              <div class="header__links">
+                <a class="order-link btn" href="" data-scroll-to="6">Заказать</a>
+                <a class="hamburger-menu-link" href="">
+                  <div class="hamburger-menu-link__bars"></div>
+                </a>
               </div>
             </div>
-              <a class="down-arrow" href="#" data-scroll-to="1">
-               <svg class="down-arrow__icon">
-                <use xlink:href="./img/sprite/sprite.svg#arrow-scroll"></use>
-               </svg>
-              </a>
+
+          </header>
+          <div class="hero__container">
+            <div class="hero__content">
+              <div class="hero__left"><img class="hero__img" src="./img/content/burger.png" alt=""></div>
+              <div class="hero__right">
+                <div class="section__title">Мы делаем</div>
+                <div class="hero__desc">Натуральные бургеры</div>
+              </div>
+            </div>
           </div>
-        </section>
+        </div>
+        <a class="down-arrow" href="#" data-scroll-to="1">
+          <svg class="down-arrow__icon">
+            <use xlink:href="./img/sprite/sprite.svg#arrow-scroll"></use>
+          </svg>
+        </a>
+      </section>
         <section class="section best">
           <div class="container best__container">
             <h2 class="section__title section__title--best">Мы лучшие</h2>
