@@ -1,7 +1,15 @@
+//colors
 $orange: #e45028;
 $yellow: #f9b43b;
 $black: #2f3234;
 $red: #e35028;
+
+
+// resolutions
+$desktop: 1200px;
+$laptop: 992px;
+$tablets: 768px;
+$phones: 480px;
 
 
 @import "config/_variables";
@@ -12,7 +20,7 @@ $red: #e35028;
 @import "layout/_fonts";
 @import "layout/_media";
 @import "layout/_mixins";
-
+@import "layout/_layout";
 
 
 @import "section/_hero";
