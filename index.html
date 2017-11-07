@@ -48,9 +48,11 @@
                 <div class="hero__description-text">натуральные бургеры</div>
               </div>
             </div>
-            <a href="#" class="arrow-down">
-              <img class="arrow-down_img" src="./img/arrow-down.png" alt="стрелка"></a>
-            </a>
+              <a class="down-arrow" href="#" data-scroll-to="1">
+               <svg class="down-arrow__icon">
+                <use xlink:href="./img/sprite/sprite.svg#arrow-scroll"></use>
+               </svg>
+              </a>
           </div>
         </section>
         <section class="section best">
@@ -165,18 +167,56 @@
                 </li>
               </ul>   
         </section>
-        <section class="section menu"> 
-          <h2 class="section__title section__title--menu">Меню</h2>
-           <div class="menu__container">
-              <div class="menu__content"> 
-                <ul class="types_menu">
-                  <li>Для мясоедов</li>
-                  <li>Вегетарианское</li>
-                  <li>Диетическое</li>
-                </ul>
+         <section class="section menu">
+        <div class="section__title section__title_white menu__title">Меню</div>
+        <ul class="menu-acco">
+          <li class="menu-acco__item">
+            <a class="menu-acco__trigger" href="#" style="background-image: url('../img/bg/menu/meats.jpg')">
+              <div class="menu-acco__trigger-text">Для мясоедов</div>
+            </a>
+            <div class="menu-acco__content">
+              <div class="menu-acco__text">
+                Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный механизм сочленений.
+                Лирический субъект начинает диссонансный анжамбеман. Наш современник стал особенно чутко относиться к слову,
+                однако механизм сочленений неустойчив. Модальность высказывания, как справедливо считает И.Гальперин, пространственно
+                выбирает метр. Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует
+                конструктивный механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                стал особенно чутко относиться к слову.
               </div>
-           </div>
-        </section>
+            </div>
+          </li>
+          <li class="menu-acco__item">
+            <a class="menu-acco__trigger" href="#" style="background-image: url('../img/bg/menu/vegans.jpg')">
+              <div class="menu-acco__trigger-text">Вегетарианское</div>
+            </a>
+            <div class="menu-acco__content">
+              <div class="menu-acco__text">
+                Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный механизм сочленений.
+                Лирический субъект начинает диссонансный анжамбеман. Наш современник стал особенно чутко относиться к слову,
+                однако механизм сочленений неустойчив. Модальность высказывания, как справедливо считает И.Гальперин, пространственно
+                выбирает метр. Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует
+                конструктивный механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                стал особенно чутко относиться к слову.
+              </div>
+            </div>
+          </li>
+          <li class="menu-acco__item">
+            <a class="menu-acco__trigger" href="#" style="background-image: url('../img/bgmenu/diets.jpg')">
+              <div class="menu-acco__trigger-text">Диетическое</div>
+            </a>
+            <div class="menu-acco__content">
+              <div class="menu-acco__text">
+                Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный механизм сочленений.
+                Лирический субъект начинает диссонансный анжамбеман. Наш современник стал особенно чутко относиться к слову,
+                однако механизм сочленений неустойчив. Модальность высказывания, как справедливо считает И.Гальперин, пространственно
+                выбирает метр. Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует
+                конструктивный механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                стал особенно чутко относиться к слову.
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
         <section class="section reviews">
           <ul class="reviews__list">
             <li class="reviews__item" style="background-image:url('./img/persons/person_1.png')">
@@ -184,7 +224,9 @@
                   <div class="reviews__title">Константин Спилберг</div>
                   <div class="reviews__text">
                     <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p></div>
-                  <div class="person__btn"><a class="person-link" href="" data-goto="6">Подробнее</a></div>
+                  <div class="review__button-wrap">
+                  <a class="review__view" href="#full-review">Подробнее</a>
+                </div>
               </div>
             </li>
             <li class="reviews__item" style="background-image:url('./img/persons/person_2.png')">
@@ -192,7 +234,9 @@
                   <div class="reviews__title">Константин Спилберг</div>
                   <div class="reviews__text">
                     <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p></div>
-                  <div class="person__btn"><a class="person-link" href="" data-goto="6">Подробнее</a></div>
+                  <div class="review__button-wrap">
+                  <a class="review__view" href="#full-review">Подробнее</a>
+                </div>
               </div>
             </li>
             <li class="reviews__item" style="background-image:url('./img/persons/person_3.png')">
@@ -200,7 +244,9 @@
                   <div class="reviews__title">Константин Спилберг</div>
                   <div class="reviews__text">
                     <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p></div>
-                  <div class="person__btn"><a class="person-link" href="" data-goto="6">Подробнее</a></div>
+                  <div class="review__button-wrap">
+                  <a class="review__view" href="#full-review">Подробнее</a>
+                </div>
               </div>
             </li>
             <li class="reviews__item" style="background-image:url('./img/persons/person_4.png')">
@@ -208,7 +254,9 @@
                   <div class="reviews__title">Константин Спилберг</div>
                   <div class="reviews__text">
                     <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p></div>
-                  <div class="person__btn"><a class="person-link" href="" data-goto="6">Подробнее</a></div>
+                  <div class="review__button-wrap">
+                  <a class="review__view" href="#full-review">Подробнее</a>
+                </div>
               </div>
             </li>
             <li class="reviews__item" style="background-image:url('./img/persons/person_5.png')">
@@ -216,7 +264,9 @@
                   <div class="reviews__title">Константин Спилберг</div>
                   <div class="reviews__text">
                     <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p></div>
-                  <div class="person__btn"><a class="person-link" href="" data-goto="6">Подробнее</a></div>
+                  <div class="review__button-wrap">
+                  <a class="review__view" href="#full-review">Подробнее</a>
+                </div>
               </div>
             </li>
             <li class="reviews__item" style="background-image:url('./img/persons/person_6.png')">
@@ -224,7 +274,9 @@
                   <div class="reviews__title">Константин Спилберг</div>
                   <div class="reviews__text">
                     <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p></div>
-                  <div class="person__btn"><a class="person-link" href="" data-goto="6">Подробнее</a></div>
+                  <div class="review__button-wrap">
+                  <a class="review__view" href="#full-review">Подробнее</a>
+                </div>
               </div>
             </li>
             <li class="reviews__item" style="background-image:url('./img/persons/person_7.png')">
@@ -232,7 +284,9 @@
                   <div class="reviews__title">Константин Спилберг</div>
                   <div class="reviews__text">
                     <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p></div>
-                  <div class="person__btn"><a class="person-link" href="" data-goto="6">Подробнее</a></div>
+                  <div class="review__button-wrap">
+                  <a class="review__view" href="#full-review">Подробнее</a>
+                </div>
               </div>
             </li>
             <li class="reviews__item" style="background-image:url('./img/persons/person_8.png')">
@@ -240,7 +294,9 @@
                   <div class="reviews__title">Константин Спилберг</div>
                   <div class="reviews__text">
                     <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p></div>
-                  <div class="person__btn"><a class="person-link" href="" data-goto="6">Подробнее</a></div>
+                  <div class="review__button-wrap">
+                  <a class="review__view" href="#full-review">Подробнее</a>
+                </div>
               </div>
             </li> 
           </ul>

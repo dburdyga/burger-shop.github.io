@@ -1,44 +1,72 @@
 .menu {
-  background-image: url('../img/bg/menu-bg.png');
-  background-repeat: no-repeat;
-  background-position: 50%;
+  background: url('../img/bg/menu/menu-bg.png') 50% no-repeat;
   background-size: cover;
   position: relative;
 }
 
-
-.menu__container{
-position:absolute;
-top:0;
-bottom:0;
-right:0;
-width:21.7%;
-background: rgba(#343638, .75);
-display: flex;
-flex-direction: column;
+.menu__title {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color:white;
 }
 
-
-.section__title--menu {
-  color: white;
-  padding: 0;
-  margin-bottom: rem(60px);
-  font-family: 'Gagalin';
-  padding-top: rem(91px);
-  padding-left: rem(120px); 
+.menu-acco {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
 }
 
+.menu-acco__item {
+  height: 100%;
 
-.types_menu {
-  color: white;
-  padding: 0;
-  margin-bottom: rem(60px);
-  font-family: 'Gagalin';
-  padding-top: rem(91px);
+  &.active {
+    .menu-acco__trigger-text {
+      color: $yellow;
+    }
+  }
+}
+
+.menu-acco__trigger {
+  width: rem(80px);
+  display: block;
+  height: 100%;
+  float: left;
+  @include cover;
+  text-decoration: none;
+  position: relative;
+}
+
+.menu-acco__trigger-text {
   font-size: rem(40px);
+  color: #fff;
+  font-family: 'gagalin';
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  transform: rotate(-90deg) translateY(-50%);
+  transform-origin: 0 0;
+  left: 50%;
+  top: 100%;
+  margin-top: rem(-20px);
 }
 
-.types_menu {
-  transform: rotate(-90deg);
-  
+.menu-acco__content {
+  height: 100%;
+  float: left;
+  background: rgba(#2f3234, .93);
+  width: 0;
+  overflow: hidden;
+}
+
+.menu-acco__text {
+  @include ubuntu(light);
+  font-size: rem(14px);
+  color: #fff;
+  padding: rem(60px) rem(30px);
+  width: 100%;
+  line-height: 1.8;
+  display: none;
 }

@@ -12,12 +12,18 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  @include phones {
+  flex-direction: column;
 }
-
+}
 
 .footer__col {
   width: 50%;
   margin-bottom: rem(15px);
+   @include phones {
+    width: 100%;
+    text-align: center;
+  }
   
 }
 
@@ -32,6 +38,9 @@
   color: $red;
   font-weight: bold;
   text-decoration-line: none;
+   @include ubuntu(bold);
+  text-decoration: none;
+  font-size: rem(14px);
 }
 
 .footer__col_right {
@@ -39,4 +48,8 @@
   margin-bottom: 0;
   display: flex;
   justify-content: flex-end;
+
+  @include phones {
+    justify-content: center;
+  }
 }

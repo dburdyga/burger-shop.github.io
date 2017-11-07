@@ -96,6 +96,9 @@ color:white;
   padding: rem(10px) rem(15px);
   cursor: pointer;
   margin-left: rem(10px);
+  @include ubuntu(middle);
+  padding: rem(10px) rem(15px);
+  cursor: pointer;
 }
 
 .order__form-button_reset {
@@ -178,6 +181,9 @@ color:white;
   font-style: 'Ubuntu';
   color: #fff;
   font-size: rem(14px);
+  @include ubuntu();
+  color: #fff;
+  font-size: rem(14px);
 }
 
 .order__form-input {
@@ -225,12 +231,19 @@ width: rem(463px);
 .order__form {
   margin-left: -5%;
   display: flex;
+  @include tablets {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;}
 
 }
 
 .order__form-col {
   width: 45%;
   margin-left: 5%;
-
+   @include phones {
+    width: 100%;
+    margin-left: 0;
+  }
 
 }
