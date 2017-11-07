@@ -24,8 +24,8 @@ flex-direction: column;
   padding: 0;
   margin-bottom: rem(60px);
   font-family: 'Gagalin';
-  padding-top: 91px;
-  padding-left: 120px; 
+  padding-top: rem(91px);
+  padding-left: rem(120px); 
 }
 
 
@@ -34,8 +34,8 @@ flex-direction: column;
   padding: 0;
   margin-bottom: rem(60px);
   font-family: 'Gagalin';
-  padding-top: 91px;
-  font-size: 40px;
+  padding-top: rem(91px);
+  font-size: rem(40px);
 }
 
 .types_menu {

@@ -1,10 +1,10 @@
 .best__icon-pic {
   display: inline-block;
   vertical-align: middle;
-  margin-left: 10px;
+  margin-left: rem(10px);
   fill: #00bfa5;
-  width: 25px;
-  height: 25px; }
+  width: rem(25px);
+  height: rem(25px); }
   .best__icon-pic:hover {
     fill: crimson; }
   .best__icon-pic:first-child {

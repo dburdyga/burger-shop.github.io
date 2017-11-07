@@ -11,7 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 10px;
+  padding-top: rem(10px);
 }
 
 .header__logo {
@@ -36,7 +36,7 @@
     vertical-align: middle;
     content: ' ';
     @include circle(5px, #fff);
-    margin: 0 12px;
+    margin: 0 rem(12px);
   }
   &:last-child:after {
     display: none;
@@ -45,7 +45,7 @@
 
 .nav__link {
   color: #ffffff;
-  font-size: 13px;
+  font-size: rem(13px);
   font-weight: 500;
   line-height: 1.42;
   text-transform: uppercase;
@@ -89,21 +89,21 @@
 .section__title {
   color: #f9b43b;
   font-family: 'Gagalin';
-  font-size: 72px;
+  font-size: rem(72px);
   font-weight: 400;
   line-height: 1.42;
   margin: 0;
-  padding-top: 60px;
+  padding-top: rem(60px);
 }
 
 .hero__description-text {
   color: #ffffff;
   font-family: 'Lifehack';
-  font-size: 65px;
+  font-size: rem(65px);
   font-weight: 500;
   line-height: 1;
 }
 
 .arrow-down {
-  padding-bottom: 40px;
+  padding-bottom: rem(40px);
 }

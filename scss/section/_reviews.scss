@@ -24,14 +24,14 @@
 
 .reviews__hover{
   position:absolute;
-  top:49px;
-  left:21px;
-  right:32px;
-  bottom:50px;
+  top:rem(49px);
+  left:rem(21px);
+  right:rem(32px);
+  bottom:rem(50px);
   background: rgba(#6c6d6f, .8);
   opacity:0;
   transition: opacity .3s;
-  line-height: 27px;
+  line-height: rem(27px);
 }
 
 .reviews__title {
@@ -42,19 +42,19 @@ color: white;
 
 .reviews__text {
 font-family: 'Ubuntu';
-font-size: 14px;
+font-size: rem(14px);
 color: white;
 }
 
 
 .person-link {
   min-width: 6.125rem;
-  padding: 10px 17px;
-  border-radius: 5px;
+  padding: rem(10px) rem(17px);
+  border-radius: rem(5px);
   background-color: #2f3234;
   color: #fff;
   text-decoration: none;
-  font-size: 13px;
+  font-size: rem(13px);
   font-weight: 500;
   line-height: 1.42;
   text-transform: uppercase;

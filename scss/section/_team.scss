@@ -11,10 +11,10 @@ bottom:0;
 right:0;
 width:50%;
 background: rgba(#343638, .93);
-padding-left: 70px;
+padding-left: rem(70px);
 display: flex;
 flex-direction: column;
-padding-top: 50px;
+padding-top: rem(50px);
 }
 
 
@@ -29,7 +29,7 @@ padding-top: 50px;
 .team-acco__triger {
   color: white;
   font-family: 'Gagalin';
-  padding-top: 14px;
+  padding-top: rem(14px);
   text-decoration:none;
   display: flex;
   align-items: center;
@@ -38,9 +38,9 @@ padding-top: 50px;
     content: "";
     height:0;
     width:0;
-    border: 9px solid transparent;
+    border: rem(9px) solid transparent;
     border-top-color: #f8b43a;
-    border-bottom-width: 0px;
+    border-bottom-width: 0;
   }
 
 }
