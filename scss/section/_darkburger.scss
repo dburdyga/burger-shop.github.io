@@ -10,7 +10,7 @@
 
 .darkburger__price {
 	font-family: 'Gagalin';
-	font-size: 30px;
+	font-size: rem(30px);
 	color: #e35028;
   display:block;
 }
@@ -26,12 +26,12 @@
   margin-bottom: rem(60px);
   font-family: 'Gagalin';
   display:block;
-  line-height: 80px;
+  line-height: rem(80px);
 }
 
 .darkburger__description {
  font-family: 'Ubuntu';
- font-size: 14px;
+ font-size: rem(14px);
  display:block;
 }
 

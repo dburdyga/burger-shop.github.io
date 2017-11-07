@@ -413,7 +413,7 @@ ul {
 
 .darkburger__price {
   font-family: 'Gagalin';
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #e35028;
   display: block; }
 
@@ -427,11 +427,11 @@ ul {
   margin-bottom: 3.75rem;
   font-family: 'Gagalin';
   display: block;
-  line-height: 80px; }
+  line-height: 5rem; }
 
 .darkburger__description {
   font-family: 'Ubuntu';
-  font-size: 14px;
+  font-size: 0.875rem;
   display: block; }
 
 .darkburger__content {
@@ -847,10 +847,10 @@ ul {
   min-height: 40.625rem; }
 
 .map__hint {
-  padding: 20px;
-  min-height: 55px;
-  min-width: 195px;
-  font-size: 20px;
+  padding: 1.25rem;
+  min-height: 3.4375rem;
+  min-width: 12.1875rem;
+  font-size: 1.25rem;
   line-height: 1;
   color: #ffffff;
   background-color: #f9b43b;
@@ -858,7 +858,7 @@ ul {
   background-image: -webkit-linear-gradient(bottom, #f9b43b 0%, #eb8c38 48%, #f9b43b 74%, #f9b43b 100%);
   background-image: -o-linear-gradient(bottom, #f9b43b 0%, #eb8c38 48%, #f9b43b 74%, #f9b43b 100%);
   background-image: linear-gradient(to top, #f9b43b 0%, #eb8c38 48%, #f9b43b 74%, #f9b43b 100%);
-  border-radius: 20px; }
+  border-radius: 1.25rem; }
 
 .map__balloon {
   padding: 20px;
@@ -870,12 +870,12 @@ ul {
   background-image: -webkit-linear-gradient(bottom, #f9b43b 0%, #eb8c38 48%, #f9b43b 74%, #f9b43b 100%);
   background-image: -o-linear-gradient(bottom, #f9b43b 0%, #eb8c38 48%, #f9b43b 74%, #f9b43b 100%);
   background-image: linear-gradient(to top, #f9b43b 0%, #eb8c38 48%, #f9b43b 74%, #f9b43b 100%);
-  border-radius: 20px; }
+  border-radius: 1.25rem; }
 
 .map__burger-img {
   float: right;
-  height: 100px;
-  width: 100px; }
+  height: 6.25rem;
+  width: 6.25rem; }
 
 .socials {
   position: relative;
