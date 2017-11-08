@@ -854,7 +854,7 @@ h6 {
 
 .menu-acco {
   position: absolute;
-  margin: 10.625rem 2rem;
+  right: 0;
   top: 0;
   bottom: 0;
   display: -webkit-box;
@@ -903,8 +903,7 @@ h6 {
   overflow: hidden; }
 
 .menu-acco__text {
-  font-family: 'Ubuntu', Helvetica, sans-serif;
-  font-weight: 300;
+  font-family: 'ubuntu';
   font-size: 0.875rem;
   color: #fff;
   padding: 3.75rem 1.875rem;
