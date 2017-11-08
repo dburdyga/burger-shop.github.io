@@ -4,8 +4,23 @@
   position: relative;
 }
 
+
+
+
+
+
+
+//.team__section {
+//  background: rgba(#2f3234, .93);
+ // padding: 5% 2% 0 7%;
+//  align-items: center;
+//  justify-content: center;
+//}
+
+
 .team__container {
 position:absolute;
+ 
 top:0;
 bottom:0;
 right:0;
@@ -15,6 +30,11 @@ padding-left: rem(70px);
 display: flex;
 flex-direction: column;
 padding-top: rem(50px);
+@include tablets {
+    width: 100%;
+    padding: 0;
+   
+  }
 }
 
 
@@ -70,7 +90,6 @@ padding-top: rem(50px);
 .team-acco__text-title {
   color: white;
 }
-
 
 
 
