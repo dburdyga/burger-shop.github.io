@@ -1,42 +1,69 @@
-.reviews__list {
-  height: 100%;
-  display:flex;
-  flex-wrap:wrap;
+.reviews {
+  background: #000;
 }
 
+.reviews__list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .reviews__item {
-  width:25%;
+  width: 25%;
   height: 50%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  filter:grayscale(100%);
-  position:relative;
+  position: relative;
 
   @include tablets {
     width: 50%;
     height: 25%;
   }
+}
 
+.review {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent;
+    transition: .3s;
+  }
   &:hover {
-    .reviews__hover {
-      opacity:1
+    .review__hover {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 1;
+    }
+    &:after {
+      background: rgba(#141414, .7);
     }
   }
 }
 
+.review__photo {
+  width: 100%;
+  height: 100%;
+  @include cover;
+  filter: grayscale(100%);
+}
 
-.reviews__hover{
-  position:absolute;
-  top:rem(49px);
-  left:rem(21px);
-  right:rem(32px);
-  bottom:rem(50px);
-  background: rgba(#6c6d6f, .8);
-  opacity:0;
-  transition: opacity .3s;
-  line-height: rem(27px);
+.review__hover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%) scale(.7);
+  opacity: 0;
+  padding: 17% 12% 0;
+  transition: .3s;
+  z-index: 10;
+
   @include tablets {
     font-size: rem(14px);
     padding: 0 12%;
@@ -44,11 +71,10 @@
   }
 }
 
-.reviews__title {
-font-family: 'Gagalin';
-text-transform: uppercase;
-color: white;
-  font-size: rem(16px);
+.review__title {
+  color: #fff;
+  font-family: 'Gagalin';
+  font-size: rem(14px);
   margin-bottom: rem(25px);
 
   @include tablets {
@@ -56,38 +82,15 @@ color: white;
   }
 }
 
-.reviews__text {
-font-family: 'Ubuntu';
-font-size: rem(14px);
-color: white;
-font-family: 'Ubuntu';
+.review__shorttext {
+  color: #ffffff;
+  font-size: rem(14px);
+ font-family: 'ubuntu';
   margin-bottom: rem(13px);
 
   @include phones {
     display: none;
   }
-}
-
-
-.person-link {
-  min-width: 6.125rem;
-  padding: rem(10px) rem(17px);
-  border-radius: rem(5px);
-  background-color: #2f3234;
-  color: #fff;
-  text-decoration: none;
-  font-size: rem(13px);
-  font-weight: 500;
-  line-height: 1.42;
-  text-transform: uppercase;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  transition: .5s; 
-}
-
-.person__description {
-position: absolute;
-flex-basis: 25%;
 }
 
 .review__view {
@@ -98,10 +101,18 @@ flex-basis: 25%;
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Ubuntu';
+  font-family: 'ubuntu';
+  font-weight:bold;
   font-size: rem(12px);
   transition: .3s;
   &:hover {
     background-color: rgb(31, 33, 34);
   }
 }
+
+
+
+
+ 
+
+ 

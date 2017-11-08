@@ -207,7 +207,6 @@ h6 {
 .section__title {
   color: #e35028;
   font-size: 4.0625rem;
-  padding: 0;
   margin-bottom: 3.75rem;
   font-family: 'Gagalin';
   padding-top: 3.0625rem; }
@@ -356,7 +355,11 @@ h6 {
   .best__item:last-child {
     margin-right: 0; }
 
+.reviews {
+  background: #000; }
+
 .reviews__list {
+  width: 100%;
   height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -369,77 +372,82 @@ h6 {
 .reviews__item {
   width: 25%;
   height: 50%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
   position: relative; }
   @media screen and (max-width: 768px) {
     .reviews__item {
       width: 50%;
       height: 25%; } }
-  .reviews__item:hover .reviews__hover {
-    opacity: 1; }
 
-.reviews__hover {
+.review {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+  .review:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s; }
+  .review:hover .review__hover {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    -ms-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1; }
+  .review:hover:after {
+    background: rgba(20, 20, 20, 0.7); }
+
+.review__photo {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
+
+.review__hover {
   position: absolute;
-  top: 3.0625rem;
-  left: 1.3125rem;
-  right: 2rem;
-  bottom: 3.125rem;
-  background: rgba(108, 109, 111, 0.8);
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: translate(-50%, -50%) scale(0.7);
+  -ms-transform: translate(-50%, -50%) scale(0.7);
+  transform: translate(-50%, -50%) scale(0.7);
   opacity: 0;
-  -webkit-transition: opacity .3s;
-  -o-transition: opacity .3s;
-  transition: opacity .3s;
-  line-height: 1.6875rem; }
+  padding: 17% 12% 0;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  z-index: 10; }
   @media screen and (max-width: 768px) {
-    .reviews__hover {
+    .review__hover {
       font-size: 0.875rem;
       padding: 0 12%;
       text-align: center; } }
 
-.reviews__title {
+.review__title {
+  color: #fff;
   font-family: 'Gagalin';
-  text-transform: uppercase;
-  color: white;
-  font-size: 1rem;
+  font-size: 0.875rem;
   margin-bottom: 1.5625rem; }
   @media screen and (max-width: 768px) {
-    .reviews__title {
+    .review__title {
       margin-bottom: 0.875rem; } }
 
-.reviews__text {
-  font-family: 'Ubuntu';
+.review__shorttext {
+  color: #ffffff;
   font-size: 0.875rem;
-  color: white;
-  font-family: 'Ubuntu';
+  font-family: 'ubuntu';
   margin-bottom: 0.8125rem; }
   @media screen and (max-width: 480px) {
-    .reviews__text {
+    .review__shorttext {
       display: none; } }
-
-.person-link {
-  min-width: 6.125rem;
-  padding: 0.625rem 1.0625rem;
-  border-radius: 0.3125rem;
-  background-color: #2f3234;
-  color: #fff;
-  text-decoration: none;
-  font-size: 0.8125rem;
-  font-weight: 500;
-  line-height: 1.42;
-  text-transform: uppercase;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  transition: .5s; }
-
-.person__description {
-  position: absolute;
-  -webkit-flex-basis: 25%;
-  -ms-flex-preferred-size: 25%;
-  flex-basis: 25%; }
 
 .review__view {
   border-radius: 0.3125rem;
@@ -449,7 +457,8 @@ h6 {
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Ubuntu';
+  font-family: 'ubuntu';
+  font-weight: bold;
   font-size: 0.75rem;
   -webkit-transition: .3s;
   -o-transition: .3s;
