@@ -31,7 +31,9 @@
 }
 
  
-
+.section__title {
+  letter-spacing: rem(5px);
+}
  
 
 .hero__left,
@@ -53,12 +55,19 @@
   }
 }
 
+.hero__right {
+      padding-top: 8.5rem;
+      padding-left: rem(8px);
+}
+
 .hero__desc {
   font-size: rem(65px);
   color: white;
   font-family: 'lifehack';
   text-transform: lowercase;
   line-height: 1em;
+  letter-spacing: rem(-1px);
+      padding-top: rem(10px);
 }
 
 .hero__img {

@@ -18,12 +18,14 @@
 .header__links {
   display: flex;
   align-items: center;
+  margin-top: rem(15px);
 }
 
 .header__menu {
 	flex: 1;
 	text-align: right;
 	margin-right: rem(20px);
+  margin-top: rem(18px);
 
   @include tablets() {
     display: none;

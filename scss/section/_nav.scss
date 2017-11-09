@@ -29,7 +29,8 @@
 	text-transform: uppercase;
 	color: white;
 	text-decoration: none;
-	font-family: 'Ubuntu-Medium';;
+	font-family: 'Ubuntu-Medium';
+	margin: rem(5px);
 
 	&:hover {
 		text-decoration: underline;
