@@ -469,7 +469,10 @@ h6 {
   font-family: 'Gagalin';
   font-size: 1.875rem;
   color: #e35028;
-  display: block; }
+  display: inline-block; }
+
+.darkburger__container {
+  width: 100%; }
 
 .darkburger__description {
   color: #ffffff;
@@ -481,29 +484,38 @@ h6 {
   margin-bottom: 3.75rem;
   font-family: 'Gagalin';
   display: block;
-  line-height: 5rem; }
+  line-height: 5rem;
+  max-width: 75%; }
 
 .darkburger__description {
   font-family: 'Ubuntu';
   font-size: 0.875rem;
-  display: block; }
+  display: block;
+  max-width: 75%; }
+
+.darkburger_button {
+  display: inline-block; }
 
 .darkburger__content {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  width: 100%; }
 
 .block_darkburger {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  width: 50%; }
+  width: 50%;
+  padding-right: 1.875rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
 
 .order-link {
   width: 15%;
-  padding: 0.5625rem 0;
+  padding: 0.5625rem 0.5625rem;
   margin-left: 2%;
   min-width: 5.3125rem; }
 
@@ -1232,7 +1244,7 @@ h6 {
   text-align: center;
   text-decoration: none;
   border-radius: 0.3125rem;
-  padding: 0.5625rem 1rem;
+  padding: 0.5625rem 0.5625rem;
   font-family: 'Ubuntu', Helvetica, sans-serif;
   font-weight: 500; }
 

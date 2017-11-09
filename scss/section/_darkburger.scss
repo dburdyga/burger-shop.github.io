@@ -13,8 +13,13 @@
 	font-family: 'Gagalin';
 	font-size: rem(30px);
 	color: #e35028;
-  display:block;
+  display:inline-block;
 }
+
+.darkburger__container {
+width:100%;
+}
+
 
 .darkburger__description {
   color: #ffffff;
@@ -28,21 +33,29 @@
   font-family: 'Gagalin';
   display:block;
   line-height: rem(80px);
+  max-width:75%;
 }
 
 .darkburger__description {
  font-family: 'Ubuntu';
  font-size: rem(14px);
  display:block;
+ max-width:75%;
 }
 
+.darkburger_button {
+  display:inline-block;
+}
 
 .darkburger__content {
  display:flex;
+ width:100%;
 }
 
 .block_darkburger {
 flex:1;
 width:50%;
+padding-right: rem(30px);
+box-sizing: border-box;
 }
 
