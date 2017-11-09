@@ -2,6 +2,7 @@
   background: url('../img/bg/team-bg.png') no-repeat;
   background-size: cover;
   position: relative;
+  padding-top: rem(90px);
 }
 
 
@@ -39,7 +40,7 @@ padding-top: rem(50px);
 
 
 .section__title--team {
-  color: #f9b43b;
+  color: $yellow;
   padding: 0;
   margin-bottom: rem(60px);
   font-family: 'Gagalin';
