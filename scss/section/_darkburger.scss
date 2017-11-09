@@ -16,10 +16,6 @@
   display:inline-block;
 }
 
-.darkburger__container {
-width:100%;
-}
-
 
 .darkburger__description {
   color: #ffffff;
@@ -40,7 +36,7 @@ width:100%;
  font-family: 'Ubuntu';
  font-size: rem(14px);
  display:block;
- max-width:75%;
+ 
 }
 
 .darkburger_button {
@@ -55,7 +51,7 @@ width:100%;
 .block_darkburger {
 flex:1;
 width:50%;
-padding-right: rem(30px);
+ 
 box-sizing: border-box;
 }
 

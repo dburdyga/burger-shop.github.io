@@ -94,7 +94,7 @@ ul {
   font-style: normal; }
 
 @font-face {
-  font-family: 'Ubuntu';
+  font-family: 'Ubuntu-Medium';
   src: url("../fonts/ubuntu/ubuntu-medium-webfont.woff2") format("woff2");
   font-weight: 700;
   font-style: normal; }
@@ -437,7 +437,7 @@ h6 {
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'ubuntu';
+  font-family: 'Ubuntu-Medium';
   font-weight: bold;
   font-size: 0.75rem;
   -webkit-transition: .3s;
@@ -471,9 +471,6 @@ h6 {
   color: #e35028;
   display: inline-block; }
 
-.darkburger__container {
-  width: 100%; }
-
 .darkburger__description {
   color: #ffffff;
   display: block; }
@@ -490,8 +487,7 @@ h6 {
 .darkburger__description {
   font-family: 'Ubuntu';
   font-size: 0.875rem;
-  display: block;
-  max-width: 75%; }
+  display: block; }
 
 .darkburger_button {
   display: inline-block; }
@@ -509,7 +505,6 @@ h6 {
   -ms-flex: 1;
   flex: 1;
   width: 50%;
-  padding-right: 1.875rem;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
@@ -517,7 +512,8 @@ h6 {
   width: 15%;
   padding: 0.5625rem 0.5625rem;
   margin-left: 2%;
-  min-width: 5.3125rem; }
+  min-width: 5.3125rem;
+  font-family: 'Ubuntu-Medium'; }
 
 .order {
   background: url("../img/bg/order-bg.png") 50% no-repeat;
@@ -1157,7 +1153,7 @@ h6 {
   text-transform: uppercase;
   color: white;
   text-decoration: none;
-  font-style: 'Ubuntu'; }
+  font-family: 'Ubuntu-Medium'; }
   .nav__link:hover {
     text-decoration: underline; }
 
@@ -1245,7 +1241,6 @@ h6 {
   text-decoration: none;
   border-radius: 0.3125rem;
   padding: 0.5625rem 0.5625rem;
-  font-family: 'Ubuntu', Helvetica, sans-serif;
-  font-weight: 500; }
+  font-family: 'Ubuntu-Medium'; }
 
 /*# sourceMappingURL=main.css.map */
