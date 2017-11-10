@@ -1,19 +1,12 @@
 .yandex-map {
-	position: absolute;
+	position: relative;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
 }
 
-.map_container {
-	position:relative;
-	overflow: hidden;
-	height: 100vh;
-	min-height: rem(650px);
-}
-
-
+ 
 .map__hint {
     padding: rem(20px);
     min-height: rem(55px);

@@ -846,9 +846,11 @@ span {
   display: none; }
 
 .footer {
-  background: url("../img/bg/order-bg.png") center bottom no-repeat;
+  background-image: url("../img/bg/order-bg.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
   background-size: cover;
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
@@ -886,14 +888,10 @@ span {
 
 .footer__address {
   color: #ffffff;
-  font-size: 0.875rem;
-  font-weght: bold; }
+  font-size: 0.875rem; }
 
 .footer__phone {
   color: #e35028;
-  font-weight: bold;
-  -webkit-text-decoration-line: none;
-  text-decoration-line: none;
   font-family: 'Ubuntu', Helvetica, sans-serif;
   font-weight: bold;
   text-decoration: none;
@@ -918,17 +916,11 @@ span {
       justify-content: center; } }
 
 .yandex-map {
-  position: absolute;
+  position: relative;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0; }
-
-.map_container {
-  position: relative;
-  overflow: hidden;
-  height: 100vh;
-  min-height: 40.625rem; }
 
 .map__hint {
   padding: 1.25rem;

@@ -1,7 +1,11 @@
+
+
 .footer {
-  background: url('../img/bg/order-bg.png') center bottom no-repeat;
+  background-image: url('../img/bg/order-bg.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
   background-size: cover;
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
@@ -13,32 +17,27 @@
   flex-direction: row;
   align-items: center;
   @include phones {
-  flex-direction: column;
-}
+    flex-direction: column;
+  }
 }
 
 .footer__col {
   width: 50%;
   margin-bottom: rem(15px);
-   @include phones {
+  @include phones {
     width: 100%;
     text-align: center;
   }
-  
 }
 
 .footer__address {
   color: #ffffff;
   font-size: rem(14px);
-  font-weght:bold;
-
 }
 
 .footer__phone {
   color: $red;
-  font-weight: bold;
-  text-decoration-line: none;
-   @include ubuntu(bold);
+  @include ubuntu(bold);
   text-decoration: none;
   font-size: rem(14px);
 }
