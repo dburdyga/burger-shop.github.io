@@ -1,11 +1,9 @@
-
-
 .footer {
   background-image: url('../img/bg/order-bg.png');
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
-  position: relative;
+  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
@@ -24,6 +22,7 @@
 .footer__col {
   width: 50%;
   margin-bottom: rem(15px);
+  padding-left: rem(40px);
   @include phones {
     width: 100%;
     text-align: center;
@@ -47,6 +46,7 @@
   margin-bottom: 0;
   display: flex;
   justify-content: flex-end;
+  padding-right: rem(20px);
 
   @include phones {
     justify-content: center;
