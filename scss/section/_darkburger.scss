@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: rem(90px);
+  
 }
 
 .darkburger__price {
@@ -14,6 +14,51 @@
 	font-size: rem(30px);
 	color: #e35028;
   display:inline-block;
+}
+
+
+
+.darkburger__container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 15%;
+}
+
+
+
+.darkburger__content{
+ display: flex;
+  
+  @include tablets {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20%;
+  }
+}
+
+
+
+ .block_darkburger_left, .block_darkburger_right {
+ float: left;
+  width: 50%;
+  @include tablets() {
+    float: none;
+    width: auto;
+  }
+ }
+
+
+
+.block_darkburger_left {}
+
+.block_darkburger_right{
+   
+  @include tablets() {
+    padding-top: 0;
+  }
 }
 
 
@@ -25,32 +70,37 @@
 .section__title--darkburger {
   color: #ffffff;
   padding: 0;
-  margin-bottom: rem(60px);
   font-family: 'Gagalin';
   display:block;
-  line-height: rem(80px);
+  line-height: 4.5rem;
   max-width:75%;
+  padding-top: rem(76px);
+  margin-bottom: rem(24px);
 }
 
 span {
   font-size: rem(72px);
 }
 
+.img_darkburger {
+   padding-top: rem(160px);
+   padding-left: rem(160px);
+}
+
+
 .darkburger__description {
  font-family: 'Ubuntu';
  font-size: rem(14px);
  display:block;
- 
+ line-height: 1.7rem;
+ width: 75%;
 }
 
 .darkburger_button {
   display:inline-block;
 }
 
-.darkburger__content {
- display:flex;
- width:100%;
-}
+ 
 
 .block_darkburger {
 flex:1;
