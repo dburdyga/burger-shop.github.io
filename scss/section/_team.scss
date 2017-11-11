@@ -7,7 +7,32 @@
 
 
 
+
+
+
 .team__content {
+position:absolute;
+ 
+top:0;
+bottom:0;
+right:0;
+width:50%;
+
+background: rgba(#343638, .93);
+padding-left: rem(70px);
+display: flex;
+flex-direction: column;
+padding-top: rem(50px);
+@include tablets {
+    width: 100%;
+    padding: 0;
+   
+  }
+}
+
+
+.team__container {
+   min-height: rem(650px);
     padding-top: rem(20px);
     padding-left: rem(10px);
 }
@@ -22,24 +47,13 @@
 //}
 
 
-.team__container {
-position:absolute;
- 
-top:0;
-bottom:0;
-right:0;
-width:50%;
-background: rgba(#343638, .93);
-padding-left: rem(70px);
-display: flex;
-flex-direction: column;
-padding-top: rem(50px);
-@include tablets {
-    width: 100%;
-    padding: 0;
-   
-  }
+.team-acco__content {
+  display: none;
+  font-size: rem(14px);
+  font-family: 'Ubuntu-Light';
+  width: 75%;
 }
+
 
 
 .section__title--team {
@@ -72,12 +86,7 @@ padding-top: rem(50px);
 
 }
 
-.team-acco__content {
-  display: none;
-  font-size: rem(14px);
-  font-family: 'Ubuntu-Light';
-  width: 75%;
-}
+ 
 
 .team-acco__item_active {
   .team-acco__triger {

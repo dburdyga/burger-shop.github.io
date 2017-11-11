@@ -757,10 +757,6 @@ span {
   padding-top: 5.625rem; }
 
 .team__content {
-  padding-top: 1.25rem;
-  padding-left: 0.625rem; }
-
-.team__container {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -779,9 +775,20 @@ span {
   flex-direction: column;
   padding-top: 3.125rem; }
   @media screen and (max-width: 768px) {
-    .team__container {
+    .team__content {
       width: 100%;
       padding: 0; } }
+
+.team__container {
+  min-height: 40.625rem;
+  padding-top: 1.25rem;
+  padding-left: 0.625rem; }
+
+.team-acco__content {
+  display: none;
+  font-size: 0.875rem;
+  font-family: 'Ubuntu-Light';
+  width: 75%; }
 
 .section__title--team {
   color: #f8b43a;
@@ -812,12 +819,6 @@ span {
     border-top-color: #f8b43a;
     border-bottom-width: 0; }
 
-.team-acco__content {
-  display: none;
-  font-size: 0.875rem;
-  font-family: 'Ubuntu-Light';
-  width: 75%; }
-
 .team-acco__item_active .team-acco__triger {
   color: #e25028; }
   .team-acco__item_active .team-acco__triger:before {
@@ -841,13 +842,16 @@ span {
   position: relative;
   padding-top: 5.625rem; }
 
-.menu__container {
+.menu__content {
   position: absolute;
   top: 0;
   bottom: 0;
   right: 0;
   width: 21.7%;
   background: rgba(52, 54, 56, 0.7); }
+
+.menu__container {
+  min-height: 40.625rem; }
 
 .menu__title {
   position: absolute;
