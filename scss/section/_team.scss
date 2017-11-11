@@ -7,7 +7,10 @@
 
 
 
-
+.team__content {
+    padding-top: rem(20px);
+    padding-left: rem(10px);
+}
 
 
 
@@ -42,8 +45,9 @@ padding-top: rem(50px);
 .section__title--team {
   color: $yellow;
   padding: 0;
-  margin-bottom: rem(60px);
+  margin-bottom: rem(50px);
   font-family: 'Gagalin';
+
   
 }
 
@@ -54,6 +58,8 @@ padding-top: rem(50px);
   text-decoration:none;
   display: flex;
   align-items: center;
+  font-size: rem(14px);
+  margin-bottom: rem(15px);
 
   &:before {
     content: "";
@@ -68,6 +74,9 @@ padding-top: rem(50px);
 
 .team-acco__content {
   display: none;
+  font-size: rem(14px);
+  font-family: 'Ubuntu-Light';
+  width: 75%;
 }
 
 .team-acco__item_active {
@@ -90,6 +99,7 @@ padding-top: rem(50px);
 
 .team-acco__text-title {
   color: white;
+  font-family: 'Ubuntu-Medium';
 }
 
 
