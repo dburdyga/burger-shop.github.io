@@ -91,6 +91,9 @@ padding-top: rem(70px);
 height: 6.8rem;
 resize: none;
 width: rem(458px);
+ @include tablets {
+
+width: 26.2rem; }
  
   
 }

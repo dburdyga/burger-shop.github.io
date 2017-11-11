@@ -57,16 +57,14 @@
 
 .block_darkburger_right{
    
-  @include tablets() {
+  @include tablets {
     padding-top: 0;
+    margin-left: rem(180px);
   }
 }
 
 
-.darkburger__description {
-  color: #ffffff;
-  display:block;
-}
+
 
 .section__title--darkburger {
   color: #ffffff;
@@ -88,6 +86,13 @@ span {
 .img_darkburger {
    padding-top: rem(160px);
    padding-left: rem(160px);
+   
+    @include tablets {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+         margin-right: rem(120px);
+   }
 }
 
 
@@ -97,7 +102,16 @@ span {
  display:block;
  line-height: 1.7rem;
  width: 75%;
+  color: #ffffff;
+  display:block;
+  
+ @include tablets {
+  width: 90%; }
 }
+
+
+ 
+
 
 .darkburger_button {
   display:inline-block;

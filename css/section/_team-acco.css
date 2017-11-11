@@ -41,9 +41,6 @@
   height: rem(100px);
   border-radius: 50%; }
 
-.team-acco__text {
-  width: 70%; }
-
 .team-acco__title {
   font-family: 'Ubuntu';
   font-size: rem(14px);
