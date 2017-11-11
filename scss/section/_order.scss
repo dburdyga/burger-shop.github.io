@@ -8,6 +8,7 @@
 
 .order__container {
 min-height: rem(650px);
+padding-top: rem(70px);
 }
 
 
@@ -16,7 +17,7 @@ min-height: rem(650px);
   background-size: cover;
   display: flex;
   align-items: center;
-  padding-top: rem(90px);
+   
   .section__title {
     text-align: center;
     color: $yellow;
@@ -38,7 +39,7 @@ min-height: rem(650px);
 
 .order__form-col {
   width: 45%;
-  margin-left: 5%;
+  margin-left: 4%;
 
   @include phones {
     width: 100%;
@@ -56,12 +57,13 @@ min-height: rem(650px);
   @include ubuntu();
   color: #fff;
   font-size: rem(14px);
+      margin-bottom: rem(5px);
 }
 
 .order__form-input {
   font-size: rem(14px);
   padding: rem(10px);
-  padding: rem(5px) rem(10px);
+  padding: 0.5rem 0.65rem;
   border: rem(1px) solid #d1cfcb;
   border-radius: rem(5px);
   width: 100%;
@@ -71,7 +73,13 @@ min-height: rem(650px);
   display: block;
   width: 100%;
   flex: 1;
-  margin-left: 10px;
+  margin-left: rem(15px);
+   
+}
+
+.section__title--order {
+     margin-bottom: 3.8rem;
+  padding-left: rem(10px);
 }
 
 .order__form-row {
@@ -80,11 +88,17 @@ min-height: rem(650px);
 }
 
 .order__form-input_textarea {
-  height: rem(110px);
-  resize: none;
+height: 6.8rem;
+resize: none;
+width: rem(458px);
+ 
+  
 }
 
-.order__form-buttons {}
+.order__form-buttons {
+    padding-left: rem(15px);
+    padding-top: rem(2px);
+}
 
 .order__radio {
   position: relative;

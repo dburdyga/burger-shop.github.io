@@ -32,10 +32,13 @@
   top: 0;
   bottom: 0;
   display: flex;
+  padding-bottom: rem(220px);
 }
 
 .menu-acco__item {
   height: 100%;
+      margin-top: rem(60px);
+    margin: rem(12px);
 
   &.active {
     .menu-acco__trigger-text {
