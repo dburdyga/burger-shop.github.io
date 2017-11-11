@@ -346,7 +346,8 @@ h6 {
 
 .reviews {
   background: #000;
-  height: 100vh; }
+  height: 100vh;
+  min-height: 40.625rem; }
 
 .reviews__list {
   width: 100%;
@@ -433,8 +434,9 @@ h6 {
 .review__shorttext {
   color: #ffffff;
   font-size: 0.875rem;
-  font-family: 'ubuntu';
-  margin-bottom: 0.8125rem; }
+  font-family: 'Ubuntu-Light';
+  margin-bottom: 0.875rem;
+  line-height: 1.6rem; }
   @media screen and (max-width: 480px) {
     .review__shorttext {
       display: none; } }
@@ -583,6 +585,9 @@ span {
   width: 15%;
   margin-left: 2%;
   font-family: 'Ubuntu-Medium'; }
+
+.order__container {
+  min-height: 40.625rem; }
 
 .order {
   background: url("../img/bg/order-bg.png") 50% no-repeat;
@@ -763,7 +768,7 @@ span {
   right: 0;
   width: 50%;
   background: rgba(52, 54, 56, 0.93);
-  padding-left: 4.375rem;
+  padding-left: 4.875rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -773,7 +778,7 @@ span {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding-top: 3.125rem; }
+  padding-top: 4.375rem; }
   @media screen and (max-width: 768px) {
     .team__content {
       width: 100%;
@@ -790,11 +795,51 @@ span {
   font-family: 'Ubuntu-Light';
   width: 75%; }
 
+.team-acco__content_visible {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75%;
+  font-size: 0.875rem;
+  font-family: 'Ubuntu-Light';
+  margin-left: 0.9375rem;
+  margin-bottom: 0.5rem; }
+
+.team-acco__triger_visible {
+  color: white;
+  font-family: 'Gagalin';
+  padding-top: 0.875rem;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 0.875rem;
+  margin-bottom: 8px; }
+  .team-acco__triger_visible:before {
+    content: "";
+    height: 0;
+    width: 0;
+    border: 0.28125rem solid transparent;
+    border-top-color: #f8b43a;
+    border-bottom-width: 0;
+    margin: 0.5625rem; }
+
 .section__title--team {
   color: #f8b43a;
   padding: 0;
   margin-bottom: 3.125rem;
   font-family: 'Gagalin'; }
+
+.team-acco__text {
+  padding-left: 1.5rem;
+  width: 55%;
+  line-height: 1.3125rem; }
 
 .team-acco__triger {
   color: white;
@@ -815,9 +860,10 @@ span {
     content: "";
     height: 0;
     width: 0;
-    border: 0.5625rem solid transparent;
+    border: 0.28125rem solid transparent;
     border-top-color: #f8b43a;
-    border-bottom-width: 0; }
+    border-bottom-width: 0;
+    margin: 0.5625rem; }
 
 .team-acco__item_active .team-acco__triger {
   color: #e25028; }
@@ -857,7 +903,8 @@ span {
   position: absolute;
   top: 10%;
   left: 10%;
-  color: white; }
+  color: white;
+  padding-top: 1.125rem; }
 
 .menu-acco {
   position: absolute;

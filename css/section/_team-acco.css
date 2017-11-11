@@ -1,3 +1,6 @@
+.team-acco {
+  padding-right: rem(10px); }
+
 .team-acco__item {
   margin-bottom: rem(40px); }
   .team-acco__item:last-child {

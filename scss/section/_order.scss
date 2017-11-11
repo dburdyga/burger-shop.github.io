@@ -6,6 +6,10 @@
   font-family: 'Ubuntu-Medium';
 }
 
+.order__container {
+min-height: rem(650px);
+}
+
 
 .order {
   background: url("../img/bg/order-bg.png") 50% no-repeat;

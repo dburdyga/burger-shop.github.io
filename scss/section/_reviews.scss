@@ -1,8 +1,10 @@
 .reviews {
   background: #000;
   height:100vh;
-  
+  min-height: rem(650px);
 }
+
+ 
 
 .reviews__list {
   width: 100%;
@@ -87,8 +89,9 @@
 .review__shorttext {
   color: #ffffff;
   font-size: rem(14px);
- font-family: 'ubuntu';
-  margin-bottom: rem(13px);
+  font-family: 'Ubuntu-Light';
+  margin-bottom: rem(14px);
+ line-height: 1.6rem;
 
   @include phones {
     display: none;
