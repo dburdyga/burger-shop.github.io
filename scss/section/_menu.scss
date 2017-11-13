@@ -42,6 +42,23 @@
 
 
 
+
+.menu-acco__item_active {
+
+  .menu-acco__trigger {
+    color:#e25028;
+  
+    &:before {
+      transform: rotate(-180deg);
+    }
+  }
+
+  .menu-acco__content {
+    display:block;
+  }
+}
+
+
 .menu-acco__trigger {
   width: rem(80px);
   display: block;

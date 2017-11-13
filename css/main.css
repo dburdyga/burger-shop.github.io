@@ -1023,6 +1023,16 @@ span {
   .menu-acco__item.active .menu-acco__trigger-text {
     color: #f8b43a; }
 
+.menu-acco__item_active .menu-acco__trigger {
+  color: #e25028; }
+  .menu-acco__item_active .menu-acco__trigger:before {
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg); }
+
+.menu-acco__item_active .menu-acco__content {
+  display: block; }
+
 .menu-acco__trigger {
   width: 5rem;
   display: block;
