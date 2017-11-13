@@ -995,14 +995,6 @@ span {
   position: relative;
   padding-top: 5.625rem; }
 
-.menu__content {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 21.7%;
-  background: rgba(52, 54, 56, 0.7); }
-
 .menu__container {
   min-height: 40.625rem; }
 

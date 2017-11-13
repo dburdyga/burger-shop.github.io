@@ -83,6 +83,8 @@
    console.log(fireThem)
      */
 
+
+     /*
      function isHtml(path, ext) {
      	var isHtmlOrNot = path.slice(ext.length) === ext
      	return isHtmlOrNot
@@ -91,3 +93,25 @@
      var result = isHtml('/users/download/for_js.html', 'jpeg')
 
      console.log(result)
+       */
+
+       /*
+
+      var array = [3, 13, 74, 14, 66, 15, 22, 4]
+
+      var evenArray = [];
+
+      for (var i = 0; i < array.length; i++) {
+      	var currentNumber = array[i];
+
+      	if (isEven(currentNumber)) {
+      		evenArray.push(currentNumber)
+      	}
+      }
+
+      function isEven(number) {
+      	return number % 2 === 0
+      }
+
+   
+      console.log(evenArray);
