@@ -28,7 +28,7 @@
 
 .menu-acco__item  {
   height: 100%;
-      margin-top: rem(60px);
+  margin-top: rem(60px);
     margin: rem(12px);
 
   &.active {
@@ -37,6 +37,10 @@
     }
   }
 }
+
+
+
+
 
 .menu-acco__trigger {
   width: rem(80px);
@@ -57,7 +61,7 @@
   position: absolute;
   transform: rotate(-90deg) translateY(-50%);
   transform-origin: 0 0;
-  left: 50%;
+   
   top: 100%;
   margin-top: rem(-20px);
   padding-top: rem(33px);
