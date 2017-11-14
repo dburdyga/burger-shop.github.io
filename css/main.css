@@ -1369,7 +1369,7 @@ span {
   transition: left 1s;
   position: relative; }
 
-.button {
+.buttons {
   -webkit-transition: left 1s;
   -o-transition: left 1s;
   transition: left 1s;
