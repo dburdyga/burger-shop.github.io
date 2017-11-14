@@ -2,7 +2,7 @@ var block = document.getElementById('block')
 var button = document.getElementById('button')
 
 button.addEventListener('click', function()) {
-    block.classList.add('active')
+    block.classList.add('open')
 })
 
 
