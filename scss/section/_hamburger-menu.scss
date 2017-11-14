@@ -51,3 +51,17 @@
 		transition: fill .3s;
 	}
 }
+
+.block {
+	transition: left 1s;
+	position:relative;
+}
+
+.button {
+ transition: left 1s;	
+ position:relative;
+}
+
+.active {
+	left: 40px;
+}

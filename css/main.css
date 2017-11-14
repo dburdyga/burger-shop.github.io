@@ -1363,6 +1363,21 @@ span {
     -o-transition: fill .3s;
     transition: fill .3s; }
 
+.block {
+  -webkit-transition: left 1s;
+  -o-transition: left 1s;
+  transition: left 1s;
+  position: relative; }
+
+.button {
+  -webkit-transition: left 1s;
+  -o-transition: left 1s;
+  transition: left 1s;
+  position: relative; }
+
+.active {
+  left: 40px; }
+
 .nav__list {
   width: 100%;
   display: -webkit-box;

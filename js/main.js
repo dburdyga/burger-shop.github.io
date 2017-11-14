@@ -1,3 +1,12 @@
+var block = document.getElementById('block')
+var button = document.getElementById('button')
+
+button.addEventListener('click', function()) {
+    block.classList.add('active')
+})
+
+
+
 ymaps.ready(init);
 
 var placemarks = [
