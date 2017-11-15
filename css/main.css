@@ -160,26 +160,6 @@ h6 {
       text-align: center;
       padding: 0 20%; } }
 
-.hero__container {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding-bottom: 15%; }
-
 .section__title {
   color: #f8b43a;
   font-size: 4.0625rem;
@@ -1045,46 +1025,42 @@ span {
   align-items: center; }
 
 .menu__container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   min-height: 40.625rem;
-  margin: 0 auto;
-  position: relative;
-  max-width: 58.75rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
-  flex-direction: column; }
-
-.container {
+  flex-direction: column;
+  -webkit-box-pack: right;
+  -webkit-justify-content: right;
+  -ms-flex-pack: right;
+  justify-content: right;
   margin: 0 auto;
-  position: relative;
-  max-width: 58.75rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column; }
+  position: relative; }
 
 .menu__content {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: end;
-  -ms-flex-pack: end;
-  justify-content: end;
-  height: 100%;
-  min-height: 40.625rem;
-  position: absolute; }
+  min-height: 40.625rem; }
+  @media screen and (max-width: 768px) {
+    .menu__content {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20%; } }
 
 .menu__title {
   position: relative;
@@ -1093,15 +1069,15 @@ span {
   color: white; }
 
 .menu-acco {
+  position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: end;
-  -ms-flex-pack: end;
-  justify-content: end;
-  right: 0;
+  -webkit-box-pack: right;
+  -webkit-justify-content: right;
+  -ms-flex-pack: right;
+  justify-content: right;
   top: 0;
   bottom: 0;
   height: 100%;
@@ -1114,26 +1090,23 @@ span {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: end;
-  -ms-flex-pack: end;
-  justify-content: end;
-  right: 0;
+  -webkit-box-pack: right;
+  -webkit-justify-content: right;
+  -ms-flex-pack: right;
+  justify-content: right;
   top: 0;
   bottom: 0; }
   .menu-acco__item.active .menu-acco__trigger-text {
     color: #f8b43a;
     height: 100%;
-    min-height: 40.625rem;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
-    -webkit-justify-content: end;
-    -ms-flex-pack: end;
-    justify-content: end;
-    right: 0;
+    -webkit-box-pack: right;
+    -webkit-justify-content: right;
+    -ms-flex-pack: right;
+    justify-content: right;
     top: 0;
     bottom: 0; }
 
@@ -1144,25 +1117,23 @@ span {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: end;
-  -ms-flex-pack: end;
-  justify-content: end;
-  right: 0;
+  -webkit-box-pack: right;
+  -webkit-justify-content: right;
+  -ms-flex-pack: right;
+  justify-content: right;
   top: 0;
   bottom: 0; }
   .menu-acco__item_active .menu-acco__trigger {
     color: #e25028;
     height: 100%;
-    min-height: 40.625rem;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
-    -webkit-justify-content: end;
-    -ms-flex-pack: end;
-    justify-content: end; }
+    -webkit-box-pack: right;
+    -webkit-justify-content: right;
+    -ms-flex-pack: right;
+    justify-content: right; }
     .menu-acco__item_active .menu-acco__trigger:before {
       -webkit-transform: rotate(-180deg);
       -ms-transform: rotate(-180deg);
@@ -1172,21 +1143,17 @@ span {
 
 .menu-acco__trigger {
   width: 5rem;
+  min-height: 40.625rem;
+  float: left;
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 100%;
-  float: left;
-  position: relative;
-  height: 100%;
-  min-height: 40.625rem;
-  display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: end;
-  -ms-flex-pack: end;
-  justify-content: end;
-  right: 0;
+  -webkit-box-pack: right;
+  -webkit-justify-content: right;
+  -ms-flex-pack: right;
+  justify-content: right;
   top: 0;
   bottom: 0;
   background-size: cover;
@@ -1202,10 +1169,10 @@ span {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: end;
-  -ms-flex-pack: end;
-  justify-content: end;
+  -webkit-box-pack: right;
+  -webkit-justify-content: right;
+  -ms-flex-pack: right;
+  justify-content: right;
   top: 0;
   bottom: 0;
   font-size: 2.5rem;
@@ -1220,27 +1187,6 @@ span {
   -ms-transform-origin: 0 0;
   transform-origin: 0 0;
   top: 100%; }
-
-.menu-acco__content {
-  height: 100%;
-  float: left;
-  background: rgba(47, 50, 52, 0.93);
-  width: 0;
-  overflow: hidden;
-  height: 100%;
-  min-height: 40.625rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: end;
-  -ms-flex-pack: end;
-  justify-content: end;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  display: flex; }
 
 .menu-acco__text {
   font-family: 'ubuntu';

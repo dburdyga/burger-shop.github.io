@@ -7,33 +7,27 @@
 }
 
 .menu__container {
-  min-height: rem(650px);
-   margin: 0 auto;
-  position: relative;
+display: flex;
+min-height: rem(650px);
+flex-direction: column;
+justify-content: right;
+margin: 0 auto;
+position: relative;
 
-  max-width: rem(940px);
-  display: flex;
-  flex-direction: column;
 }
 
 
-.container {
-  margin: 0 auto;
-  position: relative;
-
-  max-width: rem(940px);
-  display: flex;
-  flex-direction: column;
-}
 
 
 
 .menu__content {
-  display:flex;
-  justify-content: end; 
-  height: 100%;
-  min-height: rem(650px);
-  position: absolute;
+   display: flex;
+    min-height: rem(650px);
+  @include tablets {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20%;}
     
 }
 
@@ -48,9 +42,9 @@
  
 
 .menu-acco {
+  position:absolute;
   display:flex;
-  justify-content: end; 
-  right: 0;
+  justify-content: right; 
   top: 0;
   bottom: 0;
  
@@ -62,8 +56,8 @@
   height: 100%;
   min-height: rem(650px);
    display:flex;
-  justify-content: end; 
-  right: 0;
+  justify-content: right; 
+
   top: 0;
   bottom: 0;
 
@@ -71,10 +65,12 @@
     .menu-acco__trigger-text {
       color: $yellow;
        height: 100%;
-  min-height: rem(650px);
+  
+
    display:flex;
-  justify-content: end; 
-  right: 0;
+  justify-content: right; 
+
+
   top: 0;
   bottom: 0;
     }
@@ -90,17 +86,17 @@
    height: 100%;
   min-height: rem(650px);
    display:flex;
-  justify-content: end; 
-  right: 0;
+  justify-content: right;  
+
+
   top: 0;
   bottom: 0;
 
   .menu-acco__trigger {
   color:#e25028;
   height: 100%;
-  min-height: rem(650px);
   display:flex;
-  justify-content: end; 
+  justify-content: right;  
  
   
     &:before {
@@ -116,32 +112,24 @@
 
 .menu-acco__trigger {
   width: rem(80px);
-  display:flex;
-  height: 100%;
+  min-height: rem(650px);
   float: left;    
   position: relative;
+  display:flex;
+ justify-content: right; 
 
-
- height: 100%;
-  min-height: rem(650px);
-   display:flex;
-  justify-content: end; 
-  right: 0;
   top: 0;
   bottom: 0;
-
   @include cover;
   text-decoration: none;
   position: relative;
-
-
 }
 
 .menu-acco__trigger-text {
 padding-left: 30px;
 position: absolute;
   display:flex;
-  justify-content: end; 
+  justify-content: right; 
   top:0;
   bottom: 0;
   font-size: rem(40px);
@@ -156,24 +144,7 @@ position: absolute;
  
 }
 
-.menu-acco__content{
-  height: 100%;
-  float: left;
-  background: rgba(#2f3234, .93);
-  width: 0;
-  overflow: hidden;
-  
- height: 100%;
-  min-height: rem(650px);
-   display:flex;
-  justify-content: end; 
-  right: 0;
-  top: 0;
-  bottom: 0;
-
-
-  display: flex;
-}
+ 
 
 .menu-acco__text  {
   
