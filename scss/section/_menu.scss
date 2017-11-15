@@ -1,14 +1,40 @@
 .menu {
   background: url('../img/bg/menu/menu-bg.png') 50% no-repeat;
   background-size: cover;
-  position: relative;
-  padding-top: rem(90px);
-
+  display: flex;
+  align-items: center;
+  position:relative;
+  
 }
 
 .menu__container {
   min-height: rem(650px);
-   
+   margin: 0 auto;
+  position: relative;
+
+  max-width: rem(940px);
+  display: flex;
+  flex-direction: column;
+}
+
+
+.container {
+  margin: 0 auto;
+  position: relative;
+
+  max-width: rem(940px);
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.menu__content {
+  display:flex;
+  justify-content: end; 
+  height: 100%;
+  min-height: rem(650px);
+    
 }
 
 .menu__title {
@@ -19,11 +45,7 @@
   padding-top: rem(18px);
 }
 
-.menu__content {
-  display:flex;
-  justify-content: end; 
-  min-height: rem(650px);
-}
+ 
 
 .menu-acco {
   display:flex;
@@ -31,17 +53,30 @@
   right: 0;
   top: 0;
   bottom: 0;
-    height: 100%;
-  padding-bottom: rem(220px);
+ 
+  height: 100%;
+  min-height: rem(650px);
 }
 
 .menu-acco__item  {
   height: 100%;
- 
+  min-height: rem(650px);
+   display:flex;
+  justify-content: end; 
+  right: 0;
+  top: 0;
+  bottom: 0;
 
   &.active {
     .menu-acco__trigger-text {
       color: $yellow;
+       height: 100%;
+  min-height: rem(650px);
+   display:flex;
+  justify-content: end; 
+  right: 0;
+  top: 0;
+  bottom: 0;
     }
   }
 }
@@ -52,10 +87,23 @@
 
 
 .menu-acco__item_active {
-  display:flex;
+   height: 100%;
+  min-height: rem(650px);
+   display:flex;
+  justify-content: end; 
+  right: 0;
+  top: 0;
+  bottom: 0;
 
   .menu-acco__trigger {
     color:#e25028;
+     height: 100%;
+  min-height: rem(650px);
+   display:flex;
+  justify-content: end; 
+  right: 0;
+  top: 0;
+  bottom: 0;
   
     &:before {
       transform: rotate(-180deg);
@@ -73,6 +121,16 @@
   display:flex;
   height: 100%;
   float: left;
+
+
+ height: 100%;
+  min-height: rem(650px);
+   display:flex;
+  justify-content: end; 
+  right: 0;
+  top: 0;
+  bottom: 0;
+  
   @include cover;
   text-decoration: none;
   position: relative;
@@ -83,6 +141,17 @@
 .menu-acco__trigger-text {
 display: flex;
 justify-content: end;
+
+ height: 100%;
+  min-height: rem(650px);
+   display:flex;
+  justify-content: end; 
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+
+
 
   font-size: rem(40px);
   color: #fff;
@@ -107,6 +176,15 @@ justify-content: end;
   width: 0;
   overflow: hidden;
   
+ height: 100%;
+  min-height: rem(650px);
+   display:flex;
+  justify-content: end; 
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+
   display: flex;
 }
 
