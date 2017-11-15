@@ -1194,6 +1194,7 @@ span {
   position: relative; }
 
 .menu-acco__trigger-text {
+  padding-left: 30px;
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;

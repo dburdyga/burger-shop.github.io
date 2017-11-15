@@ -140,25 +140,20 @@
 }
 
 .menu-acco__trigger-text {
-
+padding-left: 30px;
 position: absolute;
-
   display:flex;
   justify-content: end; 
-  
   top:0;
   bottom: 0;
-
   font-size: rem(40px);
   color: #fff;
   font-family: 'gagalin';
   text-align: center;
   white-space: nowrap;
-   
   transform: rotate(-90deg) translateY(-50%);
   transform-origin: 0 0;
  
-   
   top: 100%;
  
 }
