@@ -3,7 +3,6 @@
   background-size: cover;
   display: flex;
   align-items: center;
-  position:relative;
   
 }
 
@@ -34,15 +33,16 @@
   justify-content: end; 
   height: 100%;
   min-height: rem(650px);
+  position: absolute;
     
 }
 
 .menu__title {
-  position: absolute;
-  top: 10%;
+  position: relative;
+  padding-bottom: rem(280px);
   left: 10%;
   color:white;
-  padding-top: rem(18px);
+   
 }
 
  
@@ -120,7 +120,8 @@
   width: rem(80px);
   display:flex;
   height: 100%;
-  float: left;
+  float: left;    
+  position: relative;
 
 
  height: 100%;
@@ -130,7 +131,7 @@
   right: 0;
   top: 0;
   bottom: 0;
-  
+
   @include cover;
   text-decoration: none;
   position: relative;
@@ -139,19 +140,14 @@
 }
 
 .menu-acco__trigger-text {
-display: flex;
-justify-content: end;
 
- height: 100%;
-  min-height: rem(650px);
-   display:flex;
+position: absolute;
+
+  display:flex;
   justify-content: end; 
-  right: 0;
-  top: 0;
+  
+  top:0;
   bottom: 0;
-
-
-
 
   font-size: rem(40px);
   color: #fff;
@@ -164,9 +160,7 @@ justify-content: end;
  
    
   top: 100%;
-  margin-top: rem(-20px);
-  padding-top: rem(33px);
-  padding-bottom: rem(10px);
+ 
 }
 
 .menu-acco__content{
