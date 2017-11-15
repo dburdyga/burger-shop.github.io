@@ -1,8 +1,6 @@
 .order-link {
   width: 15%;
-  
   margin-left: 2%;
-   
   font-family: 'Ubuntu-Medium';
 }
 
@@ -91,10 +89,15 @@ padding-top: rem(70px);
 height: 6.8rem;
 resize: none;
 width: rem(458px);
+@include phones {
+    width: 100%;
+    margin-left: 0;
+  }
+
  @include tablets {
 
-width: 26.2rem; }
- 
+width: 100%; }
+margin-left: 0;
   
 }
 

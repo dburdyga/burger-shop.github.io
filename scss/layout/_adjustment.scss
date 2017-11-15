@@ -13,17 +13,18 @@
 .container {
   margin: 0 auto;
   position: relative;
-  width: 95%;
-  width: rem(940px);
+
+  max-width: rem(940px);
   display: flex;
   flex-direction: column;
-  min-height: rem(650px);
 }
+
+
 
 
 .section {
   min-height: 100vh;
-  min-width: rem(940px);
+
   background-color: rgba(0,0,0,0.31);
 }
 

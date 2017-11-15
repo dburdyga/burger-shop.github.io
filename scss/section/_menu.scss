@@ -3,10 +3,12 @@
   background-size: cover;
   position: relative;
   padding-top: rem(90px);
+
 }
 
 .menu__container {
   min-height: rem(650px);
+   
 }
 
 .menu__title {
@@ -17,19 +19,25 @@
   padding-top: rem(18px);
 }
 
+.menu__content {
+  display:flex;
+  justify-content: end; 
+  min-height: rem(650px);
+}
+
 .menu-acco {
-  position: absolute;
+  display:flex;
+  justify-content: end; 
   right: 0;
   top: 0;
   bottom: 0;
-  display: flex;
+    height: 100%;
   padding-bottom: rem(220px);
 }
 
 .menu-acco__item  {
   height: 100%;
-  margin-top: rem(60px);
-    margin: rem(12px);
+ 
 
   &.active {
     .menu-acco__trigger-text {
@@ -44,6 +52,7 @@
 
 
 .menu-acco__item_active {
+  display:flex;
 
   .menu-acco__trigger {
     color:#e25028;
@@ -61,23 +70,29 @@
 
 .menu-acco__trigger {
   width: rem(80px);
-  display: block;
+  display:flex;
   height: 100%;
   float: left;
   @include cover;
   text-decoration: none;
   position: relative;
+
+
 }
 
 .menu-acco__trigger-text {
+display: flex;
+justify-content: end;
+
   font-size: rem(40px);
   color: #fff;
   font-family: 'gagalin';
   text-align: center;
   white-space: nowrap;
-  position: absolute;
+   
   transform: rotate(-90deg) translateY(-50%);
   transform-origin: 0 0;
+ 
    
   top: 100%;
   margin-top: rem(-20px);
@@ -91,9 +106,12 @@
   background: rgba(#2f3234, .93);
   width: 0;
   overflow: hidden;
+  
+  display: flex;
 }
 
 .menu-acco__text  {
+  
   font-family: 'ubuntu';
   font-size: rem(14px);
   color: #fff;
