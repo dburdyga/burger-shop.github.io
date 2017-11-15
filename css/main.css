@@ -726,7 +726,6 @@ span {
 .order__form-input_textarea {
   height: 6.8rem;
   resize: none;
-  width: 28.625rem;
   margin-left: 0; }
   @media screen and (max-width: 480px) {
     .order__form-input_textarea {

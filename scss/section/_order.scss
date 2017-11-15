@@ -89,7 +89,7 @@ padding-top: rem(70px);
 .order__form-input_textarea {
 height: 6.8rem;
 resize: none;
-width: rem(458px);
+ 
 @include phones {
     width: 100%;
     margin-left: 0;
