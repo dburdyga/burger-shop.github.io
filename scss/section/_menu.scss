@@ -96,14 +96,12 @@
   bottom: 0;
 
   .menu-acco__trigger {
-    color:#e25028;
-     height: 100%;
+  color:#e25028;
+  height: 100%;
   min-height: rem(650px);
-   display:flex;
+  display:flex;
   justify-content: end; 
-  right: 0;
-  top: 0;
-  bottom: 0;
+ 
   
     &:before {
       transform: rotate(-180deg);

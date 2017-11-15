@@ -1162,10 +1162,7 @@ span {
     -webkit-box-pack: end;
     -webkit-justify-content: end;
     -ms-flex-pack: end;
-    justify-content: end;
-    right: 0;
-    top: 0;
-    bottom: 0; }
+    justify-content: end; }
     .menu-acco__item_active .menu-acco__trigger:before {
       -webkit-transform: rotate(-180deg);
       -ms-transform: rotate(-180deg);
