@@ -3,15 +3,14 @@
   background-size: cover;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   
 }
 
 .menu__container {
 display: flex;
 min-height: rem(650px);
-flex-direction: column;
-justify-content: flex-end; 
-position: relative;
+
 }
 
 
@@ -36,7 +35,7 @@ position: relative;
  
 .menu-acco {
   display:flex;
-  justify-content: flex-end; 
+ 
   top: 0;
   bottom: 0;
   height: 100%;
@@ -46,8 +45,7 @@ position: relative;
 .menu-acco__item  {
   height: 100%;
   min-height: rem(650px);
-  display:flex;
-  justify-content: flex-end; 
+   
   top: 0;
   bottom: 0;
 
@@ -56,8 +54,7 @@ position: relative;
       color: $yellow;
        height: 100%;
 
-  display:flex;
-  justify-content: flex-end; 
+   
   top: 0;
   bottom: 0;
     }
@@ -68,8 +65,7 @@ position: relative;
 .menu-acco__item_active {
   height: 100%;
   min-height: rem(650px);
-  display:flex;
-  justify-content: flex-end; 
+   
   top: 0;
   bottom: 0;
 
@@ -105,7 +101,8 @@ position: relative;
 .menu-acco__trigger-text {
  padding-left: 30px;
 
-
+ display:flex;
+justify-content: flex-end;
    
   top:0;
   bottom: 0;
