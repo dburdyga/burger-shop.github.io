@@ -1029,17 +1029,9 @@ span {
   justify-content: flex-end; }
 
 .menu__container {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   min-height: 40.625rem; }
 
 .menu__content {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   min-height: 40.625rem; }
   @media screen and (max-width: 768px) {
     .menu__content {
@@ -1052,8 +1044,7 @@ span {
       -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center;
-      text-align: center;
-      padding: 0 20%; } }
+      text-align: center; } }
 
 .menu__title {
   position: absolute;
@@ -1071,22 +1062,19 @@ span {
   height: 100%;
   min-height: 40.625rem; }
 
-.menu-acco__item {
+.menu-acco__item.active .menu-acco__trigger-text {
+  color: #f8b43a;
   height: 100%;
-  min-height: 40.625rem;
   top: 0;
   bottom: 0; }
-  .menu-acco__item.active .menu-acco__trigger-text {
-    color: #f8b43a;
-    height: 100%;
-    top: 0;
-    bottom: 0; }
 
 .menu-acco__item_active {
   height: 100%;
   min-height: 40.625rem;
-  top: 0;
-  bottom: 0; }
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
   .menu-acco__item_active .menu-acco__trigger {
     color: #e25028;
     height: 100%; }
@@ -1100,28 +1088,19 @@ span {
 .menu-acco__trigger {
   width: 5rem;
   min-height: 40.625rem;
-  float: left;
   position: relative;
   top: 0;
   bottom: 0;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  text-decoration: none;
-  position: relative; }
+  text-decoration: none; }
 
 .menu-acco__trigger-text {
-  padding-left: 30px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  top: 0;
-  bottom: 0;
   font-size: 2.5rem;
   color: #fff;
   font-family: 'gagalin';
@@ -1132,8 +1111,7 @@ span {
   transform: rotate(-90deg) translateY(-50%);
   -webkit-transform-origin: 0 0;
   -ms-transform-origin: 0 0;
-  transform-origin: 0 0;
-  top: 100%; }
+  transform-origin: 0 0; }
 
 .menu-acco__text {
   font-family: 'ubuntu';
