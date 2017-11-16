@@ -49,15 +49,12 @@
 
 .hero__right {
   padding-top: rem(115px);
+  padding-left: rem(8px);
   @include tablets() {
     padding-top: 0;
   }
 }
 
-.hero__right {
-      padding-top: 8.5rem;
-      padding-left: rem(8px);
-}
 
 .hero__desc {
   font-size: rem(65px);

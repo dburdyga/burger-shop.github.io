@@ -49,18 +49,49 @@ margin: rem(20px);
 .best__icon-pic_natural {
   fill:#8ac03e;
   width: rem(97px);
+  @include tablets {
+      flex:1;
+    width:65%;
+    height: 55%;
+   float:left;
+
+  }
 }
 
 .best__icon-pic_hand {
  fill:#f8b43a;
  width: rem(80px);
+ @include tablets {
+       flex:1;
+    width:65%;
+    height:65%;
+   float:left;
+
+  }
 }
 
 .best__icon-pic_meat {
   fill:#e25028;
-  width: rem(97px);
+  
+    width: rem(97px);
+   @include tablets {
+
+    flex:1;
+  width:65%;
+    height:65%;
+   float:left;
+
+  }
 }
 
+.best_block {
+  @include tablets {
+    flex:2;
+    width:80%;
+    float:left;
+    text-align:left;
+  }
+}
 
 .best__item {
   width: 45%;
@@ -70,10 +101,14 @@ margin: rem(20px);
    @include phones {
     flex-direction: row;
   }
+
+  @include tablets {
+    display:flex;
+    flex-direction: row;
+    width:100%;
+  }
   
 
-  &:last-child {
-  margin-right: 0;
-  }
+  
 }
 
