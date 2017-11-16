@@ -1,9 +1,13 @@
 var block = document.getElementById('block')
 var button = document.getElementById('button')
 
-button.addEventListener('click', function()) {
-    block.classList.add('open')
-})
+$(document).ready(function(){
+    $("button").click(function(){
+        $("block").slideToggle();
+    });
+});
+
+
 
 
 
