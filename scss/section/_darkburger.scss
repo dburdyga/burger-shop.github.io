@@ -60,10 +60,12 @@ display: flex;
   @include tablets() {
     float: none;
     width: auto;
+    text-align: center;
   }
 
   @include phones {
-    flex-direction: column; 
+    flex-direction: column;
+    text-align: center; 
  }
 }
 
@@ -74,10 +76,12 @@ display: flex;
    
   @include tablets {
     text-align: center;
+
   }
 
   @include phones {
     flex-direction: column; 
+    text-align: center;
 }
 
 }
@@ -88,21 +92,25 @@ display: flex;
   padding: 0;
   font-family: 'Gagalin';
   display:block;
-  text-align: left;
   
   padding-top: 4.8rem;
   margin-bottom: rem(24px);
-   
-  line-height: 4.3rem;
-}
+  line-height: 4.3rem; }
+
 
 span {
   font-size: rem(72px);
 
-
+   @include tablets {
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+    @include phones {
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
 }
-
-
+ 
 
 .img_darkburger {
   padding-top: rem(160px);
@@ -122,8 +130,7 @@ span {
    }
 }
 
-
-
+ 
 
 
 .darkburger__description {
@@ -137,7 +144,10 @@ width: 100%;
 text-align: left;
 
  @include tablets {
-  width: 92%; }
+  width: 92%;
+  flex-direction: column;
+    align-items: center;
+    text-align: center; }
 }
 
 
@@ -155,6 +165,16 @@ flex:1;
 width:50%;
  
 box-sizing: border-box;
+
+ @include tablets {
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+    @include phones {
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+
 }
 
 .order-link_darkburger {
