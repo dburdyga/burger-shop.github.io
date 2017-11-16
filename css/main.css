@@ -495,10 +495,19 @@ h6 {
   padding-bottom: 15%; }
 
 .darkburger__content {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
   @media screen and (max-width: 768px) {
     .darkburger__content {
       -webkit-box-orient: vertical;
@@ -510,7 +519,23 @@ h6 {
       -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center;
-      text-align: center; } }
+      text-align: center;
+      width: 100%;
+      padding: 0; } }
+  @media screen and (max-width: 480px) {
+    .darkburger__content {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      padding: 0; } }
 
 .block_darkburger_left,
 .block_darkburger_right {
@@ -532,11 +557,6 @@ h6 {
 
 @media screen and (max-width: 768px) {
   .block_darkburger_right {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
     text-align: center; } }
 
 @media screen and (max-width: 480px) {
@@ -552,10 +572,9 @@ h6 {
   padding: 0;
   font-family: 'Gagalin';
   display: block;
-  max-width: 75%;
+  text-align: center;
   padding-top: 4.8rem;
   margin-bottom: 1.5rem;
-  padding-left: 0.5rem;
   line-height: 4.3rem; }
 
 span {
@@ -582,20 +601,18 @@ span {
       -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center;
-      text-align: center;
-      margin-right: 7.5rem; } }
+      text-align: center; } }
 
 .darkburger__description {
   font-family: 'Ubuntu';
   font-size: 0.875rem;
   display: block;
   line-height: 1.7rem;
-  width: 75%;
   color: #ffffff;
   display: block; }
   @media screen and (max-width: 768px) {
     .darkburger__description {
-      width: 90%; } }
+      width: 95%; } }
 
 .darkburger_button {
   display: inline-block; }
