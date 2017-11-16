@@ -76,8 +76,7 @@ position: relative;
   .menu-acco__trigger {
   color:#e25028;
   height: 100%;
-  display:flex;
-  justify-content: flex-end; 
+  
   
     &:before {
       transform: rotate(-180deg);
@@ -95,8 +94,7 @@ position: relative;
   min-height: rem(650px);
   float: left;    
   position: relative;
-  display:flex;
-  justify-content: flex-end; 
+   
   top: 0;
   bottom: 0;
   @include cover;
@@ -108,8 +106,7 @@ position: relative;
  padding-left: 30px;
 
 
-  display:flex;
-  justify-content: flex-end; 
+   
   top:0;
   bottom: 0;
   font-size: rem(40px);
