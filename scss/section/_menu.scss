@@ -15,7 +15,7 @@ min-height: rem(650px);
 
 .menu__content {
   
-    min-height: rem(650px);
+    height: 100vh;
   @include tablets {
     flex-direction: column;
     align-items: center;
@@ -81,9 +81,10 @@ min-height: rem(650px);
 .menu-acco__trigger {
   width: rem(80px);
   min-height: rem(650px);
- 
+  float: left;
   position: relative;
-   
+  display: block; 
+
   top: 0;
   bottom: 0;
   @include cover;
@@ -91,8 +92,16 @@ min-height: rem(650px);
    
 }
 
+
+
+ 
+
+
 .menu-acco__trigger-text {
- display:flex;
+ position:absolute;
+ left: 50%;
+ top: 100%;
+ margin-top: rem(-45px);
 
   font-size: rem(40px);
   color: #fff;
