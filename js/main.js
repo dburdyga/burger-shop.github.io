@@ -9,6 +9,13 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $(".header__menu").toggleClass('header__menu--visible');
+    $(".hamburger-menu-link").click(function(){
+        console.log('ok')
+        // $(".nav").toggleClass('nav--visible');
+    });
+});
 
 
 
