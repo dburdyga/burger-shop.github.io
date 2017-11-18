@@ -316,8 +316,8 @@ h6 {
       -webkit-flex: 1;
       -ms-flex: 1;
       flex: 1;
-      width: 65%;
-      height: 55%;
+      width: 10.063rem;
+      height: 5.063rem;
       float: left; } }
 
 .best__icon-pic_hand {
@@ -329,8 +329,8 @@ h6 {
       -webkit-flex: 1;
       -ms-flex: 1;
       flex: 1;
-      width: 65%;
-      height: 65%;
+      width: 10.063rem;
+      height: 5.063rem;
       float: left; } }
 
 .best__icon-pic_meat {
@@ -342,8 +342,8 @@ h6 {
       -webkit-flex: 1;
       -ms-flex: 1;
       flex: 1;
-      width: 65%;
-      height: 65%;
+      width: 10.063rem;
+      height: 5.063rem;
       float: left; } }
 
 @media screen and (max-width: 768px) {

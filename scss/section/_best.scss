@@ -50,10 +50,10 @@ margin: rem(20px);
   fill:#8ac03e;
   width: rem(97px);
   @include tablets {
-      flex:1;
-    width:65%;
-    height: 55%;
-   float:left;
+  flex:1;
+  width: 10.063rem;
+  height: 5.063rem;
+  float:left;
 
   }
 }
@@ -63,8 +63,8 @@ margin: rem(20px);
  width: rem(80px);
  @include tablets {
        flex:1;
-    width:65%;
-    height:65%;
+    width: 10.063rem;
+  height: 5.063rem;
    float:left;
 
   }
@@ -77,8 +77,8 @@ margin: rem(20px);
    @include tablets {
 
     flex:1;
-  width:65%;
-    height:65%;
+width: 10.063rem;
+  height: 5.063rem;
    float:left;
 
   }
