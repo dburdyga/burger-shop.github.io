@@ -5,10 +5,16 @@
 
   &--visible {
     display:block;
+    padding-top: rem(53px);
+     
    .nav__list {
    	display:block;
-   	width:100%;
-   	 list-style-type: circle;
+   	width:100%; 
+   	list-style-type: circle;
+   }
+   .nav__link{
+   	 font-size:24px;
+   	 font-family: 'ubuntu';
    }
    .nav__item {
    	text-align:center;
@@ -19,6 +25,10 @@
 		content: "";
 		margin: 0px; 
 
+	}
+
+	&--close {
+	display:none;
 	}
 
    }

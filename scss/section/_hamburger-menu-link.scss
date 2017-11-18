@@ -11,9 +11,23 @@
 
    
  &--visible {
-    display:none; }
- 
+  display:none;
+    z-index:1;
+ }
 }
+
+.hamburger-menu-link_img {
+
+display:none;
+&--visible {
+	z-index:1; 
+	display:block;
+}	
+ 
+ 
+
+}
+
 
 .hamburger-menu-link__bars {
 	&, &:before, &:after {

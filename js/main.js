@@ -2,51 +2,47 @@
 // var button = document.getElementById('button')
 
 $(document).ready(function(){
+    // $(".nav").toggleClass('nav--visible');
+    $(".hamburger-menu-link").click(function(){
+    $(".hamburger-menu-link_img").toggleClass('hamburger-menu-link_img--visible')
     $(".nav").toggleClass('nav--visible');
-    $(".hamburger-menu-link").click(function(){
-        console.log('ok')
-        // $(".nav").toggleClass('nav--visible');
     });
 });
 
 $(document).ready(function(){
-    $(".header__menu").toggleClass('header__menu--visible');
+    
     $(".hamburger-menu-link").click(function(){
         console.log('ok')
-        // $(".nav").toggleClass('nav--visible');
+         $(".header__menu").toggleClass('header__menu--visible');
     });
 });
 
 
 $(document).ready(function(){
-    $(".hero__img").toggleClass('hero__img--visible');
     $(".hamburger-menu-link").click(function(){
         console.log('ok')
-        // $(".nav").toggleClass('nav--visible');
+           $(".header__logo ").toggleClass('header__logo--visible');
     });
 });
 
 
 
-$(document).ready(function(){
-    $(".header__logo ").toggleClass('header__logo--visible');
-    $(".hamburger-menu-link").click(function(){
-        console.log('ok')
-        // $(".nav").toggleClass('nav--visible');
-    });
-});
-
-
-
+// $(document).ready(function(){
+//     $(".nav").toggleClass('nav--close');
+//     $(".hamburger-menu-link_img").click(function(){
+       
+//         $(".nav").closest('nav--close');
+//     });
+// });
  
-$(document).ready(function(){
-    $(".nav__item ").toggleClass('.nav__item--visible');
-    $(".hamburger-menu-link").click(function(){
-        console.log('ok')
-        // $(".nav").toggleClass('nav--visible');
-    });
-});
-
+// $(document).ready(function(){
+    // $(".header__menu").toggleClass('header__menu--close');
+    // $(".hamburger-menu-link_img").click(function(){
+       
+        // $(".header__menu").closest('header__menu--close');
+    // });
+// });
+ 
 
 
 ymaps.ready(init);
