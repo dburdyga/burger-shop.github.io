@@ -12,7 +12,10 @@
 }
 
 .header__logo {
-
+  &--visible {
+    display:block;
+    z-index:2;
+  }
 }
 
 .header__links {
@@ -29,13 +32,23 @@
   
 
   &--visible {
-text-align: left;
+background:#2e3133;
+opacity: 0.95;
+width: 100%;
+max-height: 100%;
+text-align: center;
 margin-right: 0;
 margin-top: 0;
-
 position: absolute;
 right: 0;
-top: 72px;
+top: 0;
+bottom: 0;
+left: 0;
+
+
+z-index:1;
+
+
 
 }
 

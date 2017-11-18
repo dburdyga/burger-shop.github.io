@@ -6,14 +6,27 @@
 	svg {
 		max-width: 95%;
 	}
+
+&--visible {
+		display:block;
+		 
+		visibility: visible }
+
 }
 
 .logo__img {
 	height: rem(75px);
+&--visible {
+		display:block;
+		 
+	visibility: visible}
+
+
 }
 
 .logo__icon {
 	path:nth-child(1) {
 		fill: #e45028;
+
 	}
 }

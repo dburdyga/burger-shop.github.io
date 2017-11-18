@@ -8,6 +8,10 @@
     @include tablets() {
     display: flex;
   }
+
+   
+ &--visible {
+    display:none; }
  
 }
 

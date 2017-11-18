@@ -4,9 +4,15 @@
   z-index: 110; }
   .logo svg {
     max-width: 95%; }
+  .logo--visible {
+    display: block;
+    visibility: visible; }
 
 .logo__img {
   height: rem(75px); }
+  .logo__img--visible {
+    display: block;
+    visibility: visible; }
 
 .logo__icon path:nth-child(1) {
   fill: #e45028; }

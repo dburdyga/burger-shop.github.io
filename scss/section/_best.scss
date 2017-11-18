@@ -87,7 +87,7 @@ width: 10.063rem;
 .best_block {
   @include tablets {
     flex:2;
-    width:80%;
+    width:100%;
     float:left;
     text-align:left;
   }

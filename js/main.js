@@ -18,11 +18,34 @@ $(document).ready(function(){
 });
 
 
+$(document).ready(function(){
+    $(".hero__img").toggleClass('hero__img--visible');
+    $(".hamburger-menu-link").click(function(){
+        console.log('ok')
+        // $(".nav").toggleClass('nav--visible');
+    });
+});
 
 
 
+$(document).ready(function(){
+    $(".header__logo ").toggleClass('header__logo--visible');
+    $(".hamburger-menu-link").click(function(){
+        console.log('ok')
+        // $(".nav").toggleClass('nav--visible');
+    });
+});
 
 
+
+ 
+$(document).ready(function(){
+    $(".nav__item ").toggleClass('.nav__item--visible');
+    $(".hamburger-menu-link").click(function(){
+        console.log('ok')
+        // $(".nav").toggleClass('nav--visible');
+    });
+});
 
 
 

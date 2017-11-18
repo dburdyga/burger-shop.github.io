@@ -8,47 +8,55 @@
    .nav__list {
    	display:block;
    	width:100%;
-   	background:grey; 
-    background-size: cover;
-    
+   	 list-style-type: circle;
+   }
+   .nav__item {
+   	text-align:center;
+  	margin-bottom: -1.687rem;
+  	margin-top: rem(50px);
+  	 list-style-type: circle;
+  	&:after {
+		content: "";
+		margin: 0px; 
+
+	}
+
    }
   }
 }
-
-
-
 
 .nav__list {
   width: 100%;
   display: flex;
   align-items: center;
-
+list-style-type: circle;
 }
 
 
 
 .nav__item {
+	 list-style-type: circle;
 	white-space: nowrap;
 
 	&:last-child {
 		margin-right: 0;
+		  
 		&:after {
 			display: none;
+			  
 		}
 	}
 
 	&:after {
 		content: "";
-		width: 4px;
-		height: 4px;
+		width: rem(4px);
+		height: rem(4px);
 		border-radius: 50%;
 		background: white;
 		margin: 0 12px;
 	}
-  &--visible {
-  	 align-items:right;
-  	text-align:right;
-  }
+
+
 
 }
 
