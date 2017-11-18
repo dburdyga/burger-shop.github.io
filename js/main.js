@@ -27,23 +27,7 @@ $(document).ready(function(){
 
 
 
-// $(document).ready(function(){
-//     $(".nav").toggleClass('nav--close');
-//     $(".hamburger-menu-link_img").click(function(){
-       
-//         $(".nav").closest('nav--close');
-//     });
-// });
  
-// $(document).ready(function(){
-    // $(".header__menu").toggleClass('header__menu--close');
-    // $(".hamburger-menu-link_img").click(function(){
-       
-        // $(".header__menu").closest('header__menu--close');
-    // });
-// });
- 
-
 
 ymaps.ready(init);
 
