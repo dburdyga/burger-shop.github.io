@@ -1,8 +1,31 @@
+.nav {
+	 @include tablets() {
+    display: none;
+  }
+
+  &--visible {
+    display:block;
+   .nav__list {
+   	display:block;
+   	width:100%;
+   	background:grey; 
+    background-size: cover;
+    
+   }
+  }
+}
+
+
+
+
 .nav__list {
-	width: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
+
 }
+
+
 
 .nav__item {
 	white-space: nowrap;
@@ -22,6 +45,11 @@
 		background: white;
 		margin: 0 12px;
 	}
+  &--visible {
+  	 align-items:right;
+  	text-align:right;
+  }
+
 }
 
 .nav__link {

@@ -1,11 +1,19 @@
-var block = document.getElementById('block')
-var button = document.getElementById('button')
+// var hamburger-menu-link = document.getElementById('block')
+// var button = document.getElementById('button')
 
 $(document).ready(function(){
-    $("button").click(function(){
-        $("block").slideToggle();
+    $(".nav").toggleClass('nav--visible');
+    $(".hamburger-menu-link").click(function(){
+        console.log('ok')
+        // $(".nav").toggleClass('nav--visible');
     });
 });
+
+
+
+
+
+
 
 
 

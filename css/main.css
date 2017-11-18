@@ -1547,6 +1547,18 @@ span {
 .active {
   left: 40px; }
 
+@media screen and (max-width: 768px) {
+  .nav {
+    display: none; } }
+
+.nav--visible {
+  display: block; }
+  .nav--visible .nav__list {
+    display: block;
+    width: 100%;
+    background: grey;
+    background-size: cover; }
+
 .nav__list {
   width: 100%;
   display: -webkit-box;
@@ -1571,6 +1583,12 @@ span {
     border-radius: 50%;
     background: white;
     margin: 0 12px; }
+  .nav__item--visible {
+    -webkit-box-align: right;
+    -webkit-align-items: right;
+    -ms-flex-align: right;
+    align-items: right;
+    text-align: right; }
 
 .nav__link {
   font-size: 0.8125rem;
@@ -1627,9 +1645,9 @@ span {
   text-align: right;
   margin-right: 1.25rem;
   margin-top: 1.125rem; }
-  @media screen and (max-width: 768px) {
-    .header__menu {
-      display: none; } }
+  .header__menu--visible {
+    position: absolute;
+    right: 0; }
 
 .burgers {
   background: #f9b43b;

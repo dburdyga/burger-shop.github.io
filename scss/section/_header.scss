@@ -26,8 +26,12 @@
 	text-align: right;
 	margin-right: rem(20px);
   margin-top: rem(18px);
+ 
 
-  @include tablets() {
-    display: none;
-  }
+
+ &--visible {
+  position:absolute;
+  right:0;
+ }
+
 }
