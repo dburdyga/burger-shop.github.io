@@ -1000,8 +1000,7 @@ span {
     display: -ms-flexbox;
     display: flex;
     width: 75%;
-    margin-left: 0.9375rem;
-    margin-bottom: 1.25rem; }
+    margin-left: 0.9375rem; }
   @media screen and (max-width: 768px) {
     .team-acco__content {
       -webkit-box-orient: vertical;
