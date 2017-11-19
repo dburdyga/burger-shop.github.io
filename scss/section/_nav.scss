@@ -19,13 +19,26 @@
    }
    .nav__item {
    	text-align:center;                
-  	margin-top: rem(50px);
-  	  
-  	&:after {
-		content: "";
-		margin: 0px; 
-
-	}
+  	margin-top: rem(30px);
+  	list-style-type:none;
+  	 
+  	 &:after {
+  	 	content: "";
+		width: 0.5rem;
+		height: 0.5rem;
+		border-radius: 100%;
+		background: white;
+		position: absolute;
+		margin-top: rem(51px);
+		right: 11rem;
+  	 }  
+  	 &:last-child {
+  	 	&:after {
+  	 	 
+  	 	visibility: hidden;}
+  	 	  }
+  	
+ 
 
 	&--close {
 	display:none;
@@ -56,8 +69,6 @@
 	&:last-child {
 		margin-right: 0;
 		&:after {
-
-			 
 			  
 		}
 	}
@@ -68,7 +79,7 @@
 		height: rem(4px);
 		border-radius: 100%;
 		background: white;
-		margin: 0 12px;
+		margin: 0 rem(13px);
 	}
 
 }

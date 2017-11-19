@@ -1573,10 +1573,19 @@ span {
     font-family: 'ubuntu'; }
   .nav--visible .nav__item {
     text-align: center;
-    margin-top: 3.125rem; }
+    margin-top: 1.875rem;
+    list-style-type: none; }
     .nav--visible .nav__item:after {
       content: "";
-      margin: 0px; }
+      width: 0.5rem;
+      height: 0.5rem;
+      border-radius: 100%;
+      background: white;
+      position: absolute;
+      margin-top: 3.1875rem;
+      right: 11rem; }
+    .nav--visible .nav__item:last-child:after {
+      visibility: hidden; }
     .nav--visible .nav__item--close {
       display: none; }
 
@@ -1605,7 +1614,7 @@ span {
     height: 0.25rem;
     border-radius: 100%;
     background: white;
-    margin: 0 12px; }
+    margin: 0 0.8125rem; }
 
 .nav__link {
   list-style-type: disc;
