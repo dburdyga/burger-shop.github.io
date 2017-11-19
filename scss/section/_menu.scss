@@ -41,41 +41,62 @@ min-height: rem(650px);
   min-height: rem(650px);
 }
 
-.menu-acco__item  {
+ 
 
-  &.active {
-    .menu-acco__trigger-text {
-      color: $yellow;
-       height: 100%;
-
-   
-  top: 0;
-  bottom: 0;
-    }
-  }
-}
-
-
-.menu-acco__item_active {
+.menu-acco__item {
   height: 100%;
   min-height: rem(650px);
-  display:flex;
+  display:flex; 
+  cursor:pointer;
+
+   &.active {
+    .menu-acco__trigger-text {
+      color: $yellow;
+      height: 100%;
+      top: 0;
+      bottom: 0;
+    }
+  }
  
 
   .menu-acco__trigger {
   color:#e25028;
   height: 100%;
-  
+  cursor:pointer;
   
     &:before {
       transform: rotate(-180deg);
     }
   }
 
-  .menu-acco__content {
-    display:block;
-  }
+
+
+.menu-acco__content {
+  display:none;
+
+&--visible {
+  display:block; 
+  background:#2e3133 no-repeat center center fixed;
+  opacity: 0.95;
+  width: 83%;
 }
+}
+}
+
+.menu-acco__text  {
+  font-family: 'ubuntu';
+  font-size: rem(14px);
+  color: #fff;
+  padding: rem(60px) rem(30px);
+  width: 100%;
+  line-height: 1.8;
+
+  &--visible {
+      display:block;
+   } 
+}
+
+
 
 
 .menu-acco__trigger {
@@ -84,17 +105,12 @@ min-height: rem(650px);
   float: left;
   position: relative;
   display: block; 
-
   top: 0;
   bottom: 0;
   @include cover;
-  text-decoration: none;
-   
+  text-decoration: none;  
 }
 
-
-
- 
 
 
 .menu-acco__trigger-text {
@@ -102,7 +118,6 @@ min-height: rem(650px);
  left: 50%;
  top: 100%;
  margin-top: rem(-45px);
-
   font-size: rem(40px);
   color: #fff;
   font-family: 'gagalin';
@@ -115,14 +130,5 @@ min-height: rem(650px);
 
  
 
-.menu-acco__text  {
-  font-family: 'ubuntu';
-  font-size: rem(14px);
-  color: #fff;
-  padding: rem(60px) rem(30px);
-  width: 100%;
-  line-height: 1.8;
-  display: none;
-}
 
 

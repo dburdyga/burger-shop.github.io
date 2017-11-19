@@ -32,10 +32,11 @@
   
 
   &--visible {
-background:#2e3133;
+background-size: 100%;
+background:#2e3133 no-repeat center center fixed;
 opacity: 0.95;
-width: 100%;
-max-height: 100%;
+min-width:100%;
+min-height:200%;
 text-align: center;
 margin-right: 0;
 margin-top: 0;

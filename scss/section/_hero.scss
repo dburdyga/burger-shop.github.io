@@ -63,7 +63,11 @@
   text-transform: lowercase;
   line-height: 1em;
   letter-spacing: rem(-1px);
-      padding-top: rem(10px);
+  padding-top: rem(10px);
+  @include tablets () {
+    padding-bottom: rem(15px);
+    padding-top: 0; 
+  }
 }
 
 .hero__img {
@@ -87,14 +91,21 @@
   height: rem(60px);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
+
+ 
   &:hover {
     .down-arrow__icon {
       margin-top: rem(-15px);
       width: rem(45px);
       height: rem(45px);
     }
-  }
+ 
+
+
+
+ 
+ }
 }
 
 .down-arrow__icon {

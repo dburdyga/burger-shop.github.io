@@ -201,6 +201,10 @@ h6 {
   line-height: 1em;
   letter-spacing: -0.0625rem;
   padding-top: 0.625rem; }
+  @media screen and (max-width: 768px) {
+    .hero__desc {
+      padding-bottom: 0.9375rem;
+      padding-top: 0; } }
 
 .hero__img {
   display: inline-block;
@@ -1183,27 +1187,43 @@ span {
   height: 100%;
   min-height: 40.625rem; }
 
-.menu-acco__item.active .menu-acco__trigger-text {
-  color: #f8b43a;
-  height: 100%;
-  top: 0;
-  bottom: 0; }
-
-.menu-acco__item_active {
+.menu-acco__item {
   height: 100%;
   min-height: 40.625rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
-  .menu-acco__item_active .menu-acco__trigger {
+  display: flex;
+  cursor: pointer; }
+  .menu-acco__item.active .menu-acco__trigger-text {
+    color: #f8b43a;
+    height: 100%;
+    top: 0;
+    bottom: 0; }
+  .menu-acco__item .menu-acco__trigger {
     color: #e25028;
-    height: 100%; }
-    .menu-acco__item_active .menu-acco__trigger:before {
+    height: 100%;
+    cursor: pointer; }
+    .menu-acco__item .menu-acco__trigger:before {
       -webkit-transform: rotate(-180deg);
       -ms-transform: rotate(-180deg);
       transform: rotate(-180deg); }
-  .menu-acco__item_active .menu-acco__content {
+  .menu-acco__item .menu-acco__content {
+    display: none; }
+    .menu-acco__item .menu-acco__content--visible {
+      display: block;
+      background: #2e3133 no-repeat center center fixed;
+      opacity: 0.95;
+      width: 83%; }
+
+.menu-acco__text {
+  font-family: 'ubuntu';
+  font-size: 0.875rem;
+  color: #fff;
+  padding: 3.75rem 1.875rem;
+  width: 100%;
+  line-height: 1.8; }
+  .menu-acco__text--visible {
     display: block; }
 
 .menu-acco__trigger {
@@ -1235,15 +1255,6 @@ span {
   -webkit-transform-origin: 0 0;
   -ms-transform-origin: 0 0;
   transform-origin: 0 0; }
-
-.menu-acco__text {
-  font-family: 'ubuntu';
-  font-size: 0.875rem;
-  color: #fff;
-  padding: 3.75rem 1.875rem;
-  width: 100%;
-  line-height: 1.8;
-  display: none; }
 
 .footer {
   background-image: url("../img/bg/order-bg.png");
@@ -1583,7 +1594,7 @@ span {
       background: white;
       position: absolute;
       margin-top: 3.1875rem;
-      right: 11rem; }
+      left: 47%; }
     .nav--visible .nav__item:last-child:after {
       visibility: hidden; }
     .nav--visible .nav__item--close {
@@ -1677,10 +1688,11 @@ span {
   margin-right: 1.25rem;
   margin-top: 1.125rem; }
   .header__menu--visible {
-    background: #2e3133;
+    background-size: 100%;
+    background: #2e3133 no-repeat center center fixed;
     opacity: 0.95;
-    width: 100%;
-    max-height: 100%;
+    min-width: 100%;
+    min-height: 200%;
     text-align: center;
     margin-right: 0;
     margin-top: 0;

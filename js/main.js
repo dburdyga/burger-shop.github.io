@@ -26,6 +26,14 @@ $(document).ready(function(){
 });
 
 
+$(document).ready(function(){
+    $(".menu-acco__trigger").click(function(){
+           console.log('ok')
+         $(".menu-acco__text").toggleClass('menu-acco__text--visible');
+         $(".menu-acco__content").toggleClass('menu-acco__content--visible');
+    });
+});
+
 
  
 
