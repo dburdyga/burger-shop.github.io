@@ -990,22 +990,20 @@ span {
 
 .team-acco__content {
   display: none;
-  font-size: 0.875rem;
-  font-family: 'Ubuntu-Light';
-  width: 75%; }
-
-.team-acco__content_visible {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   width: 75%;
   font-size: 0.875rem;
   font-family: 'Ubuntu-Light';
-  margin-left: 0.9375rem;
-  margin-bottom: 1.25rem; }
+  width: 75%; }
+  .team-acco__content--visible {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 75%;
+    margin-left: 0.9375rem;
+    margin-bottom: 1.25rem; }
   @media screen and (max-width: 768px) {
-    .team-acco__content_visible {
+    .team-acco__content {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
       -webkit-flex-direction: column;
@@ -1096,7 +1094,8 @@ span {
   -ms-flex-align: center;
   align-items: center;
   font-size: 0.875rem;
-  margin-bottom: 0.9375rem; }
+  margin-bottom: 0.9375rem;
+  cursor: pointer; }
   .team-acco__triger:before {
     content: "";
     height: 0;
@@ -1213,7 +1212,7 @@ span {
     .menu-acco__item .menu-acco__content--visible {
       display: block;
       background: #2e3133 no-repeat center center fixed;
-      opacity: 0.95;
+      opacity: 0.85;
       width: 83%; }
 
 .menu-acco__text {
