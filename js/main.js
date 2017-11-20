@@ -39,7 +39,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".team-acco__triger").click(function(){
      console.log('ok')
-    $(this).find('team-acco__content').toggleClass('team-acco__content--visible');
+    $(".team-acco__content").slideToggle('team-acco__content--visible') ;
     });
 });
 
