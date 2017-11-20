@@ -989,6 +989,10 @@ span {
       padding: 0; } }
 
 .team-acco__content {
+  padding-top: 0.875rem;
+  display: none; }
+
+.team-acco__content {
   display: none;
   width: 75%;
   font-size: 0.875rem;
@@ -1000,7 +1004,11 @@ span {
     display: -ms-flexbox;
     display: flex;
     width: 75%;
-    margin-left: 0.9375rem; }
+    color: #f8b43a;
+    margin-left: 0.9375rem;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s; }
   @media screen and (max-width: 768px) {
     .team-acco__content {
       -webkit-box-orient: vertical;
@@ -1017,13 +1025,12 @@ span {
       padding: 0;
       padding-right: 1.875rem; } }
 
-.team-acco__triger_visible:hover {
-  color: #f8b43a; }
-
 .team-acco__triger:hover {
   color: #f8b43a; }
+  .team-acco__triger:hover--visible {
+    color: #f8b43a; }
 
-.team-acco__triger_visible {
+.team-acco__triger {
   color: white;
   font-family: 'Gagalin';
   padding-top: 0.875rem;
@@ -1037,8 +1044,11 @@ span {
   -ms-flex-align: center;
   align-items: center;
   font-size: 0.875rem;
-  margin-bottom: 8px; }
-  .team-acco__triger_visible:before {
+  margin-bottom: 8px;
+  cursor: pointer; }
+  .team-acco__triger--visible {
+    color: red; }
+  .team-acco__triger:before {
     content: "";
     height: 0;
     width: 0;
@@ -1047,7 +1057,7 @@ span {
     border-bottom-width: 0;
     margin: 0.5625rem; }
   @media screen and (max-width: 768px) {
-    .team-acco__triger_visible {
+    .team-acco__triger {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
       -webkit-flex-direction: column;
@@ -1078,55 +1088,6 @@ span {
   padding-left: 1.5rem;
   width: 55%;
   line-height: 1.3125rem; }
-
-.team-acco__triger {
-  color: white;
-  font-family: 'Gagalin';
-  padding-top: 0.875rem;
-  text-decoration: none;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  font-size: 0.875rem;
-  margin-bottom: 0.9375rem;
-  cursor: pointer; }
-  .team-acco__triger:before {
-    content: "";
-    height: 0;
-    width: 0;
-    border: 0.28125rem solid transparent;
-    border-top-color: #f8b43a;
-    border-bottom-width: 0;
-    margin: 0.5625rem; }
-  @media screen and (max-width: 768px) {
-    .team-acco__triger {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-      -ms-flex-align: center;
-      align-items: center;
-      text-align: center;
-      width: 100%;
-      padding: 0; } }
-
-.team-acco__item_active .team-acco__triger {
-  color: #e25028; }
-  .team-acco__item_active .team-acco__triger:before {
-    -webkit-transform: rotate(-180deg);
-    -ms-transform: rotate(-180deg);
-    transform: rotate(-180deg); }
-
-.team-acco__item_active .team-acco__content {
-  display: block; }
 
 .team-acco__text-content {
   color: white; }

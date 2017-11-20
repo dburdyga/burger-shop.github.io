@@ -36,17 +36,60 @@ $(document).ready(function(){
 
 
 
+// $(document).ready(function(){
+//     $(".team-acco__triger").click(function(){
+//     console.log('ok')
+//     const $this = $(".team-acco__triger");
+//     $(".team-acco__content").slideToggle('team-acco__content--visible') ;
+//     });
+// });
+
+
+
+// $(function () {
+//     $('.team-acco__triger').on('click', e => {
+//         e.preventDefault()
+
+//         console.log('ok')
+
+//         const $this = $(e.currentTarget);
+//         const item = $this.closest('.team-acco__item');
+//         const content = item.find('.team-acco__content');
+
+//         item.toggleClass('active');
+//         content.slideToggle(1000);
+
+//     })
+// }
+
+
+
+
+// $(document).ready(function() {
+//   //прикрепляем клик по заголовкам acc-head
+//     $('#accordeon .acc-head').on('click', f_acc);
+// });
+ 
+// function f_acc(){
+// //скрываем все кроме того, что должны открыть
+//   $('#accordeon .acc-body').not($(this).next()).slideUp(1000);
+// // открываем или скрываем блок под заголовком, по которому кликнули
+//     $(this).next().slideToggle(2000);
+// }
+
+
+
 $(document).ready(function(){
-    $(".team-acco__triger").click(function(){
-     console.log('ok')
-    $(".team-acco__content").slideToggle('team-acco__content--visible') ;
-    });
+    $('.team-acco__triger').on('click', f_acc);
 });
+ 
+function f_acc(){
+// $(".team-acco__content").removeClass('team-acco__content--visible');
+ // $('.team-acco__triger').toggleClass('team-acco__triger--visible');
+ $('team-acco__triger--visible').css('color');
+ $(this).next().toggleClass('team-acco__content--visible');
 
-
-
-
-
+}
 
 
 

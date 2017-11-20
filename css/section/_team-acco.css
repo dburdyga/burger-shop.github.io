@@ -12,26 +12,6 @@
       -ms-transform: rotate(-180deg);
       transform: rotate(-180deg); }
 
-.team-acco__trigger {
-  color: #fff;
-  font-size: rem(14px);
-  font-family: 'Gagalin';
-  text-decoration: none;
-  position: relative;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  margin-bottom: rem(20px);
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center; }
-
-.team-acco__content {
-  padding-top: rem(14px);
-  display: none; }
-
 .team-acco__pic {
   text-align: center;
   width: 30%; }
