@@ -37,16 +37,24 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-    $('.team-acco__triger').on('click', f_acc);
+$('.team-acco__triger').on('click',f_acc);
 });
  
 function f_acc(){
  $(this).next().toggleClass('team-acco__content--visible');
  $(this).toggleClass('team-acco__triger--visible');
+ 
+ $('.team-acco__triger').mouseout(f_a);
+ function f_a(){ 
+ $(this).next().slideUp(300);
+ $(this).removeClass('team-acco__triger--visible');
+ 
+ }
   
 }
 
 
+ 
 
 $(document).ready(function(){
     $('.menu-acco__trigger').on('click', f_ccc);
