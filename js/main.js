@@ -77,21 +77,47 @@ function f_ac(){
 
 
 
- 
 
 $(document).ready(function(){
-    $('.menu-acco__trigger').on('click', f_ccc);
+    $('.menu-acco__trigger').on('click',f_ccc);
+    
 });
-
+ 
 function f_ccc(){
- $(this).next().toggleClass('menu-acco__content--visible');
- $(this).toggleClass('menu-acco__text--visible');
-  
+    $('.menu-acco__trigger').next().removeClass('menu-acco__content--visible');
+    $('.menu-acco__trigger').removeClass('.menu-acco__trigger--visible');
+    $(this).next().toggleClass('menu-acco__content--visible');
+    $(this).toggleClass('.menu-acco__trigger--visible');    
 }
 
+ 
+   
+
+
+ 
+
+// $(document).ready(function(){
+//     $('.menu-acco__trigger').on('click', f_ccc);
+// });
+
+// function f_ccc(){
+//  $(this).next().toggleClass('menu-acco__content--visible');
+//  $(this).toggleClass('menu-acco__text--visible');
+  
+// }
 
 
 
+
+// $(document).ready(function(){
+//     $('.menu-acco__trigger').on('click', f_ccc);
+// });
+
+// function f_ccc(){
+//  $(this).next().toggleClass('menu-acco__content--visible');
+//  $(this).toggleClass('menu-acco__text--visible');
+  
+// }
 
 ymaps.ready(init);
 
