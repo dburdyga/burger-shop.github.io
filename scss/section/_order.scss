@@ -172,8 +172,8 @@ margin-left: 0;
   .order__radio-elem:checked {
     &+.order__radio-fake {
       &:after {
-        background: url("../../img/icons/check.svg") 50% no-repeat transparent;
-        background-size: contain;
+        background: url("../img/sprite/check.svg") 50% no-repeat transparent;
+        
         width: rem(11px);
         height: rem(9px);
       }

@@ -907,8 +907,7 @@ span {
   background: transparent; }
 
 .order__radio_checkbox .order__radio-elem:checked + .order__radio-fake:after {
-  background: url("../../img/icons/check.svg") 50% no-repeat transparent;
-  background-size: contain;
+  background: url("../img/sprite/check.svg") 50% no-repeat transparent;
   width: 0.6875rem;
   height: 0.5625rem; }
 
