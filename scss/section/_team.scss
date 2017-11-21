@@ -87,13 +87,7 @@ flex-direction: column;
 
 
 
- .team-acco__triger:hover {
-  color: $yellow;
-
-  &--visible {
-    color: $yellow;
-  }
- }
+ 
 
 .team-acco__triger {
   color: white;
@@ -106,8 +100,14 @@ flex-direction: column;
   margin-bottom: 8px;
   cursor:pointer;
 
+  &:hover {
+  color: $yellow; }
+  
+
+
 &--visible {
-    color: red;
+    color: $yellow;
+
   }
 
   &:before {

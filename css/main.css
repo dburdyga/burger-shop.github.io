@@ -1025,11 +1025,6 @@ span {
       padding: 0;
       padding-right: 1.875rem; } }
 
-.team-acco__triger:hover {
-  color: #f8b43a; }
-  .team-acco__triger:hover--visible {
-    color: #f8b43a; }
-
 .team-acco__triger {
   color: white;
   font-family: 'Gagalin';
@@ -1046,8 +1041,10 @@ span {
   font-size: 0.875rem;
   margin-bottom: 8px;
   cursor: pointer; }
+  .team-acco__triger:hover {
+    color: #f8b43a; }
   .team-acco__triger--visible {
-    color: red; }
+    color: #f8b43a; }
   .team-acco__triger:before {
     content: "";
     height: 0;
