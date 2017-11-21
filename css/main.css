@@ -1168,7 +1168,9 @@ span {
       -ms-transform: rotate(-180deg);
       transform: rotate(-180deg); }
   .menu-acco__item .menu-acco__content {
-    display: none; }
+    display: none;
+    width: 0;
+    overflow: hidden; }
     .menu-acco__item .menu-acco__content--visible {
       display: block;
       background: #2e3133 no-repeat center center fixed;

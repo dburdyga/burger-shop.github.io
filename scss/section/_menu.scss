@@ -73,15 +73,16 @@ min-height: rem(650px);
 
 .menu-acco__content {
   display:none;
+  width:0;
+  overflow:hidden;
 
 &--visible {
   display:block; 
   background:#2e3133 no-repeat center center fixed;
   opacity: 0.85;
   width: 83%;
-}
-}
-}
+   
+}}}
 
 .menu-acco__text  {
   font-family: 'ubuntu';
