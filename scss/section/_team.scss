@@ -104,11 +104,13 @@ flex-direction: column;
   color: $yellow; }
   
 
-
 &--visible {
-    color: $yellow;
+    color: $yellow; 
+    &:before {
 
-  }
+    transform: rotate(-180deg);
+
+  }}
 
   &:before {
     content: "";
