@@ -71,7 +71,7 @@ flex-direction: column;
   width: 75%;
   color: $yellow;
   margin-left: rem(15px);
-  transition:all .3s;
+  transition:3s;
  // margin-bottom: rem(20px);
 }
 
@@ -106,6 +106,7 @@ flex-direction: column;
 
 &--visible {
     color: $yellow; 
+     transition: 3s;
     &:before {
 
     transform: rotate(-180deg);

@@ -1005,9 +1005,9 @@ span {
     width: 75%;
     color: #f8b43a;
     margin-left: 0.9375rem;
-    -webkit-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s; }
+    -webkit-transition: 3s;
+    -o-transition: 3s;
+    transition: 3s; }
   @media screen and (max-width: 768px) {
     .team-acco__content {
       -webkit-box-orient: vertical;
@@ -1043,7 +1043,10 @@ span {
   .team-acco__triger:hover {
     color: #f8b43a; }
   .team-acco__triger--visible {
-    color: #f8b43a; }
+    color: #f8b43a;
+    -webkit-transition: 3s;
+    -o-transition: 3s;
+    transition: 3s; }
     .team-acco__triger--visible:before {
       -webkit-transform: rotate(-180deg);
       -ms-transform: rotate(-180deg);
