@@ -79,7 +79,7 @@ function f_ac(){
 
 $(document).ready(function(){
     $('.menu-acco__trigger').mouseover(f_ccc);
-    $('.menu-acco__content').mouseout(function(){
+    $('.menu-acco__triger').mouseout(function(){
         $('.menu-acco__triger').next().removeClass('menu-acco__content--visible');
         $('.menu-acco__triger').removeClass('menu-acco__trigger--visible');
 
@@ -87,10 +87,10 @@ $(document).ready(function(){
 });
  
 function f_ccc(){
-    // $('.menu-acco__trigger').next().removeClass('menu-acco__content--visible');
     $('.menu-acco__triger').next().removeClass('menu-acco__content--visible');
     $('.menu-acco__triger').removeClass('menu-acco__triger--visible')
     $(this).next().toggleClass('menu-acco__content--visible');
+    $(this).toggleClass('menu-acco__triger--visible'); 
 
 }
 
