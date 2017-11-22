@@ -84,16 +84,16 @@ $(document).ready(function(){
  
 function f_ccc(){
     $('.menu-acco__trigger').next().removeClass('menu-acco__content--visible');
-    $('.menu-acco__trigger').removeClass('.menu-acco__trigger--visible');
+    $('.menu-acco__trigger').removeClass('.menu-acco__content--visible');
     $(this).next().toggleClass('menu-acco__content--visible');
-    $(this).toggleClass('.menu-acco__trigger--visible');    
+    $(this).toggleClass('.menu-acco__content--visible');    
 }
 
  
    
 
 
- 
+ i
 
 // $(document).ready(function(){
 //     $('.menu-acco__trigger').on('click', f_ccc);
