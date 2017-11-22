@@ -74,12 +74,12 @@ min-height: rem(650px);
 .menu-acco__content {
   display:none;
   width:0;
-  overflow:hidden;
+   
 
 &--visible {
   display:block; 
-  background:#2e3133 no-repeat center center fixed;
-  opacity: 0.85;
+  // background:#2e3133 no-repeat center center fixed;
+  // opacity: 0.85;
   width: rem(541px);
 
 }}}
@@ -91,13 +91,10 @@ min-height: rem(650px);
   padding: rem(60px) rem(30px);
   width: 100%;
   line-height: 1.8;
-
-  &--visible {
-      display:block;
-   } 
+  height:100%;
+  background:#2e3133 no-repeat center center fixed;
+  opacity: 0.85;
 }
-
-
 
 
 .menu-acco__trigger {
