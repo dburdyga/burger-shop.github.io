@@ -17,7 +17,7 @@
     font-family: "Gagalin";
     font-size: 0.875rem;
     font-weight: 500;
-    background-image: url('./img/sprite/sprite.svg#burger');
+    background-image: url('../img/sprite/sprite.svg#burger');
     background-repeat: no-repeat;
     background-position: center rem(13px); 
     cursor:pointer;
@@ -83,30 +83,30 @@
 
 
 .composition__table-row--type_beef:before{
-    background-image: url('./img/sprite/sprite.svg#beef');
+    background-image: url('../img/sprite/sprite.svg#beef');
 }
 
 
 .composition__table-row--type_buns:before {
-    background-image: url('./img/sprite/sprite.svg#buns'); 
+    background-image: url('../img/sprite/sprite.svg#buns'); 
 }
 
 
 .composition__table-row--type_salad:before {
-    background-image: url('./img/sprite/sprite.svg#salad'); 
+    background-image: url('../img/sprite/sprite.svg#salad'); 
 }
 
 
 .composition__table-row--type_sauce:before {
-    background-image: url('./img/sprite/sprite.svg#sauce'); 
+    background-image: url('../img/sprite/sprite.svg#sauce'); 
 }
 
 .composition__table-row--type_cucumber:before {
-    background-image: url('./img/sprite/sprite.svg#cucumber'); 
+    background-image: url('../img/sprite/sprite.svg#cucumber'); 
 }
 
 .composition__table-row--type_cheese:before {
-    background-image: url('./img/sprite/sprite.svg#cheese'); 
+    background-image: url('../img/sprite/sprite.svg#cheese'); 
 }
 
 
@@ -126,7 +126,7 @@
 .caloricity { 
     width: 60px;
     padding-top: 25px;
-    background-image: url('./img/sprite/sprite.svg#kkal');
+    background-image: url('../img/sprite/sprite.svg#kkal');
     background-repeat: no-repeat;
     background-position: top right;
     text-align: center;

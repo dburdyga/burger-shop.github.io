@@ -988,26 +988,32 @@ span {
       padding: 0; } }
 
 .team-acco__content {
-  padding-top: 0.875rem;
-  display: none; }
-
-.team-acco__content {
-  display: none;
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
   width: 75%;
   font-size: 0.875rem;
   font-family: 'Ubuntu-Light';
-  width: 75%; }
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
   .team-acco__content--visible {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: 3s;
+    -o-transition: 3s;
+    transition: 3s;
+    height: 20%;
+    width: 75%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 75%;
-    color: #f8b43a;
-    margin-left: 0.9375rem;
-    -webkit-transition: 3s;
-    -o-transition: 3s;
-    transition: 3s; }
+    color: #f8b43a; }
   @media screen and (max-width: 768px) {
     .team-acco__content {
       -webkit-box-orient: vertical;
@@ -1725,7 +1731,7 @@ span {
   font-family: "Gagalin";
   font-size: 0.875rem;
   font-weight: 500;
-  background-image: url("./img/sprite/sprite.svg#burger");
+  background-image: url("../img/sprite/sprite.svg#burger");
   background-repeat: no-repeat;
   background-position: center 0.8125rem;
   cursor: pointer; }
@@ -1772,22 +1778,22 @@ span {
   font-weight: 300; }
 
 .composition__table-row--type_beef:before {
-  background-image: url("./img/sprite/sprite.svg#beef"); }
+  background-image: url("../img/sprite/sprite.svg#beef"); }
 
 .composition__table-row--type_buns:before {
-  background-image: url("./img/sprite/sprite.svg#buns"); }
+  background-image: url("../img/sprite/sprite.svg#buns"); }
 
 .composition__table-row--type_salad:before {
-  background-image: url("./img/sprite/sprite.svg#salad"); }
+  background-image: url("../img/sprite/sprite.svg#salad"); }
 
 .composition__table-row--type_sauce:before {
-  background-image: url("./img/sprite/sprite.svg#sauce"); }
+  background-image: url("../img/sprite/sprite.svg#sauce"); }
 
 .composition__table-row--type_cucumber:before {
-  background-image: url("./img/sprite/sprite.svg#cucumber"); }
+  background-image: url("../img/sprite/sprite.svg#cucumber"); }
 
 .composition__table-row--type_cheese:before {
-  background-image: url("./img/sprite/sprite.svg#cheese"); }
+  background-image: url("../img/sprite/sprite.svg#cheese"); }
 
 .composition__table-row:before {
   content: "";
@@ -1801,7 +1807,7 @@ span {
 .caloricity {
   width: 60px;
   padding-top: 25px;
-  background-image: url("./img/sprite/sprite.svg#kkal");
+  background-image: url("../img/sprite/sprite.svg#kkal");
   background-repeat: no-repeat;
   background-position: top right;
   text-align: center;

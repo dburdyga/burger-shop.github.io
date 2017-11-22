@@ -61,16 +61,15 @@ $(document).ready(function(){
 });
  
 function f_acc(){
-    $('.team-acco__triger').next().removeClass('team-acco__content--visible',1000);
-    $('.team-acco__triger').removeClass('team-acco__triger--visible',1000);
-    $(this).next().toggleClass('team-acco__content--visible',1000);
-    $(this).toggleClass('team-acco__triger--visible',1000); 
+    $('.team-acco__triger').next().removeClass('team-acco__content--visible');
+    $('.team-acco__triger').removeClass('team-acco__triger--visible');
+    $(this).next().toggleClass('team-acco__content--visible');
+    $(this).toggleClass('team-acco__triger--visible'); 
 }
 
 function f_ac(){ 
-    $('.team-acco__triger').next().removeClass('team-acco__content--visible',1000);
-    $('.team-acco__triger').removeClass('team-acco__triger--visible',1000);
-
+    $('.team-acco__triger').next().removeClass('team-acco__content--visible');
+    $('.team-acco__triger').removeClass('team-acco__triger--visible');
 }
 
 
