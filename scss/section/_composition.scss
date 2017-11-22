@@ -11,15 +11,15 @@
 
 .composition__button {
     vertical-align: top;
-    padding-top: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: rem(60px);
+    padding-left: rem(20px);
+    padding-right: rem(20px);
     font-family: "Gagalin";
     font-size: 0.875rem;
     font-weight: 500;
     background-image: url('./img/sprite/sprite.svg#burger');
     background-repeat: no-repeat;
-    background-position: center 13px; 
+    background-position: center rem(13px); 
     cursor:pointer;
 }
  
@@ -27,9 +27,9 @@
  .button {
  	border: 0;
     display: inline-block;
-    padding: 10px 17px;
-    padding-bottom: 11px;
-    border-radius: 5px;
+    padding: rem(10px) rem(17px);
+    padding-bottom: rem(11px);
+    border-radius: rem(5px);
     background-color: #e45028;
     font-family: "Ubuntu", Arial, Helvetica, sans-serif;
     font-size: 0.8125rem;
@@ -48,12 +48,12 @@
 .composition__table {
     display: inline-block;
     //position: absolute;
-    left: -9999px;
-    padding: 15px 20px;
+    left: rem(-9999px);
+    padding: rem(15px) rem(20px);
     vertical-align: top;
     font-size: 0.875rem;
     background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 5px;
+    border-radius: rem(5px);
 
     }
 
@@ -64,15 +64,16 @@
 
 
     .composition__table-data--ingredient {
-    width: 130px;
+    width: rem(130px);
     text-align: left;
     font-weight: 700;
+
 }
 
 
 .composition__table-data {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: rem(12px);
+    padding-bottom: rem(12px);
 }
 
 .composition__table-data--weight {
@@ -81,23 +82,40 @@
 }
 
 
-.composition__table-row--type_beef:before {
-    background-image: url('./img/sprite/sprite.svg#burger');
+.composition__table-row--type_beef:before{
+    background-image: url('./img/sprite/sprite.svg#beef');
 }
 
 
 .composition__table-row--type_buns:before {
-    background-image: url('./img/sprite/sprite.svg#buns');
-    background:red;
+    background-image: url('./img/sprite/sprite.svg#buns'); 
+}
+
+
+.composition__table-row--type_salad:before {
+    background-image: url('./img/sprite/sprite.svg#salad'); 
+}
+
+
+.composition__table-row--type_sauce:before {
+    background-image: url('./img/sprite/sprite.svg#sauce'); 
+}
+
+.composition__table-row--type_cucumber:before {
+    background-image: url('./img/sprite/sprite.svg#cucumber'); 
+}
+
+.composition__table-row--type_cheese:before {
+    background-image: url('./img/sprite/sprite.svg#cheese'); 
 }
 
 
 .composition__table-row:before {
     content: "";
     display: inline-block;
-    margin-right: 18px;
-    height: 50px;
-    width: 50px;
+    margin-right: rem(17px);
+    height: rem(50px);
+    width: rem(50px);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -122,7 +140,7 @@
 .burger__caloricity {
     position: absolute;
     left: 0;
-    bottom: rem(-70px);
+    
 }
 
 .caloricity-kkal {
