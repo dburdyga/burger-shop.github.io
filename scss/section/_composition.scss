@@ -46,14 +46,19 @@
 
 
 .composition__table {
-    display: inline-block;
-    //position: absolute;
+    // display: inline-block;
+    // position: absolute;
+    display:none;
     left: rem(-9999px);
     padding: rem(15px) rem(20px);
     vertical-align: top;
     font-size: 0.875rem;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: rem(5px);
+
+    &--visible {
+        display:block;
+    }
 
     }
 

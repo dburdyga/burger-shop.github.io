@@ -58,23 +58,12 @@ min-height: rem(650px);
     }
   }
  
-
-  .menu-acco__trigger {
-  color:#e25028;
-  height: 100%;
-  cursor:pointer;
-  
-    &:before {
-      transform: rotate(-180deg);
-    }
-  }
-
-
+ 
 
 .menu-acco__content {
   display:none;
   width:0;
-   
+
 
 &--visible {
   display:block; 
@@ -105,6 +94,11 @@ min-height: rem(650px);
   display: block; 
   top: 0;
   bottom: 0;
+
+ &--visible {
+  display:none;
+ }
+
   @include cover;
   text-decoration: none;  
 }
