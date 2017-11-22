@@ -60,20 +60,18 @@ flex-direction: column;
   width: 75%;
   font-size: rem(14px);
   font-family: 'Ubuntu-Light';
-  transition: 1s;
+  transition: height .5s, visibility .7s, opacity .9s;
   display:flex;
  
 
   &--visible {
   opacity:1;
   visibility:visible;
-  transition: 3s;
-  height: 20%;
+  transition: 1s;
+  height: auto;
   width: 75%;
-  display:flex;
   color: $yellow;
   // margin-left: rem(15px);
-  
  // margin-bottom: rem(20px);
 }
 
@@ -108,11 +106,8 @@ flex-direction: column;
 
 &--visible {
     color: $yellow; 
-     transition: 3s;
     &:before {
-
     transform: rotate(-180deg);
-
   }}
 
   &:before {

@@ -994,9 +994,9 @@ span {
   width: 75%;
   font-size: 0.875rem;
   font-family: 'Ubuntu-Light';
-  -webkit-transition: 1s;
-  -o-transition: 1s;
-  transition: 1s;
+  -webkit-transition: height .5s, visibility .7s, opacity .9s;
+  -o-transition: height .5s, visibility .7s, opacity .9s;
+  transition: height .5s, visibility .7s, opacity .9s;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1004,15 +1004,11 @@ span {
   .team-acco__content--visible {
     opacity: 1;
     visibility: visible;
-    -webkit-transition: 3s;
-    -o-transition: 3s;
-    transition: 3s;
-    height: 20%;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    height: auto;
     width: 75%;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
     color: #f8b43a; }
   @media screen and (max-width: 768px) {
     .team-acco__content {
@@ -1049,10 +1045,7 @@ span {
   .team-acco__triger:hover {
     color: #f8b43a; }
   .team-acco__triger--visible {
-    color: #f8b43a;
-    -webkit-transition: 3s;
-    -o-transition: 3s;
-    transition: 3s; }
+    color: #f8b43a; }
     .team-acco__triger--visible:before {
       -webkit-transform: rotate(-180deg);
       -ms-transform: rotate(-180deg);

@@ -56,7 +56,7 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-    $('.team-acco__triger').on('click',f_acc);
+    $('.team-acco__triger').mouseover(f_acc);
     $('.team-acco__triger').mouseout(f_ac);
 });
  
