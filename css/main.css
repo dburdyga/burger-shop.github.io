@@ -1722,7 +1722,7 @@ span {
 .burger__composition {
   position: absolute;
   left: 0;
-  top: 0; }
+  top: 1.25rem; }
 
 .composition__button {
   vertical-align: top;
@@ -1808,8 +1808,8 @@ span {
   background-position: center; }
 
 .caloricity {
-  width: 60px;
-  padding-top: 25px;
+  width: 3.75rem;
+  padding-top: 1.5625rem;
   background-image: url("../img/sprite/sprite.svg#kkal");
   background-repeat: no-repeat;
   background-position: top right;

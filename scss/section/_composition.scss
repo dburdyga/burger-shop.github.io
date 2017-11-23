@@ -6,7 +6,7 @@
 .burger__composition {
     position: absolute;
     left: 0;
-    top: 0;
+    top: rem(20px);
 }
 
 .composition__button {
@@ -129,8 +129,8 @@
 
 
 .caloricity { 
-    width: 60px;
-    padding-top: 25px;
+    width: rem(60px);
+    padding-top: rem(25px);
     background-image: url('../img/sprite/sprite.svg#kkal');
     background-repeat: no-repeat;
     background-position: top right;
