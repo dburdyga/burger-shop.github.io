@@ -175,7 +175,7 @@
     left: 0;
 
 @include phonesmall {
-    left: rem(257px);
+    // left: 76%;
     top: rem(0px);
     height: rem(80.3125px);
     width: rem(60px);
@@ -184,7 +184,7 @@
 
 @include phones {
    
-    left: 23.0625rem;
+    // left: 23.0625rem;
     top: 0rem;
     height: 18.01953rem;
     width: 4.75rem;
