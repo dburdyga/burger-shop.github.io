@@ -1723,7 +1723,7 @@ span {
 
 .burger__composition {
   position: absolute;
-  left: -59px;
+  left: 0.375rem;
   top: 1.25rem;
   display: -webkit-box;
   display: -webkit-flex;
