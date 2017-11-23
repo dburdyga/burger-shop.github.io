@@ -43,6 +43,10 @@
   @include phones {
     flex-direction: column; 
  }
+
+   @include phonesmall {
+  flex-direction: column;
+}
 }
 
 .hero__left {}

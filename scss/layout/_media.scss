@@ -13,3 +13,10 @@
     @content;
   }
 }
+
+@mixin phonesmall {
+  @media screen and (max-width: $phonesmall) {
+    @content;
+  }
+}
+

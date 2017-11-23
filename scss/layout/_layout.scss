@@ -7,6 +7,10 @@ html {
   @include phones {
     font-size: rem(13px);
   }
+
+   @include phonesmall {
+    font-size: rem(13px);
+  }
 }
 
  html,

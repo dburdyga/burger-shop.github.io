@@ -34,6 +34,10 @@ padding-top: rem(70px);
     align-items: center;
     margin-left: 0;
   }
+
+  @include phonesmall {
+  width:100%;
+  }
 }
 
 .order__form-col {
