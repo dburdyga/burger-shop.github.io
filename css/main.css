@@ -1876,20 +1876,36 @@ span {
   opacity: 0.5; }
   @media screen and (max-width: 320px) {
     .caloricity {
-      bottom: 51.25rem;
-      margin-left: 20.1875rem; } }
+      left: 20.1875rem; } }
   @media screen and (max-width: 480px) {
     .caloricity {
-      bottom: 54.25rem;
-      margin-left: 24.1875rem; } }
+      left: 24.1875rem; } }
 
 .burger__caloricity {
   position: absolute;
   left: 0; }
+  @media screen and (max-width: 320px) {
+    .burger__caloricity {
+      left: 16.0625rem;
+      top: 0rem;
+      height: 5.01953rem;
+      width: 3.75rem; } }
+  @media screen and (max-width: 480px) {
+    .burger__caloricity {
+      left: 23.0625rem;
+      top: 0rem;
+      height: 18.01953rem;
+      width: 4.75rem; } }
 
 .caloricity-kkal {
   display: inline-block;
   font-size: 0.875rem;
   margin-top: 0.625rem; }
+  @media screen and (max-width: 320px) {
+    .caloricity-kkal {
+      margin-top: 1.625rem; } }
+  @media screen and (max-width: 480px) {
+    .caloricity-kkal {
+      margin-top: 1.625rem; } }
 
 /*# sourceMappingURL=main.css.map */

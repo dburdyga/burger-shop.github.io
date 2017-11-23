@@ -158,14 +158,14 @@
     opacity: 0.5;
 
     @include phonesmall {
-    bottom: 51.25rem;
-    margin-left: 20.1875rem;
+ 
+   left: 20.1875rem;
     }
 
 
     @include phones {
-   bottom: 54.25rem;
-    margin-left: 24.1875rem;
+ 
+   left: 24.1875rem;
     }
 }
 
@@ -173,6 +173,23 @@
 .burger__caloricity {
     position: absolute;
     left: 0;
+
+@include phonesmall {
+    left: rem(257px);
+    top: rem(0px);
+    height: rem(80.3125px);
+    width: rem(60px);
+}
+
+
+@include phones {
+   
+    left: 23.0625rem;
+    top: 0rem;
+    height: 18.01953rem;
+    width: 4.75rem;
+
+}
     
 }
 
@@ -180,6 +197,13 @@
     display: inline-block;
     font-size: 0.875rem;
     margin-top: rem(10px);
+
+@include phonesmall {
+        margin-top: 1.625rem; }
+
+
+@include phones  {
+        margin-top: 1.625rem; }
 }
 
 
