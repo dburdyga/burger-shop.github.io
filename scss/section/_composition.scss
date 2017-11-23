@@ -17,7 +17,7 @@
     font-family: "Gagalin";
     font-size: 0.875rem;
     font-weight: 500;
-    background-image: url('../img/sprite/sprite.svg#burger');
+    background-image: url('../img/sprite/burger.svg');
     background-repeat: no-repeat;
     background-position: center rem(13px); 
     cursor:pointer;
@@ -27,7 +27,7 @@
  .button {
  	border: 0;
     display: inline-block;
-    padding: rem(10px) rem(17px);
+    padding: 4rem 1.3rem;
     padding-bottom: rem(11px);
     border-radius: rem(5px);
     background-color: #e45028;
@@ -88,30 +88,30 @@
 
 
 .composition__table-row--type_beef:before{
-    background-image: url('../img/sprite/sprite.svg#beef');
+    background-image: url('../img/sprite/beef.svg');
 }
 
 
 .composition__table-row--type_buns:before {
-    background-image: url('../img/sprite/sprite.svg#buns'); 
+    background-image: url('../img/sprite/buns.svg'); 
 }
 
 
 .composition__table-row--type_salad:before {
-    background-image: url('../img/sprite/sprite.svg#salad'); 
+    background-image: url('../img/sprite/salad.svg'); 
 }
 
 
 .composition__table-row--type_sauce:before {
-    background-image: url('../img/sprite/sprite.svg#sauce'); 
+    background-image: url('../img/sprite/sauce.svg'); 
 }
 
 .composition__table-row--type_cucumber:before {
-    background-image: url('../img/sprite/sprite.svg#cucumber'); 
+    background-image: url('../img/sprite/cucumber.svg'); 
 }
 
 .composition__table-row--type_cheese:before {
-    background-image: url('../img/sprite/sprite.svg#cheese'); 
+    background-image: url('../img/sprite/cheese.svg'); 
 }
 
 
@@ -131,7 +131,7 @@
 .caloricity { 
     width: rem(60px);
     padding-top: rem(25px);
-    background-image: url('../img/sprite/sprite.svg#kkal');
+    background-image: url('../img/sprite/kkal.svg');
     background-repeat: no-repeat;
     background-position: top right;
     text-align: center;
