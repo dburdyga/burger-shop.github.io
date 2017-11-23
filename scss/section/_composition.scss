@@ -1,12 +1,16 @@
  .composition {
     position: absolute;
     text-align: left;
+   
 }
 
 .burger__composition {
     position: absolute;
-    left: 0;
+    left: -59px;
     top: rem(20px);
+    display:flex;
+
+    z-index: 10;
 }
 
 .composition__button {
@@ -25,6 +29,11 @@
  
 
  .button {
+    right: 50%;
+    flex:1;
+     
+    
+
  	border: 0;
     display: inline-block;
     padding: 4rem 1.3rem;
@@ -48,6 +57,14 @@
 .composition__table {
     // display: inline-block;
     // position: absolute;
+    // display:none;
+
+    flex: 1;
+    left: 50%;
+   
+ 
+   margin-top: 0px;
+  
     display:none;
     left: rem(-9999px);
     padding: rem(15px) rem(20px);
