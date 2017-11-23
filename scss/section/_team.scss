@@ -83,6 +83,12 @@ flex-direction: column;
     padding: 0;
     padding-right: rem(30px);
    }
+
+
+  @include phonesmall {
+  padding-right: 0;
+}
+
 }
 
 
@@ -128,6 +134,14 @@ flex-direction: column;
     padding: 0;
          
    }
+
+   @include phonesmall {
+    font-size: 1.5rem;
+   }
+
+   @include phones {
+    font-size: 1.5rem;
+   }
 }
 
 
@@ -136,6 +150,9 @@ flex-direction: column;
   @include tablets {
         padding-right: rem(30px);
    }
+ @include phonesmall {
+   width: 58%;
+ }
 }
 
 
@@ -147,6 +164,12 @@ flex-direction: column;
   margin-bottom: rem(50px);
   font-family: 'Gagalin';
   padding-top: rem(10px);
+
+ @include phonesmall {
+  margin-bottom: 1rem;
+  padding-top: 4.625rem;
+ }
+  
   
 }
 

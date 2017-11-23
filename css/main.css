@@ -218,6 +218,9 @@ h6 {
     .hero__desc {
       padding-bottom: 0.9375rem;
       padding-top: 0; } }
+  @media screen and (max-width: 320px) {
+    .hero__desc {
+      font-size: 3.125rem; } }
 
 .hero__img {
   display: inline-block;
@@ -1060,6 +1063,9 @@ span {
       width: 100%;
       padding: 0;
       padding-right: 1.875rem; } }
+  @media screen and (max-width: 320px) {
+    .team-acco__content {
+      padding-right: 0; } }
 
 .team-acco__triger {
   color: white;
@@ -1107,12 +1113,21 @@ span {
       text-align: center;
       width: 100%;
       padding: 0; } }
+  @media screen and (max-width: 320px) {
+    .team-acco__triger {
+      font-size: 1.5rem; } }
+  @media screen and (max-width: 480px) {
+    .team-acco__triger {
+      font-size: 1.5rem; } }
 
 .team-acco__text {
   width: 70%; }
   @media screen and (max-width: 768px) {
     .team-acco__text {
       padding-right: 1.875rem; } }
+  @media screen and (max-width: 320px) {
+    .team-acco__text {
+      width: 58%; } }
 
 .section__title--team {
   color: #f8b43a;
@@ -1120,6 +1135,10 @@ span {
   margin-bottom: 3.125rem;
   font-family: 'Gagalin';
   padding-top: 0.625rem; }
+  @media screen and (max-width: 320px) {
+    .section__title--team {
+      margin-bottom: 1rem;
+      padding-top: 4.625rem; } }
 
 .team-acco__text {
   padding-left: 1.5rem;

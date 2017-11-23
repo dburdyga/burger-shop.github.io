@@ -72,6 +72,10 @@
     padding-bottom: rem(15px);
     padding-top: 0; 
   }
+
+  @include phonesmall () {
+    font-size: rem(50px)
+  }
 }
 
 .hero__img {
