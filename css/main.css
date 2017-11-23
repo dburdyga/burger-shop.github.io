@@ -1066,6 +1066,9 @@ span {
   @media screen and (max-width: 320px) {
     .team-acco__content {
       padding-right: 0; } }
+  @media screen and (max-width: 480px) {
+    .team-acco__content {
+      padding-right: 0; } }
 
 .team-acco__triger {
   color: white;
@@ -1871,6 +1874,14 @@ span {
   font-size: 1.25rem;
   color: white;
   opacity: 0.5; }
+  @media screen and (max-width: 320px) {
+    .caloricity {
+      bottom: 51.25rem;
+      margin-left: 20.1875rem; } }
+  @media screen and (max-width: 480px) {
+    .caloricity {
+      bottom: 54.25rem;
+      margin-left: 24.1875rem; } }
 
 .burger__caloricity {
   position: absolute;

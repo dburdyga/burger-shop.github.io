@@ -156,6 +156,17 @@
     font-size: 1.25rem;
     color: white;
     opacity: 0.5;
+
+    @include phonesmall {
+    bottom: 51.25rem;
+    margin-left: 20.1875rem;
+    }
+
+
+    @include phones {
+   bottom: 54.25rem;
+    margin-left: 24.1875rem;
+    }
 }
 
 
