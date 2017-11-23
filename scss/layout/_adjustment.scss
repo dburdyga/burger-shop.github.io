@@ -3,6 +3,10 @@
   height: 100%;
   position: relative;
   min-height: 0;
+
+  &--closed {
+    overflow: hidden;
+  }
 }
 
 .maincontent {
@@ -13,18 +17,14 @@
 .container {
   margin: 0 auto;
   position: relative;
-
   max-width: rem(940px);
   display: flex;
   flex-direction: column;
 }
 
 
-
-
 .section {
   min-height: 100vh;
-
   background-color: rgba(0,0,0,0.31);
 }
 

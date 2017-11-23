@@ -6,6 +6,7 @@ $(document).ready(function(){
     $(".hamburger-menu-link").click(function(){
     $(".hamburger-menu-link_img").toggleClass('hamburger-menu-link_img--visible')
     $(".nav").toggleClass('nav--visible');
+    $(".wrapper").toggleClass('wrapper--closed');
     });
 });
 
@@ -26,32 +27,7 @@ $(document).ready(function(){
 });
 
 
-// $(document).ready(function(){
-//     $(".menu-acco__trigger").click(function(){
-//            console.log('ok')
-//          $(".menu-acco__text").toggleClass('menu-acco__text--visible');
-//          $(".menu-acco__content").toggleClass('menu-acco__content--visible');
-//     });
-// });
 
-
-
-// $(document).ready(function(){
-// $('.team-acco__triger').on('click',f_acc);
-// });
- 
-// function f_acc(){
-//  $(this).next().toggleClass('team-acco__content--visible');
-//  $(this).toggleClass('team-acco__triger--visible');
- 
-//  $('.team-acco__triger').mouseout(f_a);
-//  function f_a(){ 
-//  $(this).next().slideUp(300);
-//  $(this).removeClass('team-acco__triger--visible');
-//  $(this).addClass('team-acco__triger');
- 
-//  }
-// }
 
 
 
