@@ -451,15 +451,21 @@ h6 {
   -ms-transform: translate(-50%, -50%) scale(0.7);
   transform: translate(-50%, -50%) scale(0.7);
   opacity: 0;
-  padding: 17% 12% 0;
+  padding: 10% 12% 0;
   -webkit-transition: .3s;
   -o-transition: .3s;
   transition: .3s;
-  z-index: 10; }
-  @media screen and (max-width: 768px) {
+  z-index: 10;
+  cursor: pointer; }
+  @media screen and (max-width: 480px) {
     .review__hover {
-      font-size: 0.875rem;
-      padding: 0 12%;
+      font-size: 1.5rem;
+      padding-top: 26%;
+      text-align: center; } }
+  @media screen and (max-width: 480px) and (max-width: 768px) {
+    .review__hover {
+      font-size: 1.5rem;
+      padding-top: 26%;
       text-align: center; } }
 
 .review__title {
@@ -469,7 +475,8 @@ h6 {
   margin-bottom: 1.5625rem; }
   @media screen and (max-width: 768px) {
     .review__title {
-      margin-bottom: 0.875rem; } }
+      margin-bottom: 0.875rem;
+      text-align: center; } }
 
 .review__shorttext {
   color: #ffffff;
@@ -477,6 +484,11 @@ h6 {
   font-family: 'Ubuntu-Light';
   margin-bottom: 0.875rem;
   line-height: 1.6rem; }
+  @media screen and (max-width: 768px) {
+    .review__shorttext {
+      display: block;
+      text-align: center;
+      margin-bottom: 0.625rem; } }
   @media screen and (max-width: 480px) {
     .review__shorttext {
       display: none; } }
@@ -497,6 +509,11 @@ h6 {
   transition: .3s; }
   .review__view:hover {
     background-color: #1f2122; }
+
+@media screen and (max-width: 768px) {
+  .review__button-wrap {
+    text-align: center;
+    align-item: center; } }
 
 .darkburger {
   background-image: url("../img/bg/darkburger-bg.png");
