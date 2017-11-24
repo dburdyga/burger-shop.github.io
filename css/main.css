@@ -22,9 +22,7 @@
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
-  flex-direction: column;
-  left: 4.375rem;
-  right: 4.375rem; }
+  flex-direction: column; }
 
 .section {
   min-height: 100vh;
