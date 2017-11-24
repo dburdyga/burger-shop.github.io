@@ -4,12 +4,30 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+
+// margin-left: rem(70px);
+// margin-right: rem(70px);
+
+// @include tablets {
+// margin-left: rem(50px);
+// margin-right: rem(50px);
+// }
+// @include phones {
+// margin-left: rem(20px);
+// margin-right: rem(20px);
+// }
+// @include phonesmall {
+// margin-left: rem(10px);
+// margin-right: rem(10px);
+// }
+
   
 }
 
 .menu__container {
-
 min-height: rem(650px);
+
+
 }
 
 
