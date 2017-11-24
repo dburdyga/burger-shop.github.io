@@ -305,7 +305,7 @@ h6 {
   padding: 0;
   font-family: 'Gagalin';
   text-align: center;
-  padding-top: 3.75rem;
+  padding-top: 0.55rem;
   margin-bottom: 0.5625rem; }
 
 .best__pictures_title {
@@ -352,7 +352,14 @@ h6 {
       flex: 1;
       width: 10.063rem;
       height: 5.063rem;
-      float: left; } }
+      float: left;
+      margin-left: 27%; } }
+  @media screen and (max-width: 480px) {
+    .best__icon-pic_natural {
+      margin-left: 27%; } }
+  @media screen and (max-width: 320px) {
+    .best__icon-pic_natural {
+      margin-left: 27%; } }
 
 .best__icon-pic_hand {
   fill: #f8b43a;
@@ -365,7 +372,14 @@ h6 {
       flex: 1;
       width: 10.063rem;
       height: 5.063rem;
-      float: left; } }
+      float: left;
+      margin-left: 27%; } }
+  @media screen and (max-width: 480px) {
+    .best__icon-pic_hand {
+      margin-left: 27%; } }
+  @media screen and (max-width: 320px) {
+    .best__icon-pic_hand {
+      margin-left: 27%; } }
 
 .best__icon-pic_meat {
   fill: #e25028;
@@ -378,7 +392,14 @@ h6 {
       flex: 1;
       width: 10.063rem;
       height: 5.063rem;
-      float: left; } }
+      float: left;
+      margin-left: 27%; } }
+  @media screen and (max-width: 480px) {
+    .best__icon-pic_meat {
+      margin-left: 27%; } }
+  @media screen and (max-width: 320px) {
+    .best__icon-pic_meat {
+      margin-left: 27%; } }
 
 @media screen and (max-width: 768px) {
   .best_block {
@@ -388,7 +409,7 @@ h6 {
     flex: 2;
     width: 100%;
     float: left;
-    text-align: left; } }
+    text-align: center; } }
 
 .best__item {
   width: 45%;
@@ -407,11 +428,11 @@ h6 {
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
-      -webkit-box-orient: horizontal;
+      -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
-      -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-      flex-direction: row;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
       width: 100%; } }
 
 .reviews {

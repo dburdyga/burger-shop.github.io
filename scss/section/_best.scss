@@ -14,7 +14,7 @@
   padding: 0;
   font-family: 'Gagalin';
   text-align: center;
-  padding-top: rem(60px);
+  padding-top: 0.55rem;
   margin-bottom: rem(9px);
 }
 
@@ -51,13 +51,20 @@ margin: rem(20px);
 .best__icon-pic_natural {
   fill:#8ac03e;
   width: rem(97px);
+  
   @include tablets {
   flex:1;
   width: 10.063rem;
   height: 5.063rem;
   float:left;
-
+  margin-left: 27%;
   }
+  @include phones {
+  margin-left: 27%;
+ }
+  @include phonesmall {
+  margin-left: 27%;
+}
 }
 
 .best__icon-pic_hand {
@@ -68,8 +75,14 @@ margin: rem(20px);
   width: 10.063rem;
   height: 5.063rem;
   float:left;
-
+   margin-left: 27%;
   }
+    @include phones {
+  margin-left: 27%;
+ }
+  @include phonesmall {
+  margin-left: 27%;
+}
 }
 
 .best__icon-pic_meat {
@@ -81,8 +94,14 @@ margin: rem(20px);
     width: 10.063rem;
     height: 5.063rem;
     float:left;
-
+     margin-left: 27%;
   }
+    @include phones {
+  margin-left: 27%;
+ }
+  @include phonesmall {
+  margin-left: 27%;
+}
 }
 
 .best_block {
@@ -90,8 +109,11 @@ margin: rem(20px);
     flex:2;
     width:100%;
     float:left;
-    text-align:left;
+    text-align: center;
   }
+
+
+
 }
 
 .best__item {
@@ -106,7 +128,7 @@ margin: rem(20px);
 
   @include tablets {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     width:100%;
   }
 }
