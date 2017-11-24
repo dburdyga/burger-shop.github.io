@@ -4,10 +4,35 @@
   position: relative;
 }
 
+
+.container {
+  margin: 0 auto;
+  position: relative;
+  max-width: rem(940px);
+  display: flex;
+  flex-direction: column;
+
+  @include phonesmall() {
+  margin-left: rem(20px);
+  margin-right: rem(20px);
+ }
+ 
+ @include phones() {
+  margin-left: rem(20px);
+  margin-right: rem(20px);
+ }
+ 
+ @include tablets() {
+  margin-left: rem(50px);
+  margin-right: rem(50px);
+ }
+}
+
+
 .hero__content {
   display: flex;
   
-  @include tablets {
+  @include tablets() {
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -16,9 +41,7 @@
 }
 
 .hero__container {
-  left: rem(70px);
-right: rem(70px);
-
+  
  
 }
 
@@ -111,11 +134,7 @@ right: rem(70px);
       width: rem(45px);
       height: rem(45px);
     }
- 
 
-
-
- 
  }
 }
 

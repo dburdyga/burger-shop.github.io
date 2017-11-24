@@ -20,16 +20,32 @@
 .order__container {
 min-height: rem(650px);
 padding-top: rem(70px);
-// left: rem(70px);
-// right: rem(70px);
+
+  margin-left: 0;
+  margin-right: 0;
+
+  @include phonesmall {
+
+  margin-left: rem(20px);
+  margin-right: rem(20px);
+ }
+ 
+ @include phones {
+  margin-left: rem(20px);
+  margin-right: rem(20px);
+ }
+ 
+ @include tablets {
+  margin-left: rem(50px);
+  margin-right: rem(50px);
 
 }
 
- 
+ }
 
 
 .order__form {
-  margin-left: -5%;
+  
   display: flex;
 
   @include tablets {
