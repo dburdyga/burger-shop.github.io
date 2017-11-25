@@ -813,7 +813,7 @@ span {
 
 .darkburger_button {
   display: inline-block;
-  border-radius: 5px; }
+  border-radius: 0.3125rem; }
 
 .block_darkburger {
   -webkit-box-flex: 1;
@@ -1859,7 +1859,6 @@ span {
   text-align: center;
   text-decoration: none;
   border-radius: 0.3125rem;
-  padding: 0.5625rem 0.5625rem;
   font-family: 'Ubuntu-Medium'; }
 
 .composition {
