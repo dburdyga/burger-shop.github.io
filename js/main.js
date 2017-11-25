@@ -27,6 +27,15 @@ $(document).ready(function(){
 });
 
 
+$(document).ready(function(){
+    $(".burger__composition").click(function(){
+        console.log('ok')
+           $(".composition__table").toggleClass('composition__table--visible');
+    });
+});
+
+
+
 
 $(document).ready(function(){
     $('.team-acco__triger').click(function(){

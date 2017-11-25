@@ -35,9 +35,6 @@
  .button {
     right: 50%;
     flex:1;
-     
-    
-
  	border: 0;
     display: inline-block;
     padding: 4rem 1.3rem;
@@ -59,16 +56,9 @@
 
 
 .composition__table {
-    // display: inline-block;
-    // position: absolute;
-    // display:none;
-
     flex: 1;
     left: 50%;
-   
- 
-   margin-top: 0px;
-  
+    margin-top: 0px;
     display:none;
     left: rem(-9999px);
     padding: rem(15px) rem(20px);
@@ -83,10 +73,6 @@
 
     }
 
-    // tr {
-    // display: table-row;
-    // vertical-align: inherit;
-    // border-color: inherit }
 
 
     .composition__table-data--ingredient {
@@ -160,16 +146,20 @@
     font-size: 1.25rem;
     color: white;
     opacity: 0.5;
+    width: rem(60px);
+    height: rem(60px);
+    position:absolute;
 
     @include phonesmall {
- 
-   left: 20.1875rem;
+    width: 4.75rem;
+    height: 5.75rem;
+    position:absolute;
     }
 
-
     @include phones {
- 
-   left: 24.1875rem;
+     width: 4.75rem;
+    height: 5.75rem;
+    position:absolute;
     }
 }
 
@@ -177,12 +167,16 @@
 .burger__caloricity {
     position: absolute;
     left: 0;
+    font-family: "Gagalin";
+    color:white;
+    opacity: 0.5;
 
 @include phonesmall {
     // left: 76%;
     top: rem(0px);
     height: rem(80.3125px);
     width: rem(60px);
+     
 }
 
 
@@ -192,6 +186,11 @@
     top: 0rem;
     height: 18.01953rem;
     width: 4.75rem;
+    font-family: "Gagalin";
+    position: absolute;
+    left: 86%;
+    top: 3%;
+    color:white;
 
 }
     
@@ -216,3 +215,35 @@
 //     vertical-align: middle;
 //     border-color: inherit;
 // }
+
+
+.burger__caloricity_text {
+    padding-left: rem(18px);
+    padding-top: rem(31px); 
+
+    @include phonesmall { 
+    padding-left: rem(5px);
+    padding-top: rem(27px);
+    }
+
+    @include phones { 
+   padding-left: rem(5px);
+   padding-top: rem(27px);
+    }
+}
+
+.caloricity-kkal {
+padding-left: rem(16px);
+
+ @include phones { 
+      padding-left: rem(4px);
+    }
+
+     @include phonesmall { 
+       padding-left: rem(4px);
+    }
+
+
+}
+
+ 

@@ -2327,17 +2327,27 @@ span {
   font-family: "Gagalin";
   font-size: 1.25rem;
   color: white;
-  opacity: 0.5; }
+  opacity: 0.5;
+  width: 3.75rem;
+  height: 3.75rem;
+  position: absolute; }
   @media screen and (max-width: 320px) {
     .caloricity {
-      left: 20.1875rem; } }
+      width: 4.75rem;
+      height: 5.75rem;
+      position: absolute; } }
   @media screen and (max-width: 480px) {
     .caloricity {
-      left: 24.1875rem; } }
+      width: 4.75rem;
+      height: 5.75rem;
+      position: absolute; } }
 
 .burger__caloricity {
   position: absolute;
-  left: 0; }
+  left: 0;
+  font-family: "Gagalin";
+  color: white;
+  opacity: 0.5; }
   @media screen and (max-width: 320px) {
     .burger__caloricity {
       top: 0rem;
@@ -2347,7 +2357,12 @@ span {
     .burger__caloricity {
       top: 0rem;
       height: 18.01953rem;
-      width: 4.75rem; } }
+      width: 4.75rem;
+      font-family: "Gagalin";
+      position: absolute;
+      left: 86%;
+      top: 3%;
+      color: white; } }
 
 .caloricity-kkal {
   display: inline-block;
@@ -2359,6 +2374,27 @@ span {
   @media screen and (max-width: 480px) {
     .caloricity-kkal {
       margin-top: 1.625rem; } }
+
+.burger__caloricity_text {
+  padding-left: 1.125rem;
+  padding-top: 1.9375rem; }
+  @media screen and (max-width: 320px) {
+    .burger__caloricity_text {
+      padding-left: 0.3125rem;
+      padding-top: 1.6875rem; } }
+  @media screen and (max-width: 480px) {
+    .burger__caloricity_text {
+      padding-left: 0.3125rem;
+      padding-top: 1.6875rem; } }
+
+.caloricity-kkal {
+  padding-left: 1rem; }
+  @media screen and (max-width: 480px) {
+    .caloricity-kkal {
+      padding-left: 0.25rem; } }
+  @media screen and (max-width: 320px) {
+    .caloricity-kkal {
+      padding-left: 0.25rem; } }
 
 .burger-weight {
   position: absolute;
