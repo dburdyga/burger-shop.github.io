@@ -312,18 +312,17 @@ padding-top: rem(70px);
 
 .team-acco__text {
   width: 70%;
-
-   padding-left: 1.5rem;
- 
-    line-height: rem(21px);
+  padding-left: 1.5rem;
+  line-height: rem(21px);
   @include tablets {
   padding-right: rem(30px);
+  width: 76%;
    }
  @include phonesmall {
-  width: 60%;
+     width: 76%;
  }
  @include phones {
-  width: 60%;
+     width: 76%;
  }
 }
 

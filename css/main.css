@@ -1409,13 +1409,14 @@ span {
   line-height: 1.3125rem; }
   @media screen and (max-width: 768px) {
     .team-acco__text {
-      padding-right: 1.875rem; } }
+      padding-right: 1.875rem;
+      width: 76%; } }
   @media screen and (max-width: 320px) {
     .team-acco__text {
-      width: 60%; } }
+      width: 76%; } }
   @media screen and (max-width: 480px) {
     .team-acco__text {
-      width: 60%; } }
+      width: 76%; } }
 
 .section__title--team {
   color: #f9b43b;
