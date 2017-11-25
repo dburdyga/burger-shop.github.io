@@ -43,6 +43,7 @@ margin: rem(20px);
     width: 100%;
     margin-left: 0;
     margin:0;
+    text-align:right;
      }
 }
 
@@ -111,7 +112,30 @@ margin: rem(20px);
     float:left;
     text-align: center;
   }
+  
+  @include phones {
+      flex:2;
+      text-align: left;
 
+  }
+  @include phonesmall {
+    flex:2;
+    text-align: left;
+
+  }
+}
+
+
+.best_pic {
+   @include phonesmall {
+      flex:1;
+      width: 20%;
+  }
+
+  @include phones {
+      flex:1;
+      width: 20%;
+  }
 
 
 }
@@ -119,9 +143,14 @@ margin: rem(20px);
 .best__item {
   width: 45%;
   margin-right: rem(20px);
-  
+  flex-direction: row;
 
    @include phones {
+    flex-direction: row;
+    margin-right:0;
+  }
+
+  @include phonesmall {
     flex-direction: row;
     margin-right:0;
   }
