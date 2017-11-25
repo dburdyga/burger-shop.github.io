@@ -26,7 +26,6 @@ $(document).ready(function(){
 
 
 
-
 $(document).ready(function(){
     $('.team-acco__triger').click(function(){
     $('.team-acco__triger').next().removeClass('team-acco__content--visible');
@@ -46,6 +45,22 @@ $(document).ready(function(){
 });
 
 
+
+$(document).ready(function(){
+ $('.review__view').click(function(){
+     console.log('ok')
+  $('.full-review').toggleClass('full-review--visible')
+    });
+});
+
+
+$(document).ready(function(){
+ $('.full-review__close-btn').click(function(){
+     console.log('ok')
+  $('.full-review').removeClass('full-review--visible')
+  $('.burger__composition').toggleClass('burger__composition--visible')
+    });
+});
 
 
 
@@ -68,14 +83,6 @@ $(document).ready(function(){
 // }
 
 
-
-
-
-
-
-
-
-
 $(document).ready(function(){
     $('.menu-acco__trigger').mouseover(f_ccc);
     $('.menu-acco__triger').mouseout(function(){
@@ -93,8 +100,6 @@ function f_ccc(){
 
 }
 
-
- 
    
 // $(document).ready(function(){
 //     $(".composition__button").mouseover(function(){
@@ -119,6 +124,15 @@ function f_bb(){
 
 
 
+// $(document).ready(function(){
+//     $('.menu-acco__trigger').on('click', f_ccc);
+// });
+
+// function f_ccc(){
+//  $(this).next().toggleClass('menu-acco__content--visible');
+//  $(this).toggleClass('menu-acco__text--visible');
+  
+// }
 
 
 // $(document).ready(function(){
@@ -133,16 +147,6 @@ function f_bb(){
 
 
 
-
-// $(document).ready(function(){
-//     $('.menu-acco__trigger').on('click', f_ccc);
-// });
-
-// function f_ccc(){
-//  $(this).next().toggleClass('menu-acco__content--visible');
-//  $(this).toggleClass('menu-acco__text--visible');
-  
-// }
 
 ymaps.ready(init);
 

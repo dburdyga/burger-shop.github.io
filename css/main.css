@@ -2004,6 +2004,80 @@ span {
   .header__menu--close {
     display: none; }
 
+.popup {
+  display: none; }
+  .popup--visible {
+    display: block; }
+
+.full-review {
+  display: none;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+  .full-review--visible {
+    display: block;
+    position: fixed;
+    background: #2f3234;
+    opacity: 0.89;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1; }
+
+.full-review__inner {
+  line-height: 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 96%;
+  max-width: 28.6875rem;
+  min-height: 15.875rem;
+  background-color: #ffffff;
+  border-radius: 0.3125rem;
+  padding: 1.25rem 1.25rem;
+  z-index: 2; }
+
+.full-review__title {
+  font-family: 'Gagalin';
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  margin-bottom: 1.5625rem; }
+
+.full-review__content {
+  font-size: 0.875rem;
+  font-family: 'Ubuntu'; }
+
+.full-review__close-btn {
+  background: url(../img/sprite/close.svg) center center no-repeat;
+  cursor: pointer;
+  top: -2px;
+  left: 725px;
+  z-index: 5;
+  opacity: 0.7; }
+
+.status-popup__inner {
+  padding: 1.25rem;
+  text-align: center; }
+
+.status-popup__message {
+  margin-bottom: 1.25rem;
+  font-size: 0.875rem; }
+
+.status-popup {
+  width: 15rem; }
+
+.error-message {
+  color: #e35028; }
+
 .burgers {
   background: #f9b43b;
   /* Old browsers */
@@ -2045,6 +2119,8 @@ span {
 .composition {
   position: absolute;
   text-align: left; }
+  .composition--visible {
+    display: none; }
 
 .burger__composition {
   position: absolute;
@@ -2054,7 +2130,7 @@ span {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  z-index: 10; }
+  z-index: 1; }
 
 .composition__button {
   vertical-align: top;
@@ -2192,5 +2268,40 @@ span {
   @media screen and (max-width: 480px) {
     .caloricity-kkal {
       margin-top: 1.625rem; } }
+
+.burger-weight {
+  position: absolute;
+  bottom: 0rem;
+  left: 0;
+  opacity: .5; }
+  @media screen and (max-width: 768px) {
+    .burger-weight {
+      top: 0;
+      right: 0;
+      bottom: auto;
+      left: auto; } }
+
+.burger-weight__measure {
+  background: url("../../img/icons/kkal.svg") 50% no-repeat;
+  width: 4.0625rem;
+  height: 3.75rem;
+  position: relative;
+  background-size: contain; }
+
+.burger-weight__amount {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  font-size: 1.25rem;
+  font-family: 'Gagalin-Regular', Helvetica, sans-serif; }
+
+.burger-weight__title {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #fff;
+  font-family: 'Gagalin-Regular', Helvetica, sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
