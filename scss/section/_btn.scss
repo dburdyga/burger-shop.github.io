@@ -8,4 +8,20 @@
 	border-radius: rem(5px);
 	 
 	font-family: 'Ubuntu-Medium';
+
+    @include phones {
+    	 margin-right: rem(18px);
+
+    }
+
+      @include phonesmall {
+    	 margin-right: rem(18px);
+
+    }
+
+	       @include tablets {
+    	 margin-right: rem(18px);
+
+    }
+
 }

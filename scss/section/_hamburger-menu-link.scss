@@ -3,18 +3,30 @@
 	position: relative;
 	height: rem(22px);
 	align-items: center;
-	 
     display: none;
     @include tablets() {
     display: flex;
-  }
+   
+
+}
+
+    @include phones () {
+     
+}
+
+    @include phonesmall () {
+ 
+  } 
 
    
  &--visible {
   display:none;
     z-index:1;
  }
-}
+
+
+
+
 
 .hamburger-menu-link_img {
 
@@ -69,4 +81,4 @@ display:none;
 
 .hamburger-menu-link__bars_list {
 	display:none;
-}
+}}
