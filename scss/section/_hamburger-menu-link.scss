@@ -3,7 +3,7 @@
 	position: relative;
 	height: rem(22px);
 	align-items: center;
-	margin-left: rem(30px);
+	 
     display: none;
     @include tablets() {
     display: flex;
@@ -28,6 +28,17 @@ display:none;
 
 }
 
+
+.hamburger-menu__items {
+
+	position: absolute;
+}
+
+     
+.img_rectangle {
+	position:absolute;
+	z-index:1;
+}
 
 .hamburger-menu-link__bars {
 	&, &:before, &:after {

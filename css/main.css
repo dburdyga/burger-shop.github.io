@@ -1762,7 +1762,6 @@ span {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-left: 1.875rem;
   display: none; }
   @media screen and (max-width: 768px) {
     .hamburger-menu-link {
@@ -1780,6 +1779,13 @@ span {
     z-index: 1;
     display: block;
     opacity: 0.7; }
+
+.hamburger-menu__items {
+  position: absolute; }
+
+.img_rectangle {
+  position: absolute;
+  z-index: 1; }
 
 .hamburger-menu-link__bars, .hamburger-menu-link__bars:before, .hamburger-menu-link__bars:after {
   background: #fff;
