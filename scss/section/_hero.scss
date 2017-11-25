@@ -15,8 +15,8 @@
  
 
   @include phonesmall() {
-  margin-left: rem(20px);
-  margin-right: rem(20px);
+  margin-left: rem(10px);
+  margin-right: rem(10px);
   // &--visible {
   // margin-left: rem(0px);
   // margin-right: rem(0px);
@@ -25,8 +25,8 @@
  }
  
  @include phones() {
-  margin-left: rem(20px);
-  margin-right: rem(20px);
+  margin-left: rem(10px);
+  margin-right: rem(10px);
   //  &--visible {
   // margin-left: rem(0px);
   // margin-right: rem(0px);
@@ -34,8 +34,8 @@
 }
  
  @include tablets() {
-  margin-left: rem(50px);
-  margin-right: rem(50px);
+  margin-left: rem(22px);
+  margin-right: rem(22px);
   //   &--visible {
   // margin-left: rem(0px);
   // margin-right: rem(0px);

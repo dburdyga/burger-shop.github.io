@@ -44,11 +44,12 @@ min-height: rem(650px);
   color:white;
 
   @include phonesmall {
-      left: 3%
+      left: 3%;
+      font-size: 2.8125rem;
   }
  
  @include phones {
-      left: 3%
+      left: 3%;
   }
 
 }

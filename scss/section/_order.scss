@@ -7,6 +7,17 @@
   .section__title {
     text-align: center;
     color: $yellow;
+    @include tablets {
+      letter-spacing: 0;
+    }
+
+    @include phonesmall {
+      letter-spacing: 0;
+    }
+     @include phones {
+      letter-spacing: 0;
+    }
+    
   }
 }
 
@@ -51,7 +62,10 @@ padding-top: rem(70px);
   }
 
   @include phonesmall {
-  width:100%;
+  width: 95%;
+  }
+  @include phones  {
+  width: 95%;
   }
 }
 
