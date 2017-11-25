@@ -4,6 +4,7 @@
   position: relative;
   min-height: 40.625rem; }
   .wrapper--closed {
+    position: absolute;
     overflow: hidden; }
 
 .maincontent {
@@ -1872,20 +1873,46 @@ span {
   .nav {
     display: none; } }
 
-.nav--visible {
+.hamburger-menu__items--visible {
   display: block;
-  padding-top: 3.3125rem; }
-  .nav--visible .nav__list {
+  background-size: 100%;
+  background: #2e3133 no-repeat center center fixed;
+  opacity: 0.95;
+  min-width: 100%;
+  height: 100vh;
+  text-align: center;
+  margin-right: 0;
+  margin-top: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1; }
+
+.hamburger-menu__items--close {
+  display: none; }
+
+.nav_hamburger--visible {
+  display: block;
+  padding-top: 3.3125rem;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0; }
+  .nav_hamburger--visible .nav__list {
     display: block;
     width: 100%; }
-  .nav--visible .nav__link {
+  .nav_hamburger--visible .nav__link {
     font-size: 24px;
     font-family: 'ubuntu'; }
-  .nav--visible .nav__item {
+  .nav_hamburger--visible .nav__item {
     text-align: center;
     margin-top: 1.875rem;
     list-style-type: none; }
-    .nav--visible .nav__item:after {
+    .nav_hamburger--visible .nav__item:after {
       content: "";
       width: 0.5rem;
       height: 0.5rem;
@@ -1894,9 +1921,9 @@ span {
       position: absolute;
       margin-top: 3.1875rem;
       left: 47%; }
-    .nav--visible .nav__item:last-child:after {
+    .nav_hamburger--visible .nav__item:last-child:after {
       visibility: hidden; }
-    .nav--visible .nav__item--close {
+    .nav_hamburger--visible .nav__item--close {
       display: none; }
 
 .nav__list {

@@ -6,6 +6,7 @@
   // overflow: hidden;
   min-height: rem(650px);
   &--closed {
+    position: absolute;
     overflow: hidden;
   }
 }

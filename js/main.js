@@ -5,14 +5,16 @@ $(document).ready(function(){
     // $(".nav").toggleClass('nav--visible');
     $(".hamburger-menu-link").click(function(){
     $(".hamburger-menu-link_img").toggleClass('hamburger-menu-link_img--visible')
-    $(".nav").toggleClass('nav--visible');
+    $(".nav_hamburger").toggleClass('nav_hamburger--visible');
     $(".wrapper").toggleClass('wrapper--closed');
+    $(".container").toggleClass('container--visible');
+
     });
 });
 
 $(document).ready(function(){
         $(".hamburger-menu-link").click(function(){
-         $(".header__menu").toggleClass('header__menu--visible');
+         $(".hamburger-menu__items ").toggleClass('hamburger-menu__items--visible');
     });
 });
 
