@@ -34,6 +34,8 @@
 	height: rem(18px);
 	padding: rem(15px);
 	box-sizing: content-box;
+	z-index: 1;
+    
 
 	&:hover {
 		.hamburger-menu__close-icon {

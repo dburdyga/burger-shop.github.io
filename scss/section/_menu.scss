@@ -42,6 +42,15 @@ min-height: rem(650px);
   padding-bottom: rem(350px);
   left: 10%;
   color:white;
+
+  @include phonesmall {
+      left: 3%
+  }
+ 
+ @include phones {
+      left: 3%
+  }
+
 }
 
  

@@ -326,7 +326,8 @@ h6 {
   font-family: 'Gagalin';
   text-align: center;
   padding-top: 0.55rem;
-  margin-bottom: 0.5625rem; }
+  margin-bottom: 0.5625rem;
+  letter-spacing: 0; }
 
 .best__pictures_title {
   font-family: 'Lifehack';
@@ -594,6 +595,12 @@ h6 {
     .review__title {
       margin-bottom: 0.875rem;
       text-align: center; } }
+  @media screen and (max-width: 480px) {
+    .review__title {
+      font-size: 1.5rem; } }
+  @media screen and (max-width: 320px) {
+    .review__title {
+      font-size: 1.5rem; } }
 
 .review__shorttext {
   color: #ffffff;
@@ -1495,6 +1502,12 @@ span {
   padding-bottom: 21.875rem;
   left: 10%;
   color: white; }
+  @media screen and (max-width: 320px) {
+    .menu__title {
+      left: 3%; } }
+  @media screen and (max-width: 480px) {
+    .menu__title {
+      left: 3%; } }
 
 .menu-acco {
   display: -webkit-box;
@@ -1858,7 +1871,8 @@ span {
   height: 1.125rem;
   padding: 0.9375rem;
   -webkit-box-sizing: content-box;
-  box-sizing: content-box; }
+  box-sizing: content-box;
+  z-index: 1; }
   .hamburger-menu__close:hover .hamburger-menu__close-icon use {
     fill: #fff; }
 
