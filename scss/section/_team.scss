@@ -6,28 +6,6 @@
 }
 
 
-.team__content {
-position:absolute;
-top:0;
-bottom:0;
-right:0;
-width:50%;
-background: rgba(#343638, .93);
-padding-left: rem(78px);
-display: flex;
-flex-direction: column;
-padding-top: rem(70px);
-
-
-@include tablets {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    padding: 0;
-  }
-}
-
 
 .team__container {
  min-height: rem(650px);
@@ -39,8 +17,7 @@ margin-right: rem(50px);
 
 @include tablets {
 margin-left: rem(50px);
-margin-right: rem(50px);
-    
+margin-right: rem(50px);  
 flex-direction: column;
 align-items: center;
 text-align: center;
@@ -69,7 +46,32 @@ margin-right: rem(10px);
 //  justify-content: center;
 //}
 
- 
+ .team__content {
+position:absolute;
+top:0;
+bottom:0;
+right:0;
+width:50%;
+background: rgba(#343638, .93);
+padding-left: rem(78px);
+display: flex;
+flex-direction: column;
+padding-top: rem(70px);
+
+
+@include tablets {
+      
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+
+
 .team-acco__content {
   opacity:0;
   visibility:hidden;
@@ -82,7 +84,7 @@ margin-right: rem(10px);
  
 
   &--visible {
-    font-size: rem(14px);
+  font-size: rem(14px);
   font-family: 'Ubuntu-Light';
   transition: height .5s, visibility .7s, opacity .9s;
   opacity:1;
@@ -101,7 +103,7 @@ margin-right: rem(10px);
     text-align: center;
     width: 100%;
     padding: 0;
-    padding-right: rem(30px);
+    display:flex;
    }
 
 
@@ -132,11 +134,59 @@ margin-right: rem(10px);
   cursor:pointer;
 
   &:hover {
-  color: $yellow; }
+  color: white; }
   
 
 &--visible {
-   display: flex;
+    display: flex;
+    align-items: center;
+    font-size: rem(14px);
+    margin-bottom: 8px;
+    color: $yellow; 
+    font-family: 'Gagalin';
+    padding-top: rem(14px);
+    cursor:pointer;
+    &:before {
+    content: "";
+    height:0;
+    width:0;
+    border: rem(4.5px) solid transparent;
+    border-top-color: #f8b43a;
+    border-bottom-width: 0;
+    margin: rem(9px);
+    transform: rotate(-180deg);
+
+  }}
+
+  &:before {
+    content: "";
+    height:0;
+    width:0;
+    border: rem(4.5px) solid transparent;
+    border-top-color: #f8b43a;
+    border-bottom-width: 0;
+    margin: rem(9px);
+  }
+
+  @include tablets {
+    display:block;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    flex-direction:row;
+     &:before {
+    content: "";
+    height:0;
+    width:0;
+    border: rem(4.5px) solid transparent;
+    border-top-color: #f8b43a;
+    border-bottom-width: 0;
+    margin: rem(9px);
+  }
+      
+    &--visible {
+    display: block;
     align-items: center;
     font-size: rem(14px);
     margin-bottom: 8px;
@@ -151,13 +201,24 @@ margin-right: rem(10px);
     border-top-color: #f8b43a;
     border-bottom-width: 0;
     margin: rem(9px);
-
     transform: rotate(-180deg);
 
- 
   }}
+   
+         
+   }
 
-  &:before {
+   @include phonesmall {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    color: white; 
+    font-family: 'Gagalin';
+    padding-top: rem(14px);
+  
+    &:before {
     content: "";
     height:0;
     width:0;
@@ -165,19 +226,30 @@ margin-right: rem(10px);
     border-top-color: #f8b43a;
     border-bottom-width: 0;
     margin: rem(9px);
+    
   }
 
-  @include tablets {
-   flex-direction: column;
+    &--visible {
+    justify-content: center;
+    display: flex;
     align-items: center;
-    text-align: center;
-    width: 100%;
-    padding: 0;
-         
-   }
-
-   @include phonesmall {
     font-size: 1.5rem;
+    margin-bottom: 8px;
+    color: $yellow; 
+    font-family: 'Gagalin';
+    padding-top: rem(14px);
+      cursor:pointer;
+    &:before {
+    content: "";
+    height:0;
+    width:0;
+    border: rem(4.5px) solid transparent;
+    border-top-color: #f8b43a;
+    border-bottom-width: 0;
+    margin: rem(9px);
+    transform: rotate(-180deg);
+
+  }}
 
    }
 
@@ -189,11 +261,18 @@ margin-right: rem(10px);
 
 .team-acco__text {
   width: 70%;
+
+   padding-left: 1.5rem;
+ 
+    line-height: rem(21px);
   @include tablets {
-        padding-right: rem(30px);
+  padding-right: rem(30px);
    }
  @include phonesmall {
-   width: 58%;
+  width: 60%;
+ }
+ @include phones {
+  width: 60%;
  }
 }
 
@@ -215,13 +294,7 @@ margin-right: rem(10px);
   
 }
 
-.team-acco__text {
-    padding-left: 1.5rem;
-    width: 55%;
-    line-height: rem(21px);
-}
-
-
+ 
 
 
 .team-acco__text-content {
