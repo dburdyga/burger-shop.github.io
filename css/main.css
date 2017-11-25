@@ -2,25 +2,25 @@
   width: 100%;
   height: 100%;
   position: relative;
-  min-height: rem(650px); }
+  min-height: 40.625rem; }
   .wrapper--closed {
     overflow: hidden; }
 
 .maincontent {
   height: 100%;
-  min-height: rem(650px); }
+  min-height: 40.625rem; }
 
 .section {
   min-height: 100vh;
   background-color: rgba(0, 0, 0, 0.31); }
 
 .order-link {
-  border-radius: rem(5px);
-  min-width: rem(98px);
+  border-radius: 0.3125rem;
+  min-width: 6.125rem;
   background-color: #e45028;
   color: #fff;
   text-decoration: none;
-  font-size: rem(13px);
+  font-size: 0.8125rem;
   font-weight: 500;
   line-height: 1.42;
   text-transform: uppercase;
@@ -34,7 +34,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-size: rem(16px);
+  font-size: 1rem;
   font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
   line-height: 1.42;
   color: #2f3234;
@@ -55,9 +55,9 @@ ul {
 
 .visuallyhidden:not(:focus):not(:active) {
   position: absolute;
-  width: rem(1px);
-  height: rem(1px);
-  margin: rem(-1px);
+  width: 0.0625rem;
+  height: 0.0625rem;
+  margin: -0.0625rem;
   border: 0;
   padding: 0;
   white-space: nowrap;
@@ -1140,6 +1140,11 @@ span {
   display: -ms-flexbox;
   display: flex; }
   .team-acco__content--visible {
+    font-size: 0.875rem;
+    font-family: 'Ubuntu-Light';
+    -webkit-transition: height .5s, visibility .7s, opacity .9s;
+    -o-transition: height .5s, visibility .7s, opacity .9s;
+    transition: height .5s, visibility .7s, opacity .9s;
     opacity: 1;
     visibility: visible;
     -webkit-transition: 1s;
@@ -1189,8 +1194,27 @@ span {
   .team-acco__triger:hover {
     color: #f9b43b; }
   .team-acco__triger--visible {
-    color: #f9b43b; }
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 0.875rem;
+    margin-bottom: 8px;
+    color: #f9b43b;
+    font-family: 'Gagalin';
+    padding-top: 0.875rem; }
     .team-acco__triger--visible:before {
+      content: "";
+      height: 0;
+      width: 0;
+      border: 0.28125rem solid transparent;
+      border-top-color: #f8b43a;
+      border-bottom-width: 0;
+      margin: 0.5625rem;
       -webkit-transform: rotate(-180deg);
       -ms-transform: rotate(-180deg);
       transform: rotate(-180deg); }
