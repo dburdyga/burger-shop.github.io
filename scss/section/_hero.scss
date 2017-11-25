@@ -34,8 +34,8 @@
 }
  
  @include tablets() {
-  margin-left: rem(22px);
-  margin-right: rem(22px);
+  margin-left: rem(50px);
+  margin-right: rem(50px);
   //   &--visible {
   // margin-left: rem(0px);
   // margin-right: rem(0px);
@@ -110,6 +110,7 @@
   line-height: 1em;
   letter-spacing: rem(-1px);
   padding-top: rem(10px);
+      width: 48%;
   @include tablets () {
     padding-bottom: rem(15px);
     padding-top: 0; 
