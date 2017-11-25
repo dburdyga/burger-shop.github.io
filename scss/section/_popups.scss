@@ -11,7 +11,6 @@
     display:none;
     height:100%;
 	width:100%;
-	 
 	top: 0;
     bottom: 0;
     left: 0;
@@ -21,7 +20,7 @@
 	display:block;	
 	position: fixed;
 	background: #2f3234;
-	opacity: 0.89;
+	opacity: 0.9;
 	height:100%;
 	width:100%;
 	top: 0;
@@ -57,7 +56,7 @@
 	font-family: 'Gagalin';
 	font-size: rem(14px);
 	text-transform: uppercase;
-	margin-bottom: rem(25px);
+	margin-bottom: 0.5625rem;
 }
 
 .full-review__content {
@@ -67,56 +66,43 @@
 
 
 
-// .full-review__close-btn {
-// 	cursor: pointer;
-//     position: absolute;
-//     top: 19px;
-//     right: 21px;
-//     background: url(../img/sprite/close.png) center center no-repeat;
-// }
-
-
-
-
-
 .full-review__close-btn {
-	background: url(../img/sprite/close.svg) center center no-repeat;
+	background: url(../img/sprite/close.svg) right no-repeat;
 	cursor: pointer;
-    top: -2px;
-	left: 725px;
 	z-index: 5;
     opacity:0.7;
+    height: 20px;
+    width: 100%;
 }
 
-// .full-review__close {
-    
-// 	margin-left: auto;
-//     border: none;
-//     padding: 0;
-//     text-align: center;
-//     text-decoration: none;
-//     font-size: 0;
-//     color: transparent;
-//     -webkit-align-self: center;
-//     -ms-flex-item-align: center;
-//     align-self: center;
-//     width: 20px;
-//     height: 20px;
-//     opacity: 1.7;
+.full-review__close {
+	margin-left: auto;
+    border: none;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0;
+    color: transparent;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    width: 20px;
+    height: 20px;
+    opacity: 1.7;
 
-// 	// width: rem(15px);
-// 	// height: rem(15px);
-// 	// display: block;
-// 	// position: absolute;
-// 	// right: rem(20px);
-// 	// top: rem(20px);
-// 	// opacity: .7;
-// 	// transition: .3s;
+	// width: rem(15px);
+	// height: rem(15px);
+	// display: block;
+	// position: absolute;
+	// right: rem(20px);
+	// top: rem(20px);
+	// opacity: .7;
+	// transition: .3s;
 
-// 	// &:hover {
-// 	// 	opacity: 1;
-// 	// }
-// }
+	// &:hover {
+	// 	opacity: 1;
+	// }
+}
 
 .status-popup__inner {
 	padding: rem(20px);

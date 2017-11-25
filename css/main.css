@@ -2088,7 +2088,7 @@ span {
     display: block;
     position: fixed;
     background: #2f3234;
-    opacity: 0.89;
+    opacity: 0.9;
     height: 100%;
     width: 100%;
     top: 0;
@@ -2117,19 +2117,34 @@ span {
   font-family: 'Gagalin';
   font-size: 0.875rem;
   text-transform: uppercase;
-  margin-bottom: 1.5625rem; }
+  margin-bottom: 0.5625rem; }
 
 .full-review__content {
   font-size: 0.875rem;
   font-family: 'Ubuntu'; }
 
 .full-review__close-btn {
-  background: url(../img/sprite/close.svg) center center no-repeat;
+  background: url(../img/sprite/close.svg) right no-repeat;
   cursor: pointer;
-  top: -2px;
-  left: 725px;
   z-index: 5;
-  opacity: 0.7; }
+  opacity: 0.7;
+  height: 20px;
+  width: 100%; }
+
+.full-review__close {
+  margin-left: auto;
+  border: none;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0;
+  color: transparent;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  width: 20px;
+  height: 20px;
+  opacity: 1.7; }
 
 .status-popup__inner {
   padding: 1.25rem;
