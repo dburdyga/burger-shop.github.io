@@ -1,3 +1,119 @@
+const display = $('.maincontent');
+const sections = $('.section');
+
+let inScroll = false;
+
+const mobileDetect = new MobileDetect(window.navigator.userAgent);
+const isMobile = mobileDetect.mobile();
+
+const switchMenuActiveClass = sectionEq => {
+  $('.fixed-menu__item').eq(sectionEq).addClass('active')
+    .siblings().removeClass('active');
+}
+
+const performTransition = sectionEq => {
+  if (inScroll) return
+  inScroll = true
+
+  const position = (sectionEq * -100) + '%';
+
+  display.css({
+    'transform': `translate(0, ${position})`,
+    '-webkit-transform': `translate(0, ${position})`
+  })
+
+  sections.eq(sectionEq).addClass('active')
+    .siblings().removeClass('active');
+
+  setTimeout(() => {
+    inScroll = false;
+    switchMenuActiveClass(sectionEq);
+  }, 1300);
+}
+
+const difineSections = sections => {
+  const activeSection = sections.filter('.active');
+  return {
+    activeSection: activeSection,
+    nextSection: activeSection.next(),
+    prevSection: activeSection.prev()
+  }
+}
+
+const scrollToSection = direction => {
+  const section = difineSections(sections)
+
+  if (inScroll) return;
+
+  if (direction === 'up' && section.nextSection.length) { // вниз
+    performTransition(section.nextSection.index())
+  }
+
+  if (direction === 'down' && section.prevSection.length) { // вверх
+    performTransition(section.prevSection.index())
+  }
+}
+
+$('.wrapper').on({
+  wheel: e => {
+    const deltaY = e.originalEvent.deltaY;
+    let direction = (deltaY > 0) 
+      ? 'up' 
+      : 'down'
+
+    scrollToSection(direction);
+  },
+  touchmove: e => (e.preventDefault())
+});
+
+
+$(document).on('keydown', e => {
+  const section = difineSections(sections);
+
+  if (inScroll) return
+
+  switch (e.keyCode) {
+    case 40: // вверх
+      if (!section.nextSection.length) return;
+      performTransition(section.nextSection.index());
+      break;
+
+    case 38: //вниз
+      if (!section.prevSection.length) return;
+      performTransition(section.prevSection.index());
+      break;
+  }
+});
+
+if (isMobile) {
+  $(window).swipe({
+    swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
+      console.log(direction);
+      scrollToSection(direction);
+    }
+  })
+}
+
+
+$('[data-scroll-to]').on('click touchstart', e => {
+  e.preventDefault();
+  const $this = $(e.currentTarget);
+  const sectionIndex = parseInt($this.attr('data-scroll-to'));
+
+  performTransition(sectionIndex);
+});
+
+
+
+
+
+
+
+
+
+
+
+
 // var hamburger-menu-link = document.getElementById('block')
 // var button = document.getElementById('button')
 
@@ -75,24 +191,6 @@ $(document).ready(function(){
 
 
 
-// $(document).ready(function(){
-//     // $('.team-acco__triger').mouseover(f_acc);
-//     // // $('.team-acco__triger').mouseout(f_ac);
-//     $('.team-acco__triger').on('click', f_acc);
-// });
- 
-// function f_acc(){
-//     $('.team-acco__triger').next().removeClass('team-acco__content--visible');
-//     $('.team-acco__triger').removeClass('team-acco__triger--visible');
-//     $(this).next().toggleClass('team-acco__content--visible');
-//     $(this).toggleClass('team-acco__triger--visible'); 
-// }
-
-// function f_ac(){ 
-//     $('.team-acco__triger').next().removeClass('team-acco__content--visible');
-//     $('.team-acco__triger').removeClass('team-acco__triger--visible');
-// }
-
 
 $(document).ready(function(){
     $('.menu-acco__trigger').mouseover(f_ccc);
@@ -111,13 +209,7 @@ function f_ccc(){
 
 }
 
-   
-// $(document).ready(function(){
-//     $(".composition__button").mouseover(function(){
 
-//            $(".composition__table").toggleClass('composition__table--visible');
-//     });
-// });
 
  $(document).ready(function(){
     $('.composition__button').mouseover(f_bbb);
@@ -135,26 +227,24 @@ function f_bb(){
 
 
 
-// $(document).ready(function(){
-//     $('.menu-acco__trigger').on('click', f_ccc);
-// });
-
-// function f_ccc(){
-//  $(this).next().toggleClass('menu-acco__content--visible');
-//  $(this).toggleClass('menu-acco__text--visible');
-  
-// }
 
 
-// $(document).ready(function(){
-//     $('.menu-acco__trigger').on('click', f_ccc);
-// });
 
-// function f_ccc(){
-//  $(this).next().toggleClass('menu-acco__content--visible');
-//  $(this).toggleClass('menu-acco__text--visible');
-  
-// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
