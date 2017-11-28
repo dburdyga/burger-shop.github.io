@@ -9,7 +9,10 @@
 
 .maincontent {
   height: 100%;
-  min-height: 40.625rem; }
+  min-height: 40.625rem;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s; }
 
 .section {
   min-height: 100vh;
