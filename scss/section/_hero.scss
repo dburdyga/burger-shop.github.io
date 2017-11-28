@@ -110,14 +110,16 @@
   line-height: 1em;
   letter-spacing: rem(-1px);
   padding-top: rem(10px);
-      width: 48%;
+  // width: 48%;
   @include tablets () {
     padding-bottom: rem(15px);
     padding-top: 0; 
+      
   }
 
   @include phonesmall () {
-    font-size: rem(50px)
+    font-size: rem(50px);
+   
   }
 }
 

@@ -248,8 +248,7 @@ h6 {
   text-transform: lowercase;
   line-height: 1em;
   letter-spacing: -0.0625rem;
-  padding-top: 0.625rem;
-  width: 48%; }
+  padding-top: 0.625rem; }
   @media screen and (max-width: 768px) {
     .hero__desc {
       padding-bottom: 0.9375rem;
