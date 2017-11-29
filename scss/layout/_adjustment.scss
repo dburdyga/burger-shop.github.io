@@ -82,7 +82,7 @@
 //  }
 
 .section {
- height: 100%;
+  height: 100%;
   min-height: rem(650px);
   position: relative;
   display: flex;
@@ -90,17 +90,17 @@
   background-color: rgba(0,0,0,0.31);
   
   @include tablets {
-     height: 100%;
+    height: 100%;
     min-height: rem(650px);
     min-height: initial;
     // height: 100vh;
   }
 
    @include phones {
-     height: 100%;
+    height: 100%;
     min-height: rem(650px);
     min-height: initial;
-    // height: 100vh;
+    // height: 100%;
   }
 
 }

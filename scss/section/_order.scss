@@ -32,17 +32,19 @@ padding-top: rem(70px);
   margin-right: 0;
 
   @include phonesmall {
-
+padding-top:0;
   margin-left: rem(20px);
   margin-right: rem(20px);
  }
  
  @include phones {
+  padding-top:0;
   margin-left: rem(20px);
   margin-right: rem(20px);
  }
  
  @include tablets {
+  padding-top:0;
   margin-left: rem(50px);
   margin-right: rem(50px);
 
@@ -110,7 +112,7 @@ padding-top: rem(70px);
 }
 
 .section__title--order {
-     margin-bottom: 3.8rem;
+     // margin-bottom: 3.8rem;
   padding-left: rem(10px);
 }
 
