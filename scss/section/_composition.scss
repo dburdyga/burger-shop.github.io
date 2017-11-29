@@ -12,9 +12,10 @@
     left: rem(6px);
     top: rem(20px);
     display:flex;
-
     z-index: 1;
-
+    
+    @include phonesmall() {
+    top: 3rem;}
 }
 
 .composition__button {
@@ -170,12 +171,15 @@
     font-family: "Gagalin";
     color:white;
     opacity: 0.5;
+     top: 7%;
+
 
 @include phonesmall {
     // left: 76%;
     top: rem(0px);
     height: rem(80.3125px);
     width: rem(60px);
+        top: 7%;
      
 }
 
@@ -189,7 +193,7 @@
     font-family: "Gagalin";
     position: absolute;
     left: 82%;
-    top: 3%;
+ top: 7%;
     color:white;
 
 }

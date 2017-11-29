@@ -293,7 +293,7 @@ h6 {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  max-width: 100%;
+  max-width: 150%;
   max-height: 100%; }
 
 .down-arrow {
@@ -2247,6 +2247,9 @@ span {
   display: -ms-flexbox;
   display: flex;
   z-index: 1; }
+  @media screen and (max-width: 320px) {
+    .burger__composition {
+      top: 3rem; } }
 
 .composition__button {
   vertical-align: top;
@@ -2372,12 +2375,14 @@ span {
   left: 0;
   font-family: "Gagalin";
   color: white;
-  opacity: 0.5; }
+  opacity: 0.5;
+  top: 7%; }
   @media screen and (max-width: 320px) {
     .burger__caloricity {
       top: 0rem;
       height: 5.01953rem;
-      width: 3.75rem; } }
+      width: 3.75rem;
+      top: 7%; } }
   @media screen and (max-width: 480px) {
     .burger__caloricity {
       top: 0rem;
@@ -2386,7 +2391,7 @@ span {
       font-family: "Gagalin";
       position: absolute;
       left: 82%;
-      top: 3%;
+      top: 7%;
       color: white; } }
 
 .caloricity-kkal {
