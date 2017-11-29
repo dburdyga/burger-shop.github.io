@@ -44,6 +44,13 @@
   background-color: rgba(0, 0, 0, 0.31); }
   @media screen and (max-width: 768px) {
     .section {
+      height: 100%;
+      min-height: 40.625rem;
+      min-height: initial; } }
+  @media screen and (max-width: 480px) {
+    .section {
+      height: 100%;
+      min-height: 40.625rem;
       min-height: initial; } }
 
 .order-link {
