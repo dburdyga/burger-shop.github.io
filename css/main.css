@@ -196,8 +196,8 @@ h6 {
       margin-right: 0.625rem; } }
   @media screen and (max-width: 768px) {
     .container {
-      margin-left: 3.125rem;
-      margin-right: 3.125rem; } }
+      margin-left: 0.625rem;
+      margin-right: 0.625rem; } }
 
 .hero__content {
   display: -webkit-box;
@@ -1925,9 +1925,6 @@ span {
   -o-transition: left 1s;
   transition: left 1s;
   position: relative; }
-
-.active {
-  left: 40px; }
 
 @media screen and (max-width: 768px) {
   .nav {
