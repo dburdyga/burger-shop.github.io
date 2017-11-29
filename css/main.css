@@ -707,8 +707,7 @@ h6 {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
-  justify-content: center;
-  padding-bottom: 15%; }
+  justify-content: center; }
 
 .darkburger__content {
   top: 0;
@@ -786,7 +785,6 @@ h6 {
   padding: 0;
   font-family: 'Gagalin';
   display: block;
-  padding-top: 4.8rem;
   margin-bottom: 1.5rem;
   line-height: 4.3rem; }
 
@@ -820,7 +818,7 @@ span {
       padding-top: 0; } }
 
 .img_darkburger {
-  padding-top: 10rem;
+  padding-top: 8rem;
   display: inline-block;
   position: relative;
   left: 50%;
@@ -2387,7 +2385,7 @@ span {
       width: 4.75rem;
       font-family: "Gagalin";
       position: absolute;
-      left: 86%;
+      left: 82%;
       top: 3%;
       color: white; } }
 
