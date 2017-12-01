@@ -10,6 +10,31 @@
   
 }
 
+
+.burgers__arrow--left {
+    margin-left: 2px;
+    left: 0;
+    background: url(../img/burgers/arrow-burger-l.svg) center center no-repeat; }
+
+.burgers__arrow {
+    width: 19px;
+    height: 27px;
+    margin-top: -5%;
+    z-index: 2;
+    position: static; }
+
+
+
+.burgers__arrow--right {
+    margin-right: 2px;
+    left: inherit;
+    margin-left: inherit;
+    right: 0;
+    background: url(../img/burgers/arrow-burger-r.svg) center center no-repeat;
+}
+ 
+
+
 .darkburger__price {
 	font-family: 'Gagalin';
 	font-size: rem(30px);
