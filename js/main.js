@@ -1,22 +1,40 @@
 
+$(document).ready(function() {
+  $(this).toggleClass('burgers__item--active'); 
+  $(".burgers__item").fancybox({
+    openEffect  : 'none',
+    closeEffect : 'none',
+    transitionEffect: 'slide',
 
-$(".burgers__item")
-    .attr('rel', 'gallery')
-    .fancybox({
-        padding : 0
+  });
 
-    });
-
-
-$(document).ready(function(){
-$(".burgers__arrow").click(function(){
-         $(".burgers__item").toggleClass('burgers__item--active');
-    });
-
- });
+    
+});
 
 
 
+
+
+
+// $('.burgers__item').slick();
+
+
+//  $(document).ready(function(){
+//       $('.burgers__item').slick({
+        
+//       });
+//     });
+
+// // $(document).ready(function(){
+// // $('.burgers__item').slick({
+// //   dots: true,
+// //   infinite: true,
+// //   speed: 500,
+// //   fade: true,
+// //   cssEase: 'linear'
+// // });
+  
+// // });
 
 const display = $('.maincontent');
 const sections = $('.section');
