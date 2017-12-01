@@ -30,6 +30,10 @@
     background-repeat: no-repeat;
     background-position: center rem(13px); 
     cursor:pointer;
+
+    &:hover {
+        opacity:0.5;
+    }
 }
  
 
@@ -150,6 +154,11 @@
     width: rem(60px);
     height: rem(60px);
     position:absolute;
+    opacity:1;
+
+    &:hover {
+      opacity:0.8;  
+    }
 
     @include phonesmall {
     width: 4.75rem;
@@ -170,8 +179,12 @@
     left: 0;
     font-family: "Gagalin";
     color:white;
-    opacity: 0.5;
-     top: 7%;
+    opacity: 1;
+    top: 97%;
+
+    &:hover {
+      opacity:0.5;  
+    }
 
 
 @include phonesmall {

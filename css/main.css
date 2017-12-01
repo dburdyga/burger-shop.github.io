@@ -950,9 +950,7 @@ span {
 
 .order__container {
   min-height: 40.625rem;
-  padding-top: 4.375rem;
-  margin-left: 0;
-  margin-right: 0; }
+  padding-top: 4.375rem; }
   @media screen and (max-width: 320px) {
     .order__container {
       padding-top: 0;
@@ -2284,6 +2282,8 @@ span {
   background-repeat: no-repeat;
   background-position: center 0.8125rem;
   cursor: pointer; }
+  .composition__button:hover {
+    opacity: 0.5; }
 
 .button {
   right: 50%;
@@ -2379,7 +2379,10 @@ span {
   opacity: 0.5;
   width: 3.75rem;
   height: 3.75rem;
-  position: absolute; }
+  position: absolute;
+  opacity: 1; }
+  .caloricity:hover {
+    opacity: 0.8; }
   @media screen and (max-width: 320px) {
     .caloricity {
       width: 4.75rem;
@@ -2396,8 +2399,10 @@ span {
   left: 0;
   font-family: "Gagalin";
   color: white;
-  opacity: 0.5;
-  top: 7%; }
+  opacity: 1;
+  top: 97%; }
+  .burger__caloricity:hover {
+    opacity: 0.5; }
   @media screen and (max-width: 320px) {
     .burger__caloricity {
       top: 0rem;
