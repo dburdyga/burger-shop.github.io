@@ -693,21 +693,24 @@ h6 {
 .burgers__arrow--left {
   margin-left: 2px;
   left: 0;
-  background: url(../img/burgers/arrow-burger-l.svg) center center no-repeat; }
+  background: url(../img/burgers/arrow-burger-l.svg) center center no-repeat;
+  cursor: pointer; }
 
 .burgers__arrow {
   width: 19px;
   height: 27px;
   margin-top: -5%;
   z-index: 2;
-  position: static; }
+  position: static;
+  cursor: pointer; }
 
 .burgers__arrow--right {
   margin-right: 2px;
   left: inherit;
   margin-left: inherit;
   right: 0;
-  background: url(../img/burgers/arrow-burger-r.svg) center center no-repeat; }
+  background: url(../img/burgers/arrow-burger-r.svg) center center no-repeat;
+  cursor: pointer; }
 
 .darkburger__price {
   font-family: 'Gagalin';
@@ -2608,8 +2611,10 @@ span {
   font-size: 0;
   position: relative;
   top: 0;
-  left: 0;
-  overflow: hidden; }
+  left: 0; }
+  .burgers__item--active {
+    overflow: hidden;
+    display: none; }
 
 .burgers__block {
   width: 100%;
@@ -2738,7 +2743,6 @@ span {
   position: relative;
   top: 72px;
   left: -11px;
-  background: url(../img/burgers/1.png) center center no-repeat;
   width: 100%;
   max-width: 505px;
   height: 329px;

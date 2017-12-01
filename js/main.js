@@ -1,3 +1,23 @@
+
+
+$(".burgers__item")
+    .attr('rel', 'gallery')
+    .fancybox({
+        padding : 0
+
+    });
+
+
+$(document).ready(function(){
+$(".burgers__arrow").click(function(){
+         $(".burgers__item").toggleClass('burgers__item--active');
+    });
+
+ });
+
+
+
+
 const display = $('.maincontent');
 const sections = $('.section');
 
