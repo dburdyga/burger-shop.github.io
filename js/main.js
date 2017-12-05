@@ -12,13 +12,17 @@
  
 
 // });
-
  
 
 
+
 $(document).ready(function(){
-  $(".burgers__item").owlCarousel();
-});
+  $(".burgers__item").owlCarousel({
+        
+      });
+    });
+ 
+
 
  
 // $('.burgers__item').slick();
