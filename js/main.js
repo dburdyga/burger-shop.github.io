@@ -1,21 +1,26 @@
 
-$(document).ready(function() {
-  $(this).toggleClass('burgers__item--active'); 
-  $(".burgers__item").fancybox({
-    openEffect  : 'none',
-    closeEffect : 'none',
-    transitionEffect: 'slide',
+// $(document).ready(function() {
+//   // $(."burgers__arrow").click(function(){
+//     $(".burgers__item").fancybox({
+//       openEffect  : 'none',
+//       closeEffect : 'none',
+//       transitionEffect: 'slide',
+//     });
 
-  });
+//     $(this).next().toggleClass('burgers__item--active');
+//     $(this).toggleClass('burgers__item--active');      
+ 
 
-    
+// });
+
+ 
+
+
+$(document).ready(function(){
+  $(".burgers__item").owlCarousel();
 });
 
-
-
-
-
-
+ 
 // $('.burgers__item').slick();
 
 
