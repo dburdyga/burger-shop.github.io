@@ -12,16 +12,28 @@
  
 
 // });
- 
 
+
+ 
 
 
 $(document).ready(function(){
-  $(".burgers__item").owlCarousel({
-        
-      });
+ 
+    $(".burgers__list").owlCarousel({
+      
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      items : 1, 
+   
+ 
+        });
+
+ 
     });
  
+
+
+
 
 
  
