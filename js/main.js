@@ -1,4 +1,3 @@
-
 // $(document).ready(function() {
 //   // $(."burgers__arrow").click(function(){
 //     $(".burgers__item").fancybox({
@@ -18,22 +17,17 @@
 
 
 $(document).ready(function(){
- 
     $(".burgers__list").owlCarousel({
       navigation : true,  
- 
       slideSpeed : 300,
       paginationSpeed : 400,
- 
       items : 1, 
       itemsDesktop : false,
       itemsDesktopSmall : false,
       itemsTablet: false,
-      itemsMobile : false
+      itemsMobile : false });
  
-        });
-   $(this).toggleClass('burgers__item');
-   $(this).next().toggleClass('burgers__item--active');
+    console.log('ok')
     });
  
 

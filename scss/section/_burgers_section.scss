@@ -1,8 +1,6 @@
 .burgers {
     display: flex;
- 
     justify-content: center;
-    
     background-color: #f9b43b; 
     background-image: linear-gradient(#f9b43b 0%, #eb8c38 48%, #f9b43b 74%);
 }
@@ -11,7 +9,7 @@
 .section {
 width: 100%;
 height: 100%;
-min-height: 650px; 
+min-height: rem(650px); 
 }
 
 
@@ -29,19 +27,19 @@ min-height: 650px;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    max-width: 1014px;
+    max-width: rem(1014px);
     position: relative; 
 }
 
 
 .burgers__arrow--left {
-    margin-left: 2px;
+    margin-left: rem(2px);
     left: 0;
     background: url(../img/burgers/arrow-burger-R.svg) center center no-repeat;
 }
  
 .burgers__arrow--right {
-    margin-right: 2px;
+    margin-right:rem(2px);
     left: inherit;
     margin-left: inherit;
     right: 0;
@@ -61,8 +59,8 @@ min-height: 650px;
 }
  
 .container {
-    min-height: 650px;
-    max-width: 940px;
+    min-height: rem(650px);
+    max-width: rem(940px);
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -89,10 +87,8 @@ min-height: 650px;
 .burgers__list {
 
     display: inline-block;
-    width: 100%;
+    width: rem(900px);
     height: 100%;
-
-
     position: relative;
     margin: 0;
     padding: 0;
@@ -115,7 +111,7 @@ min-height: 650px;
     white-space: initial;
     font-size: 0;
     position: relative;
-    top: 0;
+    top: 0.5;
     left: 0;
     transition: 3s;
 
@@ -146,18 +142,18 @@ min-height: 650px;
 
 .burgers__img-block {
     position: relative;
-    margin-right: 20px;
+    margin-right: rem(20px);
     width: 50%;
 }
 
 .burgers__composition {
     z-index: 3;
     position: absolute;
-    width: 90px;
-    height: 90px;
+    width: rem(90px);
+    height: rem(90px);
     background-color: #e35028;
     opacity: 0.4;
-    border-radius: 6px;
+    border-radius: rem(6px);
     -webkit-transition: opacity .5s;
     -o-transition: opacity .5s;
     transition: opacity .5s;
@@ -170,21 +166,21 @@ min-height: 650px;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    margin-top: 10px;
+    margin-top: rem(10px);
 }
 
 .burgers__composition-img {
-    width: 46px;
-    height: 44px;
+    width: rem(46px);
+    height: rem(44px);
 }
 
 .burgers__composition-text {
     color: #ffffff;
     font-family: Gagalin;
-    font-size: 14px;
+    font-size: rem(14px);
     font-weight: 400;
-    margin-bottom: 12px;
-    line-height: 25px;
+    margin-bottom: rem(12px);
+    line-height: rem(25px);
 }
 
 
@@ -198,17 +194,17 @@ min-height: 650px;
     -ms-flex-direction: column;
     flex-direction: column;
     background-color: #fff;
-    width: 270px;
-    min-height: 332px;
+    width: rem(270px);
+    min-height: rem(332px);
     opacity: 0;
-    border-radius: 6px;
+    border-radius: rem(6px);
 }
 
 .burgers__close {
     display: none;
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: rem(10px);
+    right: rem(10px);
     background: url(../img/burgers/close.svg) center center no-repeat;
 }
 
@@ -223,8 +219,8 @@ min-height: 650px;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     align-self: center;
-    width: 20px;
-    height: 20px;
+    width: rem(20px);
+    height: rem(20px);
     opacity: 0.7;
 }
 
@@ -242,8 +238,8 @@ min-height: 650px;
 
 .burgers__kkal-img {
     fill: #fff;
-    width: 60px;
-    height: 60px;
+    width: rem(60px);
+    height: rem(60px);
 }
 
 .burgers__kkal-number {
@@ -255,29 +251,28 @@ min-height: 650px;
     transform: translate(-50%, -50%);
     color: #ffffff;
     font-family: 'Gagalin';
-    font-size: 20px;
+    font-size: rem(20px);
     font-weight: 400;
-    line-height: 24px;
+    line-height: rem(24px);
 }
 
 
 .burgers__kkal-name {
     color: #ffffff;
     font-family: 'Gagalin';
-    font-size: 14px;
+    font-size: rem(14px);
     font-weight: 400;
-    line-height: 24px;
+    line-height: rem(24px);
     text-align: center;
 }
 
 .burgers__img {
     position: relative;
-    top: 72px;
-    left: -11px;
-
+    top: rem(72px);
+    left: rem(-11px);
     width: 100%;
-    max-width: 505px;
-    height: 329px;
+    max-width: rem(505px);
+    height: rem(329px);
     background-size: 110%;
 }
 
@@ -286,7 +281,7 @@ min-height: 650px;
 }
 
 .burgers__header {
-    margin-bottom: 41px;
+    margin-bottom: rem(41px);
     color: #fff;
     text-align: left;
     font-family: Gagalin;
@@ -298,13 +293,13 @@ min-height: 650px;
  
 
 .burgers__description {
-    max-width: 442px;
+    max-width: rem(442px);
     width: 100%;
     color: #fff;
-    font-size: 14px;
+    font-size: rem(14px);
     font-weight: 300;
-    line-height: 24px;
-    margin-bottom: 41px;
+    line-height: rem(24px);
+    margin-bottom: rem(41px);
 }
 
 .burgers__order-info {
@@ -321,15 +316,15 @@ min-height: 650px;
 .burgers__price {
     color: #e35028;
     font-family: 'Gagalin';
-    font-size: 30px;
+    font-size: rem(30px);
     font-weight: 400;
-    line-height: 28px;
-    letter-spacing: -0.75px;
+    line-height: rem(28px);
+    letter-spacing: rem(-0.75px);
 }
 
 .burgers__cost {
-    font-size: 72px;
-    letter-spacing: -1.79px;
+    font-size: rem(72px);
+    letter-spacing: rem(-1.79px);
 }
 
 .burgers__price:after {
@@ -339,8 +334,8 @@ min-height: 650px;
 }
 
 .burgers__button {
-    margin-left: 26px;
-    padding-top: 22px;
+    margin-left: rem(26px);
+    padding-top: rem(22px);
 }
 
 .order-link {
