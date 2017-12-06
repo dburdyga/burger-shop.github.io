@@ -22,12 +22,21 @@ $(document).ready(function(){
       slideSpeed : 300,
       paginationSpeed : 400,
       items : 1, 
+      loop:true,
+      dots:false,
       itemsDesktop : false,
       itemsDesktopSmall : false,
       itemsTablet: false,
       itemsMobile : false });
  
-    console.log('ok')
+    console.log('ok');
+    var owl = $('.owl-carousel');
+    $('.burgers__arrow--right').click(function() {
+      owl.trigger('next.owl.carousel', 1000);
+    })
+    $('.burgers__arrow--left').click(function() {
+    owl.trigger('prev.owl.carousel', 1000);
+})
     });
  
 
