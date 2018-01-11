@@ -14,6 +14,38 @@ $phones: 480px;
 $phonesmall: 320px;
 
 
+@import "layout/_mixins";
+@import "layout/_adjustment";
+@import "layout/_base";
+@import "layout/_fonts";
+@import "layout/_media";
+@import "layout/_layout";
+
+@import "section/_logo";
+@import "section/_hero";
+@import "section/_best";
+@import "section/_reviews";
+@import "section/_darkburger";
+@import "section/_order";
+@import "section/_team";
+@import "section/_menu";
+@import "section/_footer";
+@import "section/_map";
+@import "section/_socials";
+@import "section/_fixed-menu";
+@import "section/_burger-slider-wrap";
+@import "section/_hamburger-menu-link";
+@import "section/_hamburger-menu";
+@import "section/_nav";
+@import "section/_header";
+@import "section/_popups";
+@import "section/_burgers";
+@import "section/_btn";
+@import "section/_composition";
+@import "section/_burger-weight";
+@import "section/_animations";
+@import "section/_burgers_section";
+
  @function rem($px) {
   @return $px / 16px + 0rem;
 }
@@ -73,41 +105,5 @@ $phonesmall: 320px;
 	background-position: center center;
 	background-repeat: no-repeat;
 }
-
-
-
-@import "layout/_adjustment";
-@import "layout/_base";
-@import "layout/_fonts";
-@import "layout/_media";
-@import "layout/_mixins";
-@import "layout/_layout";
-
-@import "section/_logo";
-@import "section/_hero";
-@import "section/_best";
-@import "section/_reviews";
-@import "section/_darkburger";
-@import "section/_order";
-@import "section/_team";
-@import "section/_menu";
-@import "section/_footer";
-@import "section/_map";
-@import "section/_socials";
-@import "section/_fixed-menu";
-@import "section/_burger-slider-wrap";
-@import "section/_hamburger-menu-link";
-@import "section/_hamburger-menu";
-@import "section/_nav";
-@import "section/_header";
-@import "section/_popups";
-@import "section/_burgers";
-@import "section/_btn";
-@import "section/_composition";
-@import "section/_burger-weight";
-@import "section/_animations";
-@import "section/_burgers_section";
-
-
 
 
