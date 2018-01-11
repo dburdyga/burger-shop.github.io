@@ -144,19 +144,14 @@ margin: rem(20px);
 .best__item {
   width: 45%;
   margin-right: rem(20px);
-
-
    @include phones {
     flex-direction: row;
     margin-right:0;
   }
-
   @include phonesmall {
     flex-direction: row;
     margin-right:0;
-
   }
-
   @include tablets {
     display:flex;
     flex-direction: column;
