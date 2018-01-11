@@ -13,12 +13,34 @@ $tablets: 768px;
 $phones: 480px;
 $phonesmall: 320px;
 
+// @import 'normalize';
+// @import "font-awesome";
 
-@import "layout/_mixins";
+// //media
+// @import "layout/_media";
+
+// // config
+// @import "config/_variables";
+// @import "config/_mixins";
+
+// // base
+// @import "layout/_fonts";
+// @import "layout/_base";
+// @import "layout/_adjustment";
+
+
+@import 'normalize';
+
+//media
+@import "layout/_media";
+
+@import "config/_variables";
+@import "config/_mixins";
+
+
 @import "layout/_adjustment";
 @import "layout/_base";
 @import "layout/_fonts";
-@import "layout/_media";
 @import "layout/_layout";
 
 @import "section/_logo";
